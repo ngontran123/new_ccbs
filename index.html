@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <link href="./styles.css" rel="stylesheet">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://platform.linkedin.com ">
+    <title>GSMSERVICE</title>
+ 
+  </head>
+  <body>
+    <div class="intro-container">
+      <div class="intro-content">
+        <h1 class="intro-title">Chào mừng bạn đến với CCBSService</h1>
+        <p class="intro-text">Phần mềm <strong>CCBSCService</strong></p>
+        <p class="intro-text">Token bạn nhập vào là:</p>
+        <a href="https://1419-2a09-bac5-d46f-e6-00-17-222.ngrok-free.app" class="token-link">https://1419-2a09-bac5-d46f-e6-00-17-222.ngrok-free.app</a>
+      </div>
+      <script >require('./renderer.js');</script>
+    </div>
+    <!-- You can also require other files to run in this process -->
+  </body>
+</html>

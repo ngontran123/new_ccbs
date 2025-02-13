@@ -1,0 +1,3771 @@
+<HEAD><TITLE>Ch&#7885;n &#273;&#7883;a ch&#7881;</TITLE><script type="text/javascript" src="myJS/error.js"></script><script type="text/javascript" src="myJS/controlstatus.js"></script><script type="text/javascript" src="myJS/keypress.js"></script><script type="text/javascript" src="myJS/validate.js"></script><SCRIPT language=JavaScript src="myJS/myFunction.js" type=text/javascript></script><script type="text/javascript" src="zoho/javascript/general.js"></script><SCRIPT language=JavaScript src="zoho/neo-zoho.js" type=text/javascript></SCRIPT><LINK href="zoho/css/elegant.css" type=text/css rel=stylesheet><META http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<META content="MSHTML 6.00.2900.2802">
+</HEAD><BODY onload="form_load()"><TABLE cellSpacing=0 cellPadding=0 width="98%" height=100% border=0 align=center><TBODY><TR><TD align=center valign=center><TABLE cellSpacing=0 cellPadding=0 width="100%"><TBODY><TR><TD class=secHead >Thông tin &#273;&#7883;a ch&#7881;</TD></TR></TBODY></TABLE><TABLE class=secContent cellSpacing=1 cellPadding=0
+ width="100%" border=0><TBODY><TR><TD class=label width="15%">Qu&#7889;c gia :</TD><TD class=element width="35%"><select name="3ihuIu{tzx37" id="cboCountry" style="width:98%" class="textField" onkeydown="ChangeFromTabToEnter()" disabled>
+<OPTION value="null">Vi&#7879;t Nam </option></select></TD><TD class=label width="15%">T&#7881;nh/TP :</TD><TD class=element width="35%" ><select name="3ihuZotn37" id="cboTinh" style="width:98%" class="textField" onchange="loadQuan(this)" onkeydown="ChangeFromTabToEnter()" cache-mode="SYSTEM">
+<OPTION value="1">An Giang</OPTION><br/>
+<OPTION value="2">B&#224; R&#7883;a - V&#361;ng T&#224;u</OPTION><br/>
+<OPTION value="8">B&#236;nh D&#432;&#417;ng</OPTION><br/>
+<OPTION value="9">B&#236;nh Ph&#432;&#7899;c</OPTION><br/>
+<OPTION value="10">B&#236;nh Thu&#7853;n</OPTION><br/>
+<OPTION value="6">B&#236;nh &#272;&#7883;nh</OPTION><br/>
+<OPTION value="11">B&#7841;c Li&#234;u</OPTION><br/>
+<OPTION value="4">B&#7855;c C&#7841;n</OPTION><br/>
+<OPTION value="3">B&#7855;c Giang</OPTION><br/>
+<OPTION value="5" selected>B&#7855;c Ninh</OPTION><br/>
+<OPTION value="7">B&#7871;n Tre</OPTION><br/>
+<OPTION value="12">Cao B&#7857;ng</OPTION><br/>
+<OPTION value="14">C&#224; Mau</OPTION><br/>
+<OPTION value="13">C&#7847;n Th&#417;</OPTION><br/>
+<OPTION value="19">Gia Lai</OPTION><br/>
+<OPTION value="20">H&#224; Giang</OPTION><br/>
+<OPTION value="25">H&#224; Nam</OPTION><br/>
+<OPTION value="21">H&#224; N&#7897;i</OPTION><br/>
+<OPTION value="23">H&#224; T&#297;nh</OPTION><br/>
+<OPTION value="65">H&#242;a B&#236;nh</OPTION><br/>
+<OPTION value="24">H&#432;ng Y&#234;n</OPTION><br/>
+<OPTION value="27">H&#7843;i D&#432;&#417;ng</OPTION><br/>
+<OPTION value="26">H&#7843;i Ph&#242;ng</OPTION><br/>
+<OPTION value="67">H&#7853;u Giang</OPTION><br/>
+<OPTION value="69">Itelecom</OPTION><br/>
+<OPTION value="29">Kh&#225;nh Ho&#224;</OPTION><br/>
+<OPTION value="30">Ki&#234;n Giang</OPTION><br/>
+<OPTION value="31">Kon Tum</OPTION><br/>
+<OPTION value="32">Lai Ch&#226;u</OPTION><br/>
+<OPTION value="36">Long An</OPTION><br/>
+<OPTION value="34">L&#224;o Cai</OPTION><br/>
+<OPTION value="35">L&#226;m &#272;&#7891;ng</OPTION><br/>
+<OPTION value="33">L&#7841;ng S&#417;n</OPTION><br/>
+<OPTION value="37">Nam &#272;&#7883;nh</OPTION><br/>
+<OPTION value="38">Ngh&#7879; An</OPTION><br/>
+<OPTION value="39">Ninh B&#236;nh</OPTION><br/>
+<OPTION value="40">Ninh Thu&#7853;n</OPTION><br/>
+<OPTION value="59">Ph&#250; Th&#7885;</OPTION><br/>
+<OPTION value="41">Ph&#250; Y&#234;n</OPTION><br/>
+<OPTION value="42">Qu&#7843;ng B&#236;nh</OPTION><br/>
+<OPTION value="43">Qu&#7843;ng Nam</OPTION><br/>
+<OPTION value="44">Qu&#7843;ng Ng&#227;i</OPTION><br/>
+<OPTION value="45">Qu&#7843;ng Ninh</OPTION><br/>
+<OPTION value="46">Qu&#7843;ng Tr&#7883;</OPTION><br/>
+<OPTION value="47">S&#243;c Tr&#259;ng</OPTION><br/>
+<OPTION value="49">S&#417;n La</OPTION><br/>
+<OPTION value="28">TP H&#7891; Ch&#237; Minh</OPTION><br/>
+<OPTION value="52">Thanh Ho&#225;</OPTION><br/>
+<OPTION value="51">Th&#225;i B&#236;nh</OPTION><br/>
+<OPTION value="61">Th&#225;i Nguy&#234;n</OPTION><br/>
+<OPTION value="53">Th&#7915;a Thi&#234;n Hu&#7871;</OPTION><br/>
+<OPTION value="54">Ti&#7873;n Giang</OPTION><br/>
+<OPTION value="55">Tr&#224; Vinh</OPTION><br/>
+<OPTION value="56">Tuy&#234;n Quang</OPTION><br/>
+<OPTION value="50">T&#226;y Ninh</OPTION><br/>
+<OPTION value="57">V&#297;nh Long</OPTION><br/>
+<OPTION value="58">V&#297;nh Ph&#250;c</OPTION><br/>
+<OPTION value="60">Y&#234;n B&#225;i</OPTION><br/>
+<OPTION value="68">&#272;i&#7879;n Bi&#234;n</OPTION><br/>
+<OPTION value="15">&#272;&#224; N&#7861;ng</OPTION><br/>
+<OPTION value="66">&#272;&#7855;c N&#244;ng</OPTION><br/>
+<OPTION value="16">&#272;&#7855;k L&#7855;k</OPTION><br/>
+<OPTION value="17">&#272;&#7891;ng Nai</OPTION><br/>
+<OPTION value="18">&#272;&#7891;ng Th&#225;p</OPTION><br/>
+</select></TD></TR><TR><TD class=label width="15%">Qu&#7853;n/Huy&#7879;n :</TD><TD class=element width="35%" id="ajaxQuan"><select name="3W[GTeOJ37" id="quan" style="width:98%" class="textField" onchange="loadPhuong($('quan').value)" onkeydown="ChangeFromTabToEnter()" cache-mode="AGENT">
+<OPTION value="26">TP Thu&#7853;n An</OPTION><br/>
+<OPTION value="27">TP S&#243;c Tr&#259;ng</OPTION><br/>
+<OPTION value="28">Huy&#7879;n Long Th&#224;nh</OPTION><br/>
+<OPTION value="30">Th&#224;nh ph&#7889; Bi&#234;n H&#242;a</OPTION><br/>
+<OPTION value="31">Huy&#7879;n Nh&#417;n Tr&#7841;ch</OPTION><br/>
+<OPTION value="32">B&#7871;n L&#7913;c</OPTION><br/>
+<OPTION value="34">Huy&#7879;n V&#297;nh C&#7917;u</OPTION><br/>
+<OPTION value="39">Ch&#226;u Th&#224;nh</OPTION><br/>
+<OPTION value="45">Tp. &#272;&#224; L&#7841;t</OPTION><br/>
+<OPTION value="46">Th&#224;nh ph&#7889; Phan Thi&#7871;t</OPTION><br/>
+<OPTION value="47">Th&#224;nh ph&#7889; B&#224; R&#7883;a</OPTION><br/>
+<OPTION value="48">Ninh Ki&#7873;u</OPTION><br/>
+<OPTION value="49">TP Th&#7911; D&#7847;u M&#7897;t</OPTION><br/>
+<OPTION value="52">TP. M&#7929; Tho</OPTION><br/>
+<OPTION value="53">Huy&#7879;n Di Linh</OPTION><br/>
+<OPTION value="56">TP T&#226;n An</OPTION><br/>
+<OPTION value="58">Huy&#7879;n &#272;&#7883;nh Qu&#225;n</OPTION><br/>
+<OPTION value="59">TP B&#7843;o L&#7897;c</OPTION><br/>
+<OPTION value="62">Ph&#249; M&#7929;</OPTION><br/>
+<OPTION value="63">Cao L&#227;nh</OPTION><br/>
+<OPTION value="65">Qu&#7853;n Th&#7889;t N&#7889;t</OPTION><br/>
+<OPTION value="67">Th&#7883; x&#227; B&#7871;n C&#225;t</OPTION><br/>
+<OPTION value="69">Huy&#7879;n Th&#7889;ng Nh&#7845;t</OPTION><br/>
+<OPTION value="71">Tx B&#236;nh Long</OPTION><br/>
+<OPTION value="73">C&#225;i B&#232;</OPTION><br/>
+<OPTION value="75">Huy&#7879;n &#272;&#7913;c Linh</OPTION><br/>
+<OPTION value="76">Th&#7883; x&#227; Ph&#250; M&#7929;</OPTION><br/>
+<OPTION value="79">Huy&#7879;n L&#7897;c Ninh</OPTION><br/>
+<OPTION value="81">Huy&#7879;n Tr&#7843;ng Bom</OPTION><br/>
+<OPTION value="82">Th&#7883; x&#227; Gi&#225; Rai</OPTION><br/>
+<OPTION value="83">Th&#224;nh ph&#7889; V&#361;ng T&#224;u</OPTION><br/>
+<OPTION value="84">Hai B&#224; Tr&#432;ng</OPTION><br/>
+<OPTION value="85">Ho&#224;n Ki&#7871;m</OPTION><br/>
+<OPTION value="86">T&#7881;nh kh&#225;c</OPTION><br/>
+<OPTION value="89">Huy&#7879;n &#272;&#7913;c Tr&#7885;ng</OPTION><br/>
+<OPTION value="90">Huy&#7879;n B&#7843;o L&#226;m</OPTION><br/>
+<OPTION value="91">Huy&#7879;n H&#224;m Thu&#7853;n Nam</OPTION><br/>
+<OPTION value="92">Th&#224;nh ph&#7889; &#272;&#7891;ng Xo&#224;i</OPTION><br/>
+<OPTION value="94">&#272;oan H&#249;ng</OPTION><br/>
+<OPTION value="95">T.ph&#7889; Quy Nh&#417;n</OPTION><br/>
+<OPTION value="96">Huy&#7879;n Ph&#250; Gi&#225;o</OPTION><br/>
+<OPTION value="101">Th&#224;nh ph&#7889; T&#226;y Ninh</OPTION><br/>
+<OPTION value="103">C&#7847;n Giu&#7897;c</OPTION><br/>
+<OPTION value="106">Huy&#7879;n Xu&#226;n L&#7897;c</OPTION><br/>
+<OPTION value="109">TP Sa &#272;&#233;c</OPTION><br/>
+<OPTION value="110">TP H&#242;a B&#236;nh</OPTION><br/>
+<OPTION value="111">Th&#224;nh ph&#7889; Long Kh&#225;nh</OPTION><br/>
+<OPTION value="112">&#272;&#7913;c H&#242;a</OPTION><br/>
+<OPTION value="113">Th&#7883; X&#227; Tr&#7843;ng B&#224;ng</OPTION><br/>
+<OPTION value="115">C&#7847;u Ngang</OPTION><br/>
+<OPTION value="116">Th&#224;nh Ph&#7889; Pleiku</OPTION><br/>
+<OPTION value="117">Ba &#272;&#236;nh</OPTION><br/>
+<OPTION value="118">Tx Ch&#417;n Th&#224;nh</OPTION><br/>
+<OPTION value="120">&#272;&#244;ng Anh</OPTION><br/>
+<OPTION value="122">TP B&#7841;c Li&#234;u</OPTION><br/>
+<OPTION value="123">Thanh Xu&#226;n</OPTION><br/>
+<OPTION value="124">Ho&#224;ng Mai</OPTION><br/>
+<OPTION value="125">C&#7847;u Gi&#7845;y</OPTION><br/>
+<OPTION value="126">T&#226;y H&#7891;</OPTION><br/>
+<OPTION value="127">Long Bi&#234;n</OPTION><br/>
+<OPTION value="128">T&#7915; Li&#234;m</OPTION><br/>
+<OPTION value="129">Gia L&#226;m</OPTION><br/>
+<OPTION value="130">Thanh Tr&#236;</OPTION><br/>
+<OPTION value="131">S&#243;c S&#417;n</OPTION><br/>
+<OPTION value="132">H&#7841; H&#242;a</OPTION><br/>
+<OPTION value="133">L&#226;m Thao</OPTION><br/>
+<OPTION value="134">Ph&#249; Ninh</OPTION><br/>
+<OPTION value="135">C&#7849;m Kh&#234;</OPTION><br/>
+<OPTION value="136">Tam N&#244;ng</OPTION><br/>
+<OPTION value="137">Thanh Ba</OPTION><br/>
+<OPTION value="138">Thanh S&#417;n</OPTION><br/>
+<OPTION value="139">Thanh Th&#7911;y</OPTION><br/>
+<OPTION value="140">Y&#234;n L&#7853;p</OPTION><br/>
+<OPTION value="141">TP.Vi&#7879;t Tr&#236;</OPTION><br/>
+<OPTION value="142">Tx.Ph&#250; Th&#7885;</OPTION><br/>
+<OPTION value="143">L&#432;&#417;ng S&#417;n</OPTION><br/>
+<OPTION value="144">T&#226;n L&#7841;c</OPTION><br/>
+<OPTION value="145">Kim B&#244;i</OPTION><br/>
+<OPTION value="147">Mai Ch&#226;u</OPTION><br/>
+<OPTION value="148">L&#7841;c Th&#7911;y</OPTION><br/>
+<OPTION value="149">Y&#234;n Th&#7911;y</OPTION><br/>
+<OPTION value="150">L&#7841;c S&#417;n</OPTION><br/>
+<OPTION value="151">&#272;&#224; B&#7855;c</OPTION><br/>
+<OPTION value="152">Cao Phong</OPTION><br/>
+<OPTION value="153">Huy&#7879;n M&#232;o V&#7841;c</OPTION><br/>
+<OPTION value="154">Huy&#7879;n &#272;&#7891;ng V&#259;n</OPTION><br/>
+<OPTION value="155">Huy&#7879;n Y&#234;n Minh</OPTION><br/>
+<OPTION value="156">Huy&#7879;n Qu&#7843;n B&#7841;</OPTION><br/>
+<OPTION value="157">Th&#224;nh ph&#7889; H&#224; Giang</OPTION><br/>
+<OPTION value="158">Huy&#7879;n B&#7855;c M&#234;</OPTION><br/>
+<OPTION value="159">Huy&#7879;n V&#7883; Xuy&#234;n</OPTION><br/>
+<OPTION value="160">Huy&#7879;n B&#7855;c Quang</OPTION><br/>
+<OPTION value="161">Huy&#7879;n Quang B&#236;nh</OPTION><br/>
+<OPTION value="162">Huy&#7879;n Ho&#224;ng Su Ph&#236;</OPTION><br/>
+<OPTION value="163">Huy&#7879;n X&#237;n M&#7847;n</OPTION><br/>
+<OPTION value="186">Huy&#7879;n L&#7841;c D&#432;&#417;ng</OPTION><br/>
+<OPTION value="187">Huy&#7879;n &#272;&#417;n D&#432;&#417;ng</OPTION><br/>
+<OPTION value="188">Huy&#7879;n L&#226;m H&#224;</OPTION><br/>
+<OPTION value="189">Huy&#7879;n &#272;&#7841; Huoai</OPTION><br/>
+<OPTION value="190">Huy&#7879;n C&#225;t Ti&#234;n</OPTION><br/>
+<OPTION value="191">Huy&#7879;n &#272;&#7841; T&#7867;h</OPTION><br/>
+<OPTION value="192">Huy&#7879;n &#272;am R&#244;ng</OPTION><br/>
+<OPTION value="194">Huy&#7879;n Tuy Phong</OPTION><br/>
+<OPTION value="195">Huy&#7879;n B&#7855;c B&#236;nh</OPTION><br/>
+<OPTION value="196">Huy&#7879;n H&#224;m Thu&#7853;n B&#7855;c</OPTION><br/>
+<OPTION value="197">Huy&#7879;n H&#224;m T&#226;n</OPTION><br/>
+<OPTION value="198">Huy&#7879;n T&#225;nh Linh</OPTION><br/>
+<OPTION value="199">Huy&#7879;n Ph&#250; Qu&#253;</OPTION><br/>
+<OPTION value="200">Tuy Ph&#432;&#7899;c</OPTION><br/>
+<OPTION value="201">Th&#7883; x&#227; An Nh&#417;n</OPTION><br/>
+<OPTION value="202">Ph&#249; C&#225;t</OPTION><br/>
+<OPTION value="203">Th&#7883; x&#227; Ho&#224;i Nh&#417;n</OPTION><br/>
+<OPTION value="204">Ho&#224;i &#194;n</OPTION><br/>
+<OPTION value="205">An L&#227;o</OPTION><br/>
+<OPTION value="206">T&#226;y S&#417;n</OPTION><br/>
+<OPTION value="207">V&#226;n Canh</OPTION><br/>
+<OPTION value="208">V&#297;nh Th&#7841;nh</OPTION><br/>
+<OPTION value="209">Th&#7883; x&#227; An Kh&#234;</OPTION><br/>
+<OPTION value="210">Th&#7883; x&#227; Ayun Pa</OPTION><br/>
+<OPTION value="211">Huy&#7879;n Ch&#432; Pah</OPTION><br/>
+<OPTION value="212">Huy&#7879;n Ch&#432; S&#234;</OPTION><br/>
+<OPTION value="213">Huy&#7879;n Ch&#432; Pr&#244;ng</OPTION><br/>
+<OPTION value="214">Huy&#7879;n &#272;&#7913;c C&#417;</OPTION><br/>
+<OPTION value="215">Huy&#7879;n &#272;&#259;k &#272;oa</OPTION><br/>
+<OPTION value="216">Huy&#7879;n Mang Yang</OPTION><br/>
+<OPTION value="217">Huy&#7879;n Kr&#244;ng Pa</OPTION><br/>
+<OPTION value="218">Huy&#7879;n Kbang</OPTION><br/>
+<OPTION value="219">Huy&#7879;n K&#244;ng Chro</OPTION><br/>
+<OPTION value="220">Huy&#7879;n Ia Grai</OPTION><br/>
+<OPTION value="221">Huy&#7879;n Ia Pa</OPTION><br/>
+<OPTION value="222">Huy&#7879;n &#272;ak P&#417;</OPTION><br/>
+<OPTION value="241">Cai L&#7853;y</OPTION><br/>
+<OPTION value="242">Ch&#7907; G&#7841;o</OPTION><br/>
+<OPTION value="243">G&#242; C&#244;ng T&#226;y</OPTION><br/>
+<OPTION value="244">G&#242; C&#244;ng &#272;&#244;ng</OPTION><br/>
+<OPTION value="245">T&#226;n Ph&#432;&#7899;c</OPTION><br/>
+<OPTION value="246">T&#226;n Ph&#250; &#272;&#244;ng</OPTION><br/>
+<OPTION value="247">Th&#224;nh ph&#7889; B&#7871;n Tre</OPTION><br/>
+<OPTION value="248">Huy&#7879;n M&#7887; C&#224;y Nam</OPTION><br/>
+<OPTION value="249">Th&#7841;nh Ph&#250;</OPTION><br/>
+<OPTION value="250">Ch&#7907; L&#225;ch</OPTION><br/>
+<OPTION value="251">Gi&#7891;ng Tr&#244;m</OPTION><br/>
+<OPTION value="252">Ba Tri</OPTION><br/>
+<OPTION value="253">B&#236;nh &#272;&#7841;i</OPTION><br/>
+<OPTION value="260">Huy&#7879;n D&#7847;u Ti&#7871;ng</OPTION><br/>
+<OPTION value="261">Huy&#7879;n Ch&#226;u Th&#224;nh</OPTION><br/>
+<OPTION value="262">Th&#7883; X&#227; H&#242;a Th&#224;nh</OPTION><br/>
+<OPTION value="263">Huy&#7879;n D&#432;&#417;ng Minh Ch&#226;u</OPTION><br/>
+<OPTION value="264">Huy&#7879;n G&#242; D&#7847;u</OPTION><br/>
+<OPTION value="265">Huy&#7879;n B&#7871;n C&#7847;u</OPTION><br/>
+<OPTION value="266">Huy&#7879;n T&#226;n Bi&#234;n</OPTION><br/>
+<OPTION value="267">Huy&#7879;n T&#226;n Ch&#226;u</OPTION><br/>
+<OPTION value="268">C&#7847;n &#272;&#432;&#7899;c</OPTION><br/>
+<OPTION value="269">&#272;&#7913;c Hu&#7879;</OPTION><br/>
+<OPTION value="270">Th&#7911; Th&#7915;a</OPTION><br/>
+<OPTION value="271">T&#226;n Tr&#7909;</OPTION><br/>
+<OPTION value="272">Ch&#226;u Th&#224;nh</OPTION><br/>
+<OPTION value="273">T&#226;n Th&#7841;nh</OPTION><br/>
+<OPTION value="274">Th&#7841;nh Ho&#225;</OPTION><br/>
+<OPTION value="275">M&#7897;c Ho&#225;</OPTION><br/>
+<OPTION value="276">V&#297;nh H&#432;ng</OPTION><br/>
+<OPTION value="277">T&#226;n H&#432;ng</OPTION><br/>
+<OPTION value="278">C&#225;i R&#259;ng</OPTION><br/>
+<OPTION value="280">&#212; M&#244;n</OPTION><br/>
+<OPTION value="281">Huy&#7879;n &#272;&#7891;ng Ph&#250;</OPTION><br/>
+<OPTION value="282">Huy&#7879;n B&#249; &#272;&#259;ng</OPTION><br/>
+<OPTION value="284">Huy&#7879;n B&#249; &#272;&#7889;p</OPTION><br/>
+<OPTION value="285">Huy&#7879;n K&#7871; S&#225;ch</OPTION><br/>
+<OPTION value="286">Huy&#7879;n Long Ph&#250;</OPTION><br/>
+<OPTION value="287">Huy&#7879;n M&#7929; T&#250;</OPTION><br/>
+<OPTION value="288">Huy&#7879;n M&#7929; Xuy&#234;n</OPTION><br/>
+<OPTION value="289">Huy&#7879;n Th&#7841;nh Tr&#7883;</OPTION><br/>
+<OPTION value="290">Th&#7883; X&#227; V&#297;nh Ch&#226;u</OPTION><br/>
+<OPTION value="291">Huy&#7879;n C&#249; Lao Dung</OPTION><br/>
+<OPTION value="292">Th&#7883; X&#227; Ng&#227; N&#259;m</OPTION><br/>
+<OPTION value="293">Th&#224;nh Ph&#7889; Tr&#224; Vinh</OPTION><br/>
+<OPTION value="294">C&#224;ng Long</OPTION><br/>
+<OPTION value="295">Ti&#7875;u C&#7847;n</OPTION><br/>
+<OPTION value="296">Ch&#226;u Th&#224;nh</OPTION><br/>
+<OPTION value="297">Tr&#224; C&#250;</OPTION><br/>
+<OPTION value="298">Duy&#234;n H&#7843;i</OPTION><br/>
+<OPTION value="299">C&#7847;u K&#232;</OPTION><br/>
+<OPTION value="300">TP Cao L&#227;nh</OPTION><br/>
+<OPTION value="301">Th&#225;p M&#432;&#7901;i</OPTION><br/>
+<OPTION value="302">T&#226;n H&#7891;ng</OPTION><br/>
+<OPTION value="303">TP H&#7891;ng Ng&#7921;</OPTION><br/>
+<OPTION value="304">Tam N&#244;ng</OPTION><br/>
+<OPTION value="305">Thanh B&#236;nh</OPTION><br/>
+<OPTION value="306">Ch&#226;u Th&#224;nh</OPTION><br/>
+<OPTION value="307">Lai Vung</OPTION><br/>
+<OPTION value="308">L&#7845;p V&#242;</OPTION><br/>
+<OPTION value="320">Ph&#432;&#7899;c Long</OPTION><br/>
+<OPTION value="321">&#272;&#244;ng H&#7843;i</OPTION><br/>
+<OPTION value="322">V&#297;nh L&#7907;i</OPTION><br/>
+<OPTION value="323">Huy&#7879;n Ch&#226;u &#272;&#7913;c</OPTION><br/>
+<OPTION value="324">Huy&#7879;n Xuy&#234;n M&#7897;c</OPTION><br/>
+<OPTION value="326">Huy&#7879;n Long &#272;i&#7873;n</OPTION><br/>
+<OPTION value="327">Huy&#7879;n &#272;&#7845;t &#272;&#7887;</OPTION><br/>
+<OPTION value="328">Huy&#7879;n C&#244;n &#272;&#7843;o</OPTION><br/>
+<OPTION value="345">Huy&#7879;n B&#7843;o Th&#7855;ng</OPTION><br/>
+<OPTION value="346">Huy&#7879;n B&#7843;o Y&#234;n</OPTION><br/>
+<OPTION value="347">Huy&#7879;n V&#259;n B&#224;n</OPTION><br/>
+<OPTION value="348">Th&#7883; x&#227; Sa Pa</OPTION><br/>
+<OPTION value="349">Huy&#7879;n B&#225;t X&#225;t</OPTION><br/>
+<OPTION value="350">Huy&#7879;n B&#7855;c H&#224;</OPTION><br/>
+<OPTION value="351">Huy&#7879;n Si Ma Cai</OPTION><br/>
+<OPTION value="352">Huy&#7879;n M&#432;&#7901;ng Kh&#432;&#417;ng</OPTION><br/>
+<OPTION value="353">T.P S&#244;ng C&#244;ng</OPTION><br/>
+<OPTION value="354">T.P Th&#225;i Nguy&#234;n</OPTION><br/>
+<OPTION value="355">&#272;&#7841;i T&#7915;</OPTION><br/>
+<OPTION value="356">&#272;&#7883;nh Ho&#225;</OPTION><br/>
+<OPTION value="357">&#272;&#7891;ng H&#7927;</OPTION><br/>
+<OPTION value="358">Ph&#250; B&#236;nh</OPTION><br/>
+<OPTION value="359">Ph&#250; L&#432;&#417;ng</OPTION><br/>
+<OPTION value="360">T.P Ph&#7893; Y&#234;n</OPTION><br/>
+<OPTION value="361">V&#245; Nhai</OPTION><br/>
+<OPTION value="371">TP.B&#7855;c Giang</OPTION><br/>
+<OPTION value="372">Huy&#7879;n S&#417;n &#272;&#7897;ng</OPTION><br/>
+<OPTION value="373">Huy&#7879;n L&#7909;c Ng&#7841;n</OPTION><br/>
+<OPTION value="374">Huy&#7879;n L&#7909;c Nam</OPTION><br/>
+<OPTION value="375">Huy&#7879;n L&#7841;ng Giang</OPTION><br/>
+<OPTION value="376">Huy&#7879;n Y&#234;n Th&#7871;</OPTION><br/>
+<OPTION value="377">Huy&#7879;n T&#226;n Y&#234;n</OPTION><br/>
+<OPTION value="378">Huy&#7879;n Hi&#7879;p H&#242;a</OPTION><br/>
+<OPTION value="379">Th&#7883; X&#227; Vi&#7879;t Y&#234;n</OPTION><br/>
+<OPTION value="380">Huy&#7879;n Y&#234;n D&#361;ng</OPTION><br/>
+<OPTION value="399">Thu&#7853;n Th&#224;nh</OPTION><br/>
+<OPTION value="400">Gia B&#236;nh</OPTION><br/>
+<OPTION value="401">L&#432;&#417;ng T&#224;i</OPTION><br/>
+<OPTION value="402">Y&#234;n Phong</OPTION><br/>
+<OPTION value="403">Th&#224;nh Ph&#7889; H&#7843;i D&#432;&#417;ng</OPTION><br/>
+<OPTION value="404">Huy&#7879;n B&#236;nh Giang</OPTION><br/>
+<OPTION value="405">Huy&#7879;n C&#7849;m Gi&#224;ng</OPTION><br/>
+<OPTION value="406">Th&#224;nh ph&#7889; Ch&#237; Linh</OPTION><br/>
+<OPTION value="407">Th&#7883; x&#227; Kinh M&#244;n</OPTION><br/>
+<OPTION value="408">Huy&#7879;n Kim Th&#224;nh</OPTION><br/>
+<OPTION value="409">Huy&#7879;n Gia L&#7897;c</OPTION><br/>
+<OPTION value="410">Huy&#7879;n Nam S&#225;ch</OPTION><br/>
+<OPTION value="411">Huy&#7879;n Ninh Giang</OPTION><br/>
+<OPTION value="412">Huy&#7879;n Thanh Mi&#7879;n</OPTION><br/>
+<OPTION value="413">Huy&#7879;n Thanh H&#224;</OPTION><br/>
+<OPTION value="414">Huy&#7879;n T&#7913; K&#7923;</OPTION><br/>
+<OPTION value="415">TP H&#432;ng Y&#234;n</OPTION><br/>
+<OPTION value="416">Kim &#272;&#7897;ng</OPTION><br/>
+<OPTION value="417">&#194;n Thi</OPTION><br/>
+<OPTION value="418">Kho&#225;i Ch&#226;u</OPTION><br/>
+<OPTION value="419">Th&#7883; X&#227; M&#7929; H&#224;o</OPTION><br/>
+<OPTION value="420">Ti&#234;n L&#7919;</OPTION><br/>
+<OPTION value="421">Ph&#249; C&#7915;</OPTION><br/>
+<OPTION value="422">Y&#234;n M&#7929;</OPTION><br/>
+<OPTION value="423">V&#259;n L&#226;m</OPTION><br/>
+<OPTION value="424">V&#259;n Giang</OPTION><br/>
+<OPTION value="425">T.P H&#224; &#272;&#244;ng</OPTION><br/>
+<OPTION value="426">T.X S&#417;n T&#226;y</OPTION><br/>
+<OPTION value="427">Ba V&#236;</OPTION><br/>
+<OPTION value="428">Ch&#432;&#417;ng M&#7929;</OPTION><br/>
+<OPTION value="429">&#272;an Ph&#432;&#7907;ng</OPTION><br/>
+<OPTION value="430">Ho&#224;i &#272;&#7913;c</OPTION><br/>
+<OPTION value="431">M&#7929; &#272;&#7913;c</OPTION><br/>
+<OPTION value="432">Ph&#250; Xuy&#234;n</OPTION><br/>
+<OPTION value="433">Ph&#250;c Th&#7885;</OPTION><br/>
+<OPTION value="434">Qu&#7889;c Oai</OPTION><br/>
+<OPTION value="435">Thanh Oai</OPTION><br/>
+<OPTION value="436">Th&#7841;ch Th&#7845;t</OPTION><br/>
+<OPTION value="437">Th&#432;&#7901;ng T&#237;n</OPTION><br/>
+<OPTION value="438">&#7912;ng H&#242;a</OPTION><br/>
+<OPTION value="439">Th&#224;nh Ph&#7889; Ph&#7911; L&#253;</OPTION><br/>
+<OPTION value="440">Huy&#7879;n L&#253; Nh&#226;n</OPTION><br/>
+<OPTION value="441">Huy&#7879;n Thanh Li&#234;m</OPTION><br/>
+<OPTION value="442">Huy&#7879;n Kim B&#7843;ng</OPTION><br/>
+<OPTION value="443">Th&#7883; X&#227; Duy Ti&#234;n</OPTION><br/>
+<OPTION value="444">Huy&#7879;n B&#236;nh L&#7909;c</OPTION><br/>
+<OPTION value="445">T.P Nam &#272;&#7883;nh</OPTION><br/>
+<OPTION value="446">M&#7929; L&#7897;c</OPTION><br/>
+<OPTION value="447">V&#7909; B&#7843;n</OPTION><br/>
+<OPTION value="448">&#253; Y&#234;n</OPTION><br/>
+<OPTION value="449">Nam Tr&#7921;c</OPTION><br/>
+<OPTION value="450">Ngh&#297;a H&#432;ng</OPTION><br/>
+<OPTION value="451">Tr&#7921;c Ninh</OPTION><br/>
+<OPTION value="452">Xu&#226;n Tr&#432;&#7901;ng</OPTION><br/>
+<OPTION value="453">H&#7843;i H&#7853;u</OPTION><br/>
+<OPTION value="454">Giao Th&#7911;y</OPTION><br/>
+<OPTION value="463">T.X B&#7881;m S&#417;n</OPTION><br/>
+<OPTION value="464">TP. S&#7847;m S&#417;n</OPTION><br/>
+<OPTION value="465">T.X Nghi S&#417;n</OPTION><br/>
+<OPTION value="466">Th&#7885; Xu&#226;n</OPTION><br/>
+<OPTION value="467">Tri&#7879;u S&#417;n</OPTION><br/>
+<OPTION value="468">H&#224; Trung</OPTION><br/>
+<OPTION value="469">&#272;&#244;ng S&#417;n</OPTION><br/>
+<OPTION value="470">Ng&#7885;c L&#7863;c</OPTION><br/>
+<OPTION value="471">Ho&#7857;ng H&#243;a</OPTION><br/>
+<OPTION value="472">N&#244;ng C&#7889;ng</OPTION><br/>
+<OPTION value="473">Nga S&#417;n</OPTION><br/>
+<OPTION value="474">V&#297;nh L&#7897;c</OPTION><br/>
+<OPTION value="475">C&#7849;m Th&#7911;y</OPTION><br/>
+<OPTION value="476">Qu&#7843;ng X&#432;&#417;ng</OPTION><br/>
+<OPTION value="477">Lang Ch&#225;nh</OPTION><br/>
+<OPTION value="478">Quan H&#243;a</OPTION><br/>
+<OPTION value="479">B&#225; Th&#432;&#7899;c</OPTION><br/>
+<OPTION value="480">Th&#432;&#7901;ng Xu&#226;n</OPTION><br/>
+<OPTION value="481">Thi&#7879;u H&#243;a</OPTION><br/>
+<OPTION value="482">Th&#7841;ch Th&#224;nh</OPTION><br/>
+<OPTION value="483">Y&#234;n &#272;&#7883;nh</OPTION><br/>
+<OPTION value="484">Nh&#432; Xu&#226;n</OPTION><br/>
+<OPTION value="485">Nh&#432; Thanh</OPTION><br/>
+<OPTION value="486">H&#7853;u L&#7897;c</OPTION><br/>
+<OPTION value="487">Quan S&#417;n</OPTION><br/>
+<OPTION value="488">M&#432;&#7901;ng L&#225;t</OPTION><br/>
+<OPTION value="489">Th&#224;nh ph&#7889; Y&#234;n B&#225;i</OPTION><br/>
+<OPTION value="490">T.X Ngh&#297;a L&#7897;</OPTION><br/>
+<OPTION value="491">Huy&#7879;n Y&#234;n B&#236;nh</OPTION><br/>
+<OPTION value="492">Huy&#7879;n Tr&#7845;n Y&#234;n</OPTION><br/>
+<OPTION value="493">Huy&#7879;n V&#259;n Y&#234;n</OPTION><br/>
+<OPTION value="494">Huy&#7879;n V&#259;n Ch&#7845;n</OPTION><br/>
+<OPTION value="495">Huy&#7879;n L&#7909;c Y&#234;n</OPTION><br/>
+<OPTION value="496">Huy&#7879;n M&#249; Cang Ch&#7843;i</OPTION><br/>
+<OPTION value="497">Th&#224;nh Ph&#7889; Cao B&#7857;ng</OPTION><br/>
+<OPTION value="498">H&#242;a An</OPTION><br/>
+<OPTION value="499">Qu&#7843;ng H&#242;a</OPTION><br/>
+<OPTION value="500">H&#224; Qu&#7843;ng</OPTION><br/>
+<OPTION value="501">Ph&#7909;c H&#242;a(Kh&#244;ng ch&#7885;n)</OPTION><br/>
+<OPTION value="502">Tr&#224; L&#297;nh (Kh&#244;ng ch&#7885;n)</OPTION><br/>
+<OPTION value="503">Tr&#249;ng Kh&#225;nh</OPTION><br/>
+<OPTION value="514">TP. Tuy&#234;n Quang</OPTION><br/>
+<OPTION value="515">Y&#234;n S&#417;n</OPTION><br/>
+<OPTION value="516">S&#417;n D&#432;&#417;ng</OPTION><br/>
+<OPTION value="517">H&#224;m Y&#234;n</OPTION><br/>
+<OPTION value="518">Na Hang</OPTION><br/>
+<OPTION value="519">Chi&#234;m Ho&#225;</OPTION><br/>
+<OPTION value="527">Th&#224;nh Ph&#7889; Qu&#7843;ng Ng&#227;i</OPTION><br/>
+<OPTION value="528">B&#236;nh S&#417;n</OPTION><br/>
+<OPTION value="529">S&#417;n T&#7883;nh</OPTION><br/>
+<OPTION value="530">T&#432; Ngh&#297;a</OPTION><br/>
+<OPTION value="531">M&#7897; &#272;&#7913;c</OPTION><br/>
+<OPTION value="532">Th&#7883; x&#227; &#272;&#7913;c Ph&#7893;</OPTION><br/>
+<OPTION value="533">Ngh&#297;a H&#224;nh</OPTION><br/>
+<OPTION value="534">Ba T&#417;</OPTION><br/>
+<OPTION value="535">S&#417;n H&#224;</OPTION><br/>
+<OPTION value="536">Tr&#224; B&#7891;ng</OPTION><br/>
+<OPTION value="537">Minh Long</OPTION><br/>
+<OPTION value="538">L&#253; S&#417;n</OPTION><br/>
+<OPTION value="539">S&#417;n T&#226;y</OPTION><br/>
+<OPTION value="540">T&#226;y Tr&#224; (c&#361;)</OPTION><br/>
+<OPTION value="541">Th&#224;nh Ph&#7889; C&#224; Mau</OPTION><br/>
+<OPTION value="542">U Minh</OPTION><br/>
+<OPTION value="543">Th&#7899;i B&#236;nh</OPTION><br/>
+<OPTION value="544">Huy&#7879;n Tr&#7847;n V&#259;n Th&#7901;i</OPTION><br/>
+<OPTION value="545">C&#225;i N&#432;&#7899;c</OPTION><br/>
+<OPTION value="546">Ng&#7885;c Hi&#7875;n</OPTION><br/>
+<OPTION value="547">N&#259;m C&#259;n</OPTION><br/>
+<OPTION value="548">Ph&#250; T&#226;n</OPTION><br/>
+<OPTION value="549">&#272;&#7847;m D&#417;i</OPTION><br/>
+<OPTION value="566">Th&#224;nh Ph&#7889; Vinh</OPTION><br/>
+<OPTION value="567">Anh S&#417;n</OPTION><br/>
+<OPTION value="568">Con Cu&#244;ng</OPTION><br/>
+<OPTION value="569">Di&#7877;n Ch&#226;u</OPTION><br/>
+<OPTION value="570">&#272;&#244; L&#432;&#417;ng</OPTION><br/>
+<OPTION value="571">K&#7923; S&#417;n</OPTION><br/>
+<OPTION value="572">H&#432;ng Nguy&#234;n</OPTION><br/>
+<OPTION value="573">Nam &#272;&#224;n</OPTION><br/>
+<OPTION value="574">Nghi L&#7897;c</OPTION><br/>
+<OPTION value="576">Qu&#7871; Phong</OPTION><br/>
+<OPTION value="577">Qu&#7923; Ch&#226;u</OPTION><br/>
+<OPTION value="578">Qu&#7923;nh L&#432;u</OPTION><br/>
+<OPTION value="579">Q&#249;y H&#7907;p</OPTION><br/>
+<OPTION value="580">T&#226;n K&#7923;</OPTION><br/>
+<OPTION value="582">T&#432;&#417;ng D&#432;&#417;ng</OPTION><br/>
+<OPTION value="583">Y&#234;n Th&#224;nh</OPTION><br/>
+<OPTION value="591">TX Qu&#7843;ng Tr&#7883;</OPTION><br/>
+<OPTION value="592">Huy&#7879;n Tri&#7879;u Phong</OPTION><br/>
+<OPTION value="593">Huy&#7879;n Gio Linh</OPTION><br/>
+<OPTION value="594">Huy&#7879;n V&#297;nh Linh</OPTION><br/>
+<OPTION value="595">Huy&#7879;n Cam L&#7897;</OPTION><br/>
+<OPTION value="596">Huy&#7879;n H&#432;&#7899;ng Ho&#225;</OPTION><br/>
+<OPTION value="597">Huy&#7879;n &#272;akrong</OPTION><br/>
+<OPTION value="598">TP.B&#7855;c K&#7841;n</OPTION><br/>
+<OPTION value="599">Ba B&#7875;</OPTION><br/>
+<OPTION value="600">B&#7841;ch Th&#244;ng</OPTION><br/>
+<OPTION value="601">Ch&#7907; M&#7899;i</OPTION><br/>
+<OPTION value="602">Na R&#236;</OPTION><br/>
+<OPTION value="603">Ch&#7907; &#272;&#7891;n</OPTION><br/>
+<OPTION value="604">Ng&#226;n S&#417;n</OPTION><br/>
+<OPTION value="605">P&#225;c N&#7863;m</OPTION><br/>
+<OPTION value="607">&#272;&#259;k H&#224;</OPTION><br/>
+<OPTION value="608">&#272;&#7855;k T&#244;</OPTION><br/>
+<OPTION value="609">&#272;&#7855;k Glei</OPTION><br/>
+<OPTION value="610">Ng&#7885;c H&#7891;i</OPTION><br/>
+<OPTION value="611">Sa Th&#7847;y</OPTION><br/>
+<OPTION value="612">Kon R&#7851;y</OPTION><br/>
+<OPTION value="613">Kon Pl&#244;ng</OPTION><br/>
+<OPTION value="615">Tp Phan Rang-Th&#225;p Ch&#224;m</OPTION><br/>
+<OPTION value="616">Huy&#7879;n Ninh S&#417;n</OPTION><br/>
+<OPTION value="617">Huy&#7879;n Ninh Ph&#432;&#7899;c</OPTION><br/>
+<OPTION value="618">Huy&#7879;n Ninh H&#7843;i</OPTION><br/>
+<OPTION value="620">Huy&#7879;n B&#225;c &#225;i</OPTION><br/>
+<OPTION value="621">Huy&#7879;n H&#7843;i L&#259;ng</OPTION><br/>
+<OPTION value="622">Tp Th&#225;i B&#236;nh</OPTION><br/>
+<OPTION value="623">Huy&#7879;n Qu&#7923;nh Ph&#7909;</OPTION><br/>
+<OPTION value="624">Huy&#7879;n Ti&#7873;n H&#7843;i</OPTION><br/>
+<OPTION value="625">Huy&#7879;n H&#432;ng H&#224;</OPTION><br/>
+<OPTION value="627">Huy&#7879;n &#272;&#244;ng H&#432;ng</OPTION><br/>
+<OPTION value="628">Huy&#7879;n Ki&#7871;n X&#432;&#417;ng</OPTION><br/>
+<OPTION value="629">Huy&#7879;n V&#361; Th&#432;</OPTION><br/>
+<OPTION value="668">V&#297;nh Th&#7841;nh</OPTION><br/>
+<OPTION value="672">C&#7901; &#272;&#7887;</OPTION><br/>
+<OPTION value="673">Huy&#7879;n Ch&#226;u Th&#224;nh</OPTION><br/>
+<OPTION value="674">Huy&#7879;n Ch&#226;u Th&#224;nh A</OPTION><br/>
+<OPTION value="677">Huy&#7879;n Ph&#7909;ng Hi&#7879;p</OPTION><br/>
+<OPTION value="680">Huy&#7879;n Phong &#272;i&#7873;n</OPTION><br/>
+<OPTION value="681">Huy&#7879;n C&#7849;m M&#7929;</OPTION><br/>
+<OPTION value="682">Huy&#7879;n T&#226;n Ph&#250;</OPTION><br/>
+<OPTION value="684">Huy&#7879;n Tr&#7841;m T&#7845;u</OPTION><br/>
+<OPTION value="685">H&#7891;ng D&#226;n</OPTION><br/>
+<OPTION value="686">Th&#224;nh Ph&#7889; V&#7883; Thanh</OPTION><br/>
+<OPTION value="687">Huy&#7879;n Long M&#7929;</OPTION><br/>
+<OPTION value="688">Huy&#7879;n Th&#225;i Thu&#7925;</OPTION><br/>
+<OPTION value="699">Huy&#7879;n C&#7891;n C&#7887;</OPTION><br/>
+<OPTION value="706">TP. Thanh H&#243;a</OPTION><br/>
+<OPTION value="709">B&#7843;o L&#7841;c</OPTION><br/>
+<OPTION value="710">B&#7843;o L&#226;m</OPTION><br/>
+<OPTION value="711">H&#7841; Lang</OPTION><br/>
+<OPTION value="712">Nguy&#234;n B&#236;nh</OPTION><br/>
+<OPTION value="713">Th&#7841;ch An</OPTION><br/>
+<OPTION value="714">Th&#244;ng N&#244;ng (Kh&#244;ng ch&#7885;n)</OPTION><br/>
+<OPTION value="801">Th&#224;nh Ph&#7889; L&#224;o Cai</OPTION><br/>
+<OPTION value="804">H&#242;a B&#236;nh</OPTION><br/>
+<OPTION value="807">Th&#7883; x&#227; Lagi</OPTION><br/>
+<OPTION value="824">TP &#272;&#244;ng H&#224;</OPTION><br/>
+<OPTION value="826">Ch&#226;u Th&#224;nh</OPTION><br/>
+<OPTION value="831">T&#226;n S&#417;n</OPTION><br/>
+<OPTION value="841">H S&#417;n H&#242;a</OPTION><br/>
+<OPTION value="842">H Tuy An</OPTION><br/>
+<OPTION value="843">Tx S&#244;ng C&#7847;u</OPTION><br/>
+<OPTION value="844">H &#272;&#7891;ng Xu&#226;n</OPTION><br/>
+<OPTION value="845">H S&#244;ng Hinh</OPTION><br/>
+<OPTION value="846">H &#272;&#244;ng H&#242;a</OPTION><br/>
+<OPTION value="847">H T&#226;y H&#242;a</OPTION><br/>
+<OPTION value="871">Th&#7883; x&#227; K&#7923; Anh</OPTION><br/>
+<OPTION value="872">Huy&#7879;n L&#7897;c H&#224;</OPTION><br/>
+<OPTION value="874">Tp H&#224; T&#297;nh</OPTION><br/>
+<OPTION value="875">Huy&#7879;n C&#7849;m Xuy&#234;n</OPTION><br/>
+<OPTION value="876">Huy&#7879;n Can L&#7897;c</OPTION><br/>
+<OPTION value="878">Huy&#7879;n &#272;&#7913;c Th&#7885;</OPTION><br/>
+<OPTION value="879">Huy&#7879;n H&#432;&#417;ng S&#417;n</OPTION><br/>
+<OPTION value="880">Huy&#7879;n H&#432;&#417;ng Kh&#234;</OPTION><br/>
+<OPTION value="881">Huy&#7879;n V&#361; Quang</OPTION><br/>
+<OPTION value="884">Tu M&#417; R&#244;ng</OPTION><br/>
+<OPTION value="891">&#272;&#7889;ng &#272;a</OPTION><br/>
+<OPTION value="896">Kh&#225;c</OPTION><br/>
+<OPTION value="897">Tx Ph&#432;&#7899;c Long</OPTION><br/>
+<OPTION value="902">Th&#7883; x&#227; B&#236;nh Minh</OPTION><br/>
+<OPTION value="903">Huy&#7879;n Long H&#7891;</OPTION><br/>
+<OPTION value="904">Huy&#7879;n Mang Th&#237;t</OPTION><br/>
+<OPTION value="905">Huy&#7879;n Tam B&#236;nh</OPTION><br/>
+<OPTION value="906">Huy&#7879;n Tr&#224; &#212;n</OPTION><br/>
+<OPTION value="907">Th&#224;nh ph&#7889; V&#297;nh Long</OPTION><br/>
+<OPTION value="908">Huy&#7879;n V&#361;ng Li&#234;m</OPTION><br/>
+<OPTION value="909">Huy&#7879;n B&#236;nh T&#226;n</OPTION><br/>
+<OPTION value="910">Tp Long Xuy&#234;n</OPTION><br/>
+<OPTION value="911">TP Ch&#226;u &#272;&#7889;c</OPTION><br/>
+<OPTION value="912">Qu&#7853;n H&#7843;i Ch&#226;u</OPTION><br/>
+<OPTION value="913">Qu&#7853;n Thanh Kh&#234;</OPTION><br/>
+<OPTION value="914">Qu&#7853;n S&#417;n Tr&#224;</OPTION><br/>
+<OPTION value="915">Qu&#7853;n Ng&#361; H&#224;nh S&#417;n</OPTION><br/>
+<OPTION value="916">Qu&#7853;n Li&#234;n Chi&#7875;u</OPTION><br/>
+<OPTION value="917">Qu&#7853;n C&#7849;m L&#7879;</OPTION><br/>
+<OPTION value="918">Huy&#7879;n Ho&#224; Vang</OPTION><br/>
+<OPTION value="920">Huy&#7879;n An Ph&#250;</OPTION><br/>
+<OPTION value="921">Huy&#7879;n Ch&#226;u Ph&#250;</OPTION><br/>
+<OPTION value="922">Tx.T&#7883;nh Bi&#234;n</OPTION><br/>
+<OPTION value="923">Huy&#7879;n Ch&#7907; M&#7899;i</OPTION><br/>
+<OPTION value="924">Tx T&#226;n Ch&#226;u</OPTION><br/>
+<OPTION value="925">Huy&#7879;n Ph&#250; T&#226;n</OPTION><br/>
+<OPTION value="926">Huy&#7879;n Tri T&#244;n</OPTION><br/>
+<OPTION value="927">Huy&#7879;n Ch&#226;u Th&#224;nh</OPTION><br/>
+<OPTION value="928">Huy&#7879;n Tho&#7841;i S&#417;n</OPTION><br/>
+<OPTION value="951">TP L&#7841;ng S&#417;n</OPTION><br/>
+<OPTION value="952">Huy&#7879;n B&#7855;c S&#417;n</OPTION><br/>
+<OPTION value="953">Huy&#7879;n Chi L&#259;ng</OPTION><br/>
+<OPTION value="955">Huy&#7879;n &#272;&#236;nh l&#7853;p</OPTION><br/>
+<OPTION value="956">Huy&#7879;n Cao L&#7897;c</OPTION><br/>
+<OPTION value="957">Huy&#7879;n L&#7897;c B&#236;nh</OPTION><br/>
+<OPTION value="958">Huy&#7879;n H&#7919;u L&#361;ng</OPTION><br/>
+<OPTION value="959">Huy&#7879;n B&#236;nh Gia</OPTION><br/>
+<OPTION value="960">Huy&#7879;n V&#259;n L&#227;ng</OPTION><br/>
+<OPTION value="961">Huy&#7879;n V&#259;n Quan</OPTION><br/>
+<OPTION value="962">Huy&#7879;n Tr&#224;ng &#272;&#7883;nh</OPTION><br/>
+<OPTION value="963">Hu&#7871;</OPTION><br/>
+<OPTION value="964">Th&#7883; x&#227; H&#432;&#417;ng Tr&#224;</OPTION><br/>
+<OPTION value="965">Phong &#273;i&#7873;n</OPTION><br/>
+<OPTION value="966">Qu&#7843;ng &#273;i&#7873;n</OPTION><br/>
+<OPTION value="967">Th&#7883; x&#227; H&#432;&#417;ng Thu&#7927;</OPTION><br/>
+<OPTION value="968">Ph&#250; Vang</OPTION><br/>
+<OPTION value="969">Ph&#250; l&#7897;c</OPTION><br/>
+<OPTION value="970">Nam &#273;&#244;ng</OPTION><br/>
+<OPTION value="971">A l&#432;&#7899;i</OPTION><br/>
+<OPTION value="1017">Tam K&#7923;</OPTION><br/>
+<OPTION value="1018">N&#250;i Th&#224;nh</OPTION><br/>
+<OPTION value="1019">Th&#259;ng B&#236;nh</OPTION><br/>
+<OPTION value="1020">&#272;&#7841;i L&#7897;c</OPTION><br/>
+<OPTION value="1021">&#272;i&#7879;n B&#224;n</OPTION><br/>
+<OPTION value="1022">&#272;&#244;ng Giang</OPTION><br/>
+<OPTION value="1023">Hi&#7879;p &#272;&#7913;c</OPTION><br/>
+<OPTION value="1024">H&#7897;i An</OPTION><br/>
+<OPTION value="1025">Ti&#234;n Ph&#432;&#7899;c</OPTION><br/>
+<OPTION value="1026">Nam Tr&#224; My</OPTION><br/>
+<OPTION value="1027">Qu&#7871; S&#417;n</OPTION><br/>
+<OPTION value="1028">Nam Giang</OPTION><br/>
+<OPTION value="1029">&#272;&#244;ng Giang</OPTION><br/>
+<OPTION value="1030">Ph&#432;&#7899;c S&#417;n</OPTION><br/>
+<OPTION value="1032">T&#226;y Giang</OPTION><br/>
+<OPTION value="1033">Ph&#250; Ninh</OPTION><br/>
+<OPTION value="1066">&#272;&#259;k Glong</OPTION><br/>
+<OPTION value="1067">Tuy &#272;&#7913;c</OPTION><br/>
+<OPTION value="1069">Kr&#244;ng P&#259;k</OPTION><br/>
+<OPTION value="1070">Kr&#244;ng Ana</OPTION><br/>
+<OPTION value="1071">Ea Hleo</OPTION><br/>
+<OPTION value="1072">Kr&#244;ngN&#259;ng</OPTION><br/>
+<OPTION value="1073">Kr&#244;ng N&#244;</OPTION><br/>
+<OPTION value="1074">Ea Sup</OPTION><br/>
+<OPTION value="1075">Ma &#272;R&#259;k</OPTION><br/>
+<OPTION value="1076">Bu&#244;n &#272;&#244;n</OPTION><br/>
+<OPTION value="1077">&#272;&#259;k S&#244;ng</OPTION><br/>
+<OPTION value="1078">&#272;&#259;k Mil</OPTION><br/>
+<OPTION value="1079">&#272;&#259;k RL&#7845;p</OPTION><br/>
+<OPTION value="1080">Bu&#244;n Ma Thu&#7897;t</OPTION><br/>
+<OPTION value="1081">L&#259;k</OPTION><br/>
+<OPTION value="1082">Kr&#244;ng B&#244;ng</OPTION><br/>
+<OPTION value="1083">C&#432; j&#250;t</OPTION><br/>
+<OPTION value="1084">TP Gia Ngh&#297;a</OPTION><br/>
+<OPTION value="1085">Ea Kar</OPTION><br/>
+<OPTION value="1086">C&#432; Mgar</OPTION><br/>
+<OPTION value="1087">C&#432; Kuin</OPTION><br/>
+<OPTION value="1088">Th&#224;nh Ph&#7889; &#272;i&#7879;n Bi&#234;n Ph&#7911;</OPTION><br/>
+<OPTION value="1089">Tam &#272;&#432;&#7901;ng</OPTION><br/>
+<OPTION value="1090">Huy&#7879;n &#272;i&#7879;n Bi&#234;n</OPTION><br/>
+<OPTION value="1091">Huy&#7879;n &#272;i&#7879;n Bi&#234;n &#272;&#244;ng</OPTION><br/>
+<OPTION value="1092">Huy&#7879;n M&#432;&#7901;ng Ch&#224;</OPTION><br/>
+<OPTION value="1093">Th&#7883; X&#227; M&#432;&#7901;ng Lay</OPTION><br/>
+<OPTION value="1094">Th&#224;nh ph&#7889; Lai Ch&#226;u</OPTION><br/>
+<OPTION value="1095">M&#432;&#7901;ng T&#232;</OPTION><br/>
+<OPTION value="1096">S&#236;n H&#7891;</OPTION><br/>
+<OPTION value="1097">Huy&#7879;n T&#7911;a Ch&#249;a</OPTION><br/>
+<OPTION value="1098">Huy&#7879;n Tu&#7847;n Gi&#225;o</OPTION><br/>
+<OPTION value="1099">Phong Th&#7893;</OPTION><br/>
+<OPTION value="1100">Huy&#7879;n M&#432;&#7901;ng Nh&#233;</OPTION><br/>
+<OPTION value="1101">Than Uy&#234;n</OPTION><br/>
+<OPTION value="1102">Huy&#7879;n M&#432;&#7901;ng &#7842;ng</OPTION><br/>
+<OPTION value="1103">Th&#224;nh ph&#7889; Ninh B&#236;nh</OPTION><br/>
+<OPTION value="1104">Kim S&#417;n</OPTION><br/>
+<OPTION value="1105">Nho Quan</OPTION><br/>
+<OPTION value="1106">Th&#224;nh ph&#7889; Tam &#272;i&#7879;p</OPTION><br/>
+<OPTION value="1107">Hoa L&#432;</OPTION><br/>
+<OPTION value="1108">Gia Vi&#7877;n</OPTION><br/>
+<OPTION value="1109">Y&#234;n M&#244;</OPTION><br/>
+<OPTION value="1110">Y&#234;n Kh&#225;nh</OPTION><br/>
+<OPTION value="1111">L&#7879; Thu&#7927;</OPTION><br/>
+<OPTION value="1112"> Minh Ho&#225;</OPTION><br/>
+<OPTION value="1113">Qu&#7843;ng Ninh</OPTION><br/>
+<OPTION value="1114">Qu&#7843;ng Tr&#7841;ch</OPTION><br/>
+<OPTION value="1115">B&#7889; Tr&#7841;ch</OPTION><br/>
+<OPTION value="1116">Tuy&#234;n Ho&#225;</OPTION><br/>
+<OPTION value="1117">Th&#224;nh Ph&#7889; &#272;&#7891;ng H&#7899;i</OPTION><br/>
+<OPTION value="1122">Th&#224;nh Ph&#7889; S&#417;n La</OPTION><br/>
+<OPTION value="1123">Huy&#7879;n B&#7855;c Y&#234;n</OPTION><br/>
+<OPTION value="1124">Huy&#7879;n Mai S&#417;n</OPTION><br/>
+<OPTION value="1125">Huy&#7879;n M&#432;&#7901;ng La</OPTION><br/>
+<OPTION value="1126">Huy&#7879;n M&#7897;c Ch&#226;u</OPTION><br/>
+<OPTION value="1127">Huy&#7879;n Ph&#249; Y&#234;n</OPTION><br/>
+<OPTION value="1128">Huy&#7879;n Qu&#7923;nh Nhai</OPTION><br/>
+<OPTION value="1129">Huy&#7879;n S&#244;ng M&#227;</OPTION><br/>
+<OPTION value="1130">Huy&#7879;n S&#7889;p C&#7897;p</OPTION><br/>
+<OPTION value="1131">Huy&#7879;n Thu&#7853;n Ch&#226;u</OPTION><br/>
+<OPTION value="1132">Huy&#7879;n Y&#234;n Ch&#226;u</OPTION><br/>
+<OPTION value="1134">C&#7917;a L&#242;</OPTION><br/>
+<OPTION value="1135">Ngh&#297;a &#272;&#224;n</OPTION><br/>
+<OPTION value="1136">Ki&#7871;n An</OPTION><br/>
+<OPTION value="1137">L&#234; Ch&#226;n</OPTION><br/>
+<OPTION value="1138">Qu&#7853;n Ng&#244; Quy&#7873;n</OPTION><br/>
+<OPTION value="1139">Huy&#7879;n An D&#432;&#417;ng</OPTION><br/>
+<OPTION value="1140">Huy&#7879;n An L&#227;o</OPTION><br/>
+<OPTION value="1141">Huy&#7879;n C&#225;t H&#7843;i</OPTION><br/>
+<OPTION value="1142">&#272;&#7891; S&#417;n</OPTION><br/>
+<OPTION value="1143">Huy&#7879;n Ki&#7871;n Thu&#7925;</OPTION><br/>
+<OPTION value="1144">Huy&#7879;n Th&#7911;y Nguy&#234;n</OPTION><br/>
+<OPTION value="1145">Huy&#7879;n Ti&#234;n L&#227;ng</OPTION><br/>
+<OPTION value="1146">Huy&#7879;n V&#297;nh B&#7843;o</OPTION><br/>
+<OPTION value="1147">Huy&#7879;n B&#7841;ch Long V&#7929;</OPTION><br/>
+<OPTION value="1148">B&#432;u &#272;i&#7879;n</OPTION><br/>
+<OPTION value="1149">Qu&#7853;n H&#7891;ng B&#224;ng</OPTION><br/>
+<OPTION value="1150">Huy&#7879;n Ho&#224; Quang</OPTION><br/>
+<OPTION value="1151">H&#7843;i An</OPTION><br/>
+<OPTION value="1152">D&#432;&#417;ng Kinh</OPTION><br/>
+<OPTION value="1153">T&#7881;nh Kh&#225;c</OPTION><br/>
+<OPTION value="1154">Thanh Ch&#432;&#417;ng</OPTION><br/>
+<OPTION value="1162">B&#7855;c Ninh</OPTION><br/>
+<OPTION value="1163">T&#7915; S&#417;n</OPTION><br/>
+<OPTION value="2502">Qu&#7853;n 2</OPTION><br/>
+<OPTION value="2503">Qu&#7853;n 3</OPTION><br/>
+<OPTION value="2504">Qu&#7853;n 4</OPTION><br/>
+<OPTION value="2505">Qu&#7853;n 5</OPTION><br/>
+<OPTION value="2506">Qu&#7853;n 6</OPTION><br/>
+<OPTION value="2507">Qu&#7853;n 7</OPTION><br/>
+<OPTION value="2508">Qu&#7853;n 8</OPTION><br/>
+<OPTION value="2509">Qu&#7853;n 9</OPTION><br/>
+<OPTION value="2510">Qu&#7853;n 10</OPTION><br/>
+<OPTION value="2511">Qu&#7853;n 11</OPTION><br/>
+<OPTION value="2512">Qu&#7853;n 12</OPTION><br/>
+<OPTION value="2513">Qu&#7853;n G&#242; V&#7845;p</OPTION><br/>
+<OPTION value="2514">Qu&#7853;n T&#226;n B&#236;nh</OPTION><br/>
+<OPTION value="2515">Qu&#7853;n B&#236;nh Th&#7841;nh</OPTION><br/>
+<OPTION value="2516">Qu&#7853;n Ph&#250; Nhu&#7853;n</OPTION><br/>
+<OPTION value="2517">Qu&#7853;n Th&#7911; &#272;&#7913;c</OPTION><br/>
+<OPTION value="2518">Huy&#7879;n C&#7911; Chi</OPTION><br/>
+<OPTION value="2519">Huy&#7879;n H&#243;c M&#244;n</OPTION><br/>
+<OPTION value="2520">Huy&#7879;n B&#236;nh Ch&#225;nh</OPTION><br/>
+<OPTION value="2521">Huy&#7879;n Nh&#224; B&#232;</OPTION><br/>
+<OPTION value="2522">Huy&#7879;n C&#7847;n Gi&#7901;</OPTION><br/>
+<OPTION value="2523">Qu&#7853;n B&#236;nh T&#226;n</OPTION><br/>
+<OPTION value="2524">Qu&#7853;n T&#226;n Ph&#250;</OPTION><br/>
+<OPTION value="2525">M&#234; Linh</OPTION><br/>
+<OPTION value="2527">An Minh</OPTION><br/>
+<OPTION value="2528">Ch&#226;u Th&#224;nh</OPTION><br/>
+<OPTION value="2529">G&#242; Quao</OPTION><br/>
+<OPTION value="2530">Gi&#7891;ng Ri&#7873;ng</OPTION><br/>
+<OPTION value="2531">H&#242;n &#272;&#7845;t</OPTION><br/>
+<OPTION value="2532">Th&#224;nh ph&#7889; H&#224; Ti&#234;n</OPTION><br/>
+<OPTION value="2533">Ki&#234;n H&#7843;i</OPTION><br/>
+<OPTION value="2534">Ki&#234;n L&#432;&#417;ng</OPTION><br/>
+<OPTION value="2535">Th&#224;nh ph&#7889; Ph&#250; Qu&#7889;c</OPTION><br/>
+<OPTION value="2536">Th&#224;nh ph&#7889; R&#7841;ch Gi&#225;</OPTION><br/>
+<OPTION value="2537">T&#226;n Hi&#7879;p</OPTION><br/>
+<OPTION value="2538">U Minh Th&#432;&#7907;ng</OPTION><br/>
+<OPTION value="2539">V&#297;nh Thu&#7853;n</OPTION><br/>
+<OPTION value="2540">H&#224; &#272;&#244;ng</OPTION><br/>
+<OPTION value="2541">S&#417;n T&#226;y</OPTION><br/>
+<OPTION value="2542">Ba V&#236;</OPTION><br/>
+<OPTION value="2543">Ch&#432;&#417;ng M&#7929;</OPTION><br/>
+<OPTION value="2544">&#272;an Ph&#432;&#7907;ng</OPTION><br/>
+<OPTION value="2545">Ho&#224;i &#272;&#7913;c</OPTION><br/>
+<OPTION value="2546">M&#7929; &#272;&#7913;c</OPTION><br/>
+<OPTION value="2547">Ph&#250; Xuy&#234;n</OPTION><br/>
+<OPTION value="2548">Ph&#250;c Th&#7885;</OPTION><br/>
+<OPTION value="2549">Qu&#7889;c Oai</OPTION><br/>
+<OPTION value="2550">Thanh Oai</OPTION><br/>
+<OPTION value="2551">Th&#7841;ch Th&#7845;t</OPTION><br/>
+<OPTION value="2552">Th&#432;&#7901;ng T&#237;n</OPTION><br/>
+<OPTION value="2553">&#7913;ng H&#242;a</OPTION><br/>
+<OPTION value="2554">T&#226;n Uy&#234;n</OPTION><br/>
+<OPTION value="2555">Th&#7899;i Lai</OPTION><br/>
+<OPTION value="2556">N&#244;ng S&#417;n</OPTION><br/>
+<OPTION value="2557">B&#236;nh Th&#7911;y</OPTION><br/>
+<OPTION value="2558">TX. Th&#225;i H&#242;a</OPTION><br/>
+<OPTION value="2559">TX H&#7891;ng Ng&#7921;</OPTION><br/>
+<OPTION value="2560">M&#7887; C&#224;y B&#7855;c</OPTION><br/>
+<OPTION value="2561">Huy&#7879;n Ch&#226;u Th&#224;nh</OPTION><br/>
+<OPTION value="2564">Huy&#7879;n Ph&#250; Thi&#7879;n</OPTION><br/>
+<OPTION value="2565">Duy Xuy&#234;n</OPTION><br/>
+<OPTION value="2567">Huy&#7879;n Th&#7841;ch H&#224;</OPTION><br/>
+<OPTION value="2568">Huy&#7879;n Nghi Xu&#226;n</OPTION><br/>
+<OPTION value="2569">Tx H&#7891;ng L&#297;nh</OPTION><br/>
+<OPTION value="2573">B&#7855;c Tr&#224; My</OPTION><br/>
+<OPTION value="2574">TP.Nha Trang</OPTION><br/>
+<OPTION value="2575">TP.Cam Ranh</OPTION><br/>
+<OPTION value="2576">Di&#234;n Kh&#225;nh</OPTION><br/>
+<OPTION value="2577">Ninh H&#242;a</OPTION><br/>
+<OPTION value="2578">V&#7841;n Ninh</OPTION><br/>
+<OPTION value="2579">Kh&#225;nh S&#417;n</OPTION><br/>
+<OPTION value="2580">Kh&#225;nh V&#297;nh</OPTION><br/>
+<OPTION value="2581">Cam L&#226;m</OPTION><br/>
+<OPTION value="2582">H&#7841; Long</OPTION><br/>
+<OPTION value="2583">C&#7849;m Ph&#7843;</OPTION><br/>
+<OPTION value="2584">M&#243;ng C&#225;i</OPTION><br/>
+<OPTION value="2585">U&#244;ng B&#237;</OPTION><br/>
+<OPTION value="2586">Ba Ch&#7869;</OPTION><br/>
+<OPTION value="2587">B&#236;nh Li&#234;u</OPTION><br/>
+<OPTION value="2588">C&#244; T&#244;</OPTION><br/>
+<OPTION value="2589">&#272;&#244;ng Tri&#7873;u</OPTION><br/>
+<OPTION value="2590">Ho&#224;nh B&#7891;</OPTION><br/>
+<OPTION value="2591">H&#7843;i H&#224;</OPTION><br/>
+<OPTION value="2592">Ti&#234;n Y&#234;n</OPTION><br/>
+<OPTION value="2593">V&#226;n &#272;&#7891;n</OPTION><br/>
+<OPTION value="2594">Qu&#7843;ng Y&#234;n</OPTION><br/>
+<OPTION value="2595">&#272;&#7847;m H&#224;</OPTION><br/>
+<OPTION value="2596">Th&#224;nh ph&#7889; V&#297;nh Y&#234;n</OPTION><br/>
+<OPTION value="2597">Huy&#7879;n V&#297;nh T&#432;&#7901;ng</OPTION><br/>
+<OPTION value="2598">Huy&#7879;n Y&#234;n L&#7841;c</OPTION><br/>
+<OPTION value="2599">Huy&#7879;n Tam D&#432;&#417;ng</OPTION><br/>
+<OPTION value="2600">Th&#224;nh ph&#7889; Ph&#250;c Y&#234;n</OPTION><br/>
+<OPTION value="2601">Huy&#7879;n B&#236;nh Xuy&#234;n</OPTION><br/>
+<OPTION value="2602">Huy&#7879;n L&#7853;p Th&#7841;ch</OPTION><br/>
+<OPTION value="2603">Huy&#7879;n Tam &#272;&#7843;o</OPTION><br/>
+<OPTION value="2604">Huy&#7879;n S&#244;ng L&#244;</OPTION><br/>
+<OPTION value="2605">Huy&#7879;n H&#7899;n Qu&#7843;n</OPTION><br/>
+<OPTION value="2606">Huy&#7879;n B&#249; Gia M&#7853;p</OPTION><br/>
+<OPTION value="2608">Huy&#7879;n Ch&#432; P&#432;h</OPTION><br/>
+<OPTION value="2613">.</OPTION><br/>
+<OPTION value="2614">TP Tuy H&#242;a</OPTION><br/>
+<OPTION value="2615">H Ph&#250; H&#242;a</OPTION><br/>
+<OPTION value="2617">An Bi&#234;n</OPTION><br/>
+<OPTION value="2619">Huy&#7879;n Tr&#7847;n &#272;&#7873;</OPTION><br/>
+<OPTION value="2625">TP D&#297; An</OPTION><br/>
+<OPTION value="2626">Giang Th&#224;nh</OPTION><br/>
+<OPTION value="2627">Ti&#234;n Du</OPTION><br/>
+<OPTION value="2629">Th&#7883; X&#227; Bu&#244;n H&#7891;</OPTION><br/>
+<OPTION value="2631">Th&#7881; x&#227; T&#226;y Ninh</OPTION><br/>
+<OPTION value="2632">Bi&#234;n H&#242;a</OPTION><br/>
+<OPTION value="2634">Qu&#7871; V&#245;</OPTION><br/>
+<OPTION value="2636">L&#226;m B&#236;nh</OPTION><br/>
+<OPTION value="2638">Ph&#242;ng KHTCND</OPTION><br/>
+<OPTION value="2639">Th&#224;nh Ph&#7889; Ng&#227; B&#7843;y</OPTION><br/>
+<OPTION value="2642">Huy&#7879;n V&#7883; Th&#7911;y</OPTION><br/>
+<OPTION value="2644">Th&#7883; x&#227; G&#242; C&#244;ng</OPTION><br/>
+<OPTION value="2645">.</OPTION><br/>
+<OPTION value="2646">Huy&#7879;n Thu&#7853;n B&#7855;c</OPTION><br/>
+<OPTION value="2647">Huy&#7879;n Thu&#7853;n Nam</OPTION><br/>
+<OPTION value="2648">Th&#7883; x&#227; Ki&#7871;n T&#432;&#7901;ng</OPTION><br/>
+<OPTION value="2649">TX.Ho&#224;ng Mai</OPTION><br/>
+<OPTION value="2650">Huy&#7879;n N&#7853;m P&#7891;</OPTION><br/>
+<OPTION value="2655">N&#7853;m Nh&#249;n</OPTION><br/>
+<OPTION value="2658">.</OPTION><br/>
+<OPTION value="2659">Huy&#7879;n V&#226;n H&#7891;</OPTION><br/>
+<OPTION value="2660">Huy&#7879;n B&#224;u B&#224;ng</OPTION><br/>
+<OPTION value="2661">Huy&#7879;n B&#7855;c T&#226;n Uy&#234;n</OPTION><br/>
+<OPTION value="2662">B&#7855;c T&#7915; Li&#234;m</OPTION><br/>
+<OPTION value="2663">Nam T&#7915; Li&#234;m</OPTION><br/>
+<OPTION value="2665">TP T&#226;n Uy&#234;n</OPTION><br/>
+<OPTION value="2666">TP Kon Tum</OPTION><br/>
+<OPTION value="2667">Th&#7883; X&#227; Cai L&#7853;y</OPTION><br/>
+<OPTION value="2668">Th&#224;nh ph&#7889; S&#244;ng C&#244;ng (ko su dung)</OPTION><br/>
+<OPTION value="2669">Huy&#7879;n Ph&#250; Ri&#7873;ng</OPTION><br/>
+<OPTION value="2670">Th&#7883; X&#227; Duy&#234;n H&#7843;i</OPTION><br/>
+<OPTION value="2671">Th&#7883; x&#227; Long M&#7929;</OPTION><br/>
+<OPTION value="2672">Huy&#7879;n K&#7923; Anh m&#7899;i</OPTION><br/>
+<OPTION value="2673">Doanh nghi&#7879;p</OPTION><br/>
+<OPTION value="2674">Teet</OPTION><br/>
+<OPTION value="2675">T&#226;n Ti&#7871;n</OPTION><br/>
+<OPTION value="2676">T&#226;n L&#7907;i</OPTION><br/>
+<OPTION value="2677">T&#226;n Th&#224;nh</OPTION><br/>
+<OPTION value="2678">Kr&#244;ng B&#250;k</OPTION><br/>
+<OPTION value="2679">T&#226;n An</OPTION><br/>
+<OPTION value="2680">TP M&#7899;i B&#236;nh D&#432;&#417;ng</OPTION><br/>
+<OPTION value="2681">Ia Hdrai</OPTION><br/>
+<OPTION value="2687">qu&#7853;n duchtv</OPTION><br/>
+<OPTION value="2697">qu&#7853;n test 3</OPTION><br/>
+<OPTION value="2698">qu&#7853;n test </OPTION><br/>
+<OPTION value="2699">quaan tesst1</OPTION><br/>
+<OPTION value="2700">Qu&#7853;n 1</OPTION><br/>
+<OPTION value="2701">Th&#224;nh Ph&#7889; Th&#7911; &#272;&#7913;c</OPTION><br/>
+</select></TD><!-- onchange="load_phuong(this,$('cboTinh').value)" --><TD class=label width="15%">Ph&#432;&#7901;ng :</TD><TD class=element width="35%" id="ajax_phuong"> &nbsp;</TD></TR><tr><TD class=label width="15%">Ph&#7889;: </TD><TD class=element width="35%" id="ajax_pho"> &nbsp;</TD><TD class=label width="15%">S&#7889; nhà: </TD><TD class=element width="35%"><INPUT class="textField" id="sonha" onkeyup="capnhat_diachi('quan','phuong','pho','sonha','diachi');" onkeydown="ChangeFromTabToEnter()" style="WIDTH: 98%" maxLength="250" name="yuetng">
+</TD></tr><TR><TD class=label width="10%" height="22">&#272;&#7883;a ch&#7881;: </TD><TD class=element width="40%" height="22" colspan =3><table width="100%" border=0><tr><td width="82%"><INPUT class="textField" id="diachi" style="WIDTH: 99%; height:17" tabIndex="2" maxLength="300" name="jogino">
+<select name="3ihuZsv37" id="cboTmp" style="width:99%; display:none" class="textField" cache-mode="AGENT"  >
+<OPTION value="1082">16</OPTION><br/>
+<OPTION value="1083">66</OPTION><br/>
+<OPTION value="1084">66</OPTION><br/>
+<OPTION value="1085">16</OPTION><br/>
+<OPTION value="1086">16</OPTION><br/>
+<OPTION value="1087">16</OPTION><br/>
+<OPTION value="2554">32</OPTION><br/>
+<OPTION value="826">7</OPTION><br/>
+<OPTION value="302">18</OPTION><br/>
+<OPTION value="303">18</OPTION><br/>
+<OPTION value="304">18</OPTION><br/>
+<OPTION value="305">18</OPTION><br/>
+<OPTION value="306">18</OPTION><br/>
+<OPTION value="307">18</OPTION><br/>
+<OPTION value="308">18</OPTION><br/>
+<OPTION value="1163">5</OPTION><br/>
+<OPTION value="952">33</OPTION><br/>
+<OPTION value="953">33</OPTION><br/>
+<OPTION value="2555">13</OPTION><br/>
+<OPTION value="955">33</OPTION><br/>
+<OPTION value="956">33</OPTION><br/>
+<OPTION value="957">33</OPTION><br/>
+<OPTION value="958">33</OPTION><br/>
+<OPTION value="959">33</OPTION><br/>
+<OPTION value="320">11</OPTION><br/>
+<OPTION value="321">11</OPTION><br/>
+<OPTION value="322">11</OPTION><br/>
+<OPTION value="960">33</OPTION><br/>
+<OPTION value="961">33</OPTION><br/>
+<OPTION value="962">33</OPTION><br/>
+<OPTION value="2568">23</OPTION><br/>
+<OPTION value="1017">43</OPTION><br/>
+<OPTION value="1018">43</OPTION><br/>
+<OPTION value="1019">43</OPTION><br/>
+<OPTION value="1020">43</OPTION><br/>
+<OPTION value="1021">43</OPTION><br/>
+<OPTION value="1022">43</OPTION><br/>
+<OPTION value="1023">43</OPTION><br/>
+<OPTION value="2567">23</OPTION><br/>
+<OPTION value="345">34</OPTION><br/>
+<OPTION value="346">34</OPTION><br/>
+<OPTION value="347">34</OPTION><br/>
+<OPTION value="348">34</OPTION><br/>
+<OPTION value="349">34</OPTION><br/>
+<OPTION value="567">38</OPTION><br/>
+<OPTION value="568">38</OPTION><br/>
+<OPTION value="569">38</OPTION><br/>
+<OPTION value="570">38</OPTION><br/>
+<OPTION value="571">38</OPTION><br/>
+<OPTION value="572">38</OPTION><br/>
+<OPTION value="573">38</OPTION><br/>
+<OPTION value="574">38</OPTION><br/>
+<OPTION value="1134">38</OPTION><br/>
+<OPTION value="576">38</OPTION><br/>
+<OPTION value="577">38</OPTION><br/>
+<OPTION value="578">38</OPTION><br/>
+<OPTION value="579">38</OPTION><br/>
+<OPTION value="580">38</OPTION><br/>
+<OPTION value="1162">5</OPTION><br/>
+<OPTION value="582">38</OPTION><br/>
+<OPTION value="583">38</OPTION><br/>
+<OPTION value="591">46</OPTION><br/>
+<OPTION value="592">46</OPTION><br/>
+<OPTION value="593">46</OPTION><br/>
+<OPTION value="594">46</OPTION><br/>
+<OPTION value="595">46</OPTION><br/>
+<OPTION value="596">46</OPTION><br/>
+<OPTION value="597">46</OPTION><br/>
+<OPTION value="598">4</OPTION><br/>
+<OPTION value="599">4</OPTION><br/>
+<OPTION value="600">4</OPTION><br/>
+<OPTION value="601">4</OPTION><br/>
+<OPTION value="2608">19</OPTION><br/>
+<OPTION value="2615">41</OPTION><br/>
+<OPTION value="2617">30</OPTION><br/>
+<OPTION value="2558">38</OPTION><br/>
+<OPTION value="2559">18</OPTION><br/>
+<OPTION value="2565">43</OPTION><br/>
+<OPTION value="2569">23</OPTION><br/>
+<OPTION value="2619">47</OPTION><br/>
+<OPTION value="2502">28</OPTION><br/>
+<OPTION value="2503">28</OPTION><br/>
+<OPTION value="2504">28</OPTION><br/>
+<OPTION value="2505">28</OPTION><br/>
+<OPTION value="2506">28</OPTION><br/>
+<OPTION value="2507">28</OPTION><br/>
+<OPTION value="2508">28</OPTION><br/>
+<OPTION value="2509">28</OPTION><br/>
+<OPTION value="2510">28</OPTION><br/>
+<OPTION value="2511">28</OPTION><br/>
+<OPTION value="2512">28</OPTION><br/>
+<OPTION value="2513">28</OPTION><br/>
+<OPTION value="2514">28</OPTION><br/>
+<OPTION value="2515">28</OPTION><br/>
+<OPTION value="2516">28</OPTION><br/>
+<OPTION value="2517">28</OPTION><br/>
+<OPTION value="2518">28</OPTION><br/>
+<OPTION value="2519">28</OPTION><br/>
+<OPTION value="2520">28</OPTION><br/>
+<OPTION value="2521">28</OPTION><br/>
+<OPTION value="2522">28</OPTION><br/>
+<OPTION value="2523">28</OPTION><br/>
+<OPTION value="2524">28</OPTION><br/>
+<OPTION value="1122">49</OPTION><br/>
+<OPTION value="1123">49</OPTION><br/>
+<OPTION value="1124">49</OPTION><br/>
+<OPTION value="1125">49</OPTION><br/>
+<OPTION value="1126">49</OPTION><br/>
+<OPTION value="1127">49</OPTION><br/>
+<OPTION value="1128">49</OPTION><br/>
+<OPTION value="1129">49</OPTION><br/>
+<OPTION value="1130">49</OPTION><br/>
+<OPTION value="1131">49</OPTION><br/>
+<OPTION value="1132">49</OPTION><br/>
+<OPTION value="1135">38</OPTION><br/>
+<OPTION value="1136">26</OPTION><br/>
+<OPTION value="1137">26</OPTION><br/>
+<OPTION value="1138">26</OPTION><br/>
+<OPTION value="1139">26</OPTION><br/>
+<OPTION value="1140">26</OPTION><br/>
+<OPTION value="1141">26</OPTION><br/>
+<OPTION value="1142">26</OPTION><br/>
+<OPTION value="1143">26</OPTION><br/>
+<OPTION value="1144">26</OPTION><br/>
+<OPTION value="1145">26</OPTION><br/>
+<OPTION value="1146">26</OPTION><br/>
+<OPTION value="1147">26</OPTION><br/>
+<OPTION value="1148">26</OPTION><br/>
+<OPTION value="1149">26</OPTION><br/>
+<OPTION value="1150">26</OPTION><br/>
+<OPTION value="1151">26</OPTION><br/>
+<OPTION value="1152">26</OPTION><br/>
+<OPTION value="1153">26</OPTION><br/>
+<OPTION value="2556">43</OPTION><br/>
+<OPTION value="951">33</OPTION><br/>
+<OPTION value="2531">30</OPTION><br/>
+<OPTION value="2532">30</OPTION><br/>
+<OPTION value="2533">30</OPTION><br/>
+<OPTION value="2534">30</OPTION><br/>
+<OPTION value="2535">30</OPTION><br/>
+<OPTION value="2540">21</OPTION><br/>
+<OPTION value="2536">30</OPTION><br/>
+<OPTION value="2537">30</OPTION><br/>
+<OPTION value="2538">30</OPTION><br/>
+<OPTION value="2539">30</OPTION><br/>
+<OPTION value="2541">21</OPTION><br/>
+<OPTION value="2542">21</OPTION><br/>
+<OPTION value="2543">21</OPTION><br/>
+<OPTION value="2544">21</OPTION><br/>
+<OPTION value="2545">21</OPTION><br/>
+<OPTION value="2546">21</OPTION><br/>
+<OPTION value="2547">21</OPTION><br/>
+<OPTION value="2548">21</OPTION><br/>
+<OPTION value="2549">21</OPTION><br/>
+<OPTION value="2550">21</OPTION><br/>
+<OPTION value="2551">21</OPTION><br/>
+<OPTION value="2552">21</OPTION><br/>
+<OPTION value="2553">21</OPTION><br/>
+<OPTION value="2557">13</OPTION><br/>
+<OPTION value="2560">7</OPTION><br/>
+<OPTION value="2561">47</OPTION><br/>
+<OPTION value="2564">19</OPTION><br/>
+<OPTION value="2573">43</OPTION><br/>
+<OPTION value="2582">45</OPTION><br/>
+<OPTION value="2575">29</OPTION><br/>
+<OPTION value="2576">29</OPTION><br/>
+<OPTION value="2577">29</OPTION><br/>
+<OPTION value="2578">29</OPTION><br/>
+<OPTION value="2579">29</OPTION><br/>
+<OPTION value="2580">29</OPTION><br/>
+<OPTION value="445">37</OPTION><br/>
+<OPTION value="446">37</OPTION><br/>
+<OPTION value="447">37</OPTION><br/>
+<OPTION value="449">37</OPTION><br/>
+<OPTION value="448">37</OPTION><br/>
+<OPTION value="450">37</OPTION><br/>
+<OPTION value="451">37</OPTION><br/>
+<OPTION value="452">37</OPTION><br/>
+<OPTION value="453">37</OPTION><br/>
+<OPTION value="454">37</OPTION><br/>
+<OPTION value="463">52</OPTION><br/>
+<OPTION value="464">52</OPTION><br/>
+<OPTION value="465">52</OPTION><br/>
+<OPTION value="466">52</OPTION><br/>
+<OPTION value="467">52</OPTION><br/>
+<OPTION value="468">52</OPTION><br/>
+<OPTION value="469">52</OPTION><br/>
+<OPTION value="470">52</OPTION><br/>
+<OPTION value="471">52</OPTION><br/>
+<OPTION value="472">52</OPTION><br/>
+<OPTION value="473">52</OPTION><br/>
+<OPTION value="474">52</OPTION><br/>
+<OPTION value="475">52</OPTION><br/>
+<OPTION value="476">52</OPTION><br/>
+<OPTION value="477">52</OPTION><br/>
+<OPTION value="478">52</OPTION><br/>
+<OPTION value="479">52</OPTION><br/>
+<OPTION value="480">52</OPTION><br/>
+<OPTION value="481">52</OPTION><br/>
+<OPTION value="482">52</OPTION><br/>
+<OPTION value="483">52</OPTION><br/>
+<OPTION value="484">52</OPTION><br/>
+<OPTION value="485">52</OPTION><br/>
+<OPTION value="486">52</OPTION><br/>
+<OPTION value="487">52</OPTION><br/>
+<OPTION value="488">52</OPTION><br/>
+<OPTION value="489">60</OPTION><br/>
+<OPTION value="490">60</OPTION><br/>
+<OPTION value="491">60</OPTION><br/>
+<OPTION value="492">60</OPTION><br/>
+<OPTION value="493">60</OPTION><br/>
+<OPTION value="494">60</OPTION><br/>
+<OPTION value="495">60</OPTION><br/>
+<OPTION value="496">60</OPTION><br/>
+<OPTION value="497">12</OPTION><br/>
+<OPTION value="498">12</OPTION><br/>
+<OPTION value="499">12</OPTION><br/>
+<OPTION value="500">12</OPTION><br/>
+<OPTION value="501">12</OPTION><br/>
+<OPTION value="502">12</OPTION><br/>
+<OPTION value="503">12</OPTION><br/>
+<OPTION value="514">56</OPTION><br/>
+<OPTION value="515">56</OPTION><br/>
+<OPTION value="516">56</OPTION><br/>
+<OPTION value="517">56</OPTION><br/>
+<OPTION value="518">56</OPTION><br/>
+<OPTION value="519">56</OPTION><br/>
+<OPTION value="527">44</OPTION><br/>
+<OPTION value="528">44</OPTION><br/>
+<OPTION value="529">44</OPTION><br/>
+<OPTION value="530">44</OPTION><br/>
+<OPTION value="531">44</OPTION><br/>
+<OPTION value="532">44</OPTION><br/>
+<OPTION value="533">44</OPTION><br/>
+<OPTION value="534">44</OPTION><br/>
+<OPTION value="535">44</OPTION><br/>
+<OPTION value="536">44</OPTION><br/>
+<OPTION value="537">44</OPTION><br/>
+<OPTION value="538">44</OPTION><br/>
+<OPTION value="539">44</OPTION><br/>
+<OPTION value="540">44</OPTION><br/>
+<OPTION value="541">14</OPTION><br/>
+<OPTION value="542">14</OPTION><br/>
+<OPTION value="543">14</OPTION><br/>
+<OPTION value="544">14</OPTION><br/>
+<OPTION value="545">14</OPTION><br/>
+<OPTION value="546">14</OPTION><br/>
+<OPTION value="547">14</OPTION><br/>
+<OPTION value="548">14</OPTION><br/>
+<OPTION value="549">14</OPTION><br/>
+<OPTION value="1103">39</OPTION><br/>
+<OPTION value="1088">68</OPTION><br/>
+<OPTION value="1089">32</OPTION><br/>
+<OPTION value="1090">68</OPTION><br/>
+<OPTION value="1091">68</OPTION><br/>
+<OPTION value="1092">68</OPTION><br/>
+<OPTION value="1093">68</OPTION><br/>
+<OPTION value="1094">32</OPTION><br/>
+<OPTION value="1095">32</OPTION><br/>
+<OPTION value="1096">32</OPTION><br/>
+<OPTION value="1097">68</OPTION><br/>
+<OPTION value="1098">68</OPTION><br/>
+<OPTION value="566">38</OPTION><br/>
+<OPTION value="963">53</OPTION><br/>
+<OPTION value="101">50</OPTION><br/>
+<OPTION value="106">17</OPTION><br/>
+<OPTION value="109">18</OPTION><br/>
+<OPTION value="110">65</OPTION><br/>
+<OPTION value="111">17</OPTION><br/>
+<OPTION value="112">36</OPTION><br/>
+<OPTION value="113">50</OPTION><br/>
+<OPTION value="1099">32</OPTION><br/>
+<OPTION value="115">55</OPTION><br/>
+<OPTION value="116">19</OPTION><br/>
+<OPTION value="117">21</OPTION><br/>
+<OPTION value="118">9</OPTION><br/>
+<OPTION value="120">21</OPTION><br/>
+<OPTION value="122">11</OPTION><br/>
+<OPTION value="123">21</OPTION><br/>
+<OPTION value="124">21</OPTION><br/>
+<OPTION value="125">21</OPTION><br/>
+<OPTION value="126">21</OPTION><br/>
+<OPTION value="127">21</OPTION><br/>
+<OPTION value="128">21</OPTION><br/>
+<OPTION value="129">21</OPTION><br/>
+<OPTION value="130">21</OPTION><br/>
+<OPTION value="131">21</OPTION><br/>
+<OPTION value="132">59</OPTION><br/>
+<OPTION value="133">59</OPTION><br/>
+<OPTION value="134">59</OPTION><br/>
+<OPTION value="135">59</OPTION><br/>
+<OPTION value="136">59</OPTION><br/>
+<OPTION value="137">59</OPTION><br/>
+<OPTION value="138">59</OPTION><br/>
+<OPTION value="139">59</OPTION><br/>
+<OPTION value="140">59</OPTION><br/>
+<OPTION value="141">59</OPTION><br/>
+<OPTION value="142">59</OPTION><br/>
+<OPTION value="143">65</OPTION><br/>
+<OPTION value="144">65</OPTION><br/>
+<OPTION value="145">65</OPTION><br/>
+<OPTION value="147">65</OPTION><br/>
+<OPTION value="148">65</OPTION><br/>
+<OPTION value="149">65</OPTION><br/>
+<OPTION value="150">65</OPTION><br/>
+<OPTION value="151">65</OPTION><br/>
+<OPTION value="152">65</OPTION><br/>
+<OPTION value="153">20</OPTION><br/>
+<OPTION value="154">20</OPTION><br/>
+<OPTION value="155">20</OPTION><br/>
+<OPTION value="156">20</OPTION><br/>
+<OPTION value="157">20</OPTION><br/>
+<OPTION value="158">20</OPTION><br/>
+<OPTION value="159">20</OPTION><br/>
+<OPTION value="160">20</OPTION><br/>
+<OPTION value="161">20</OPTION><br/>
+<OPTION value="162">20</OPTION><br/>
+<OPTION value="163">20</OPTION><br/>
+<OPTION value="1100">68</OPTION><br/>
+<OPTION value="1101">32</OPTION><br/>
+<OPTION value="1102">68</OPTION><br/>
+<OPTION value="1104">39</OPTION><br/>
+<OPTION value="1105">39</OPTION><br/>
+<OPTION value="1106">39</OPTION><br/>
+<OPTION value="1107">39</OPTION><br/>
+<OPTION value="1108">39</OPTION><br/>
+<OPTION value="1109">39</OPTION><br/>
+<OPTION value="1110">39</OPTION><br/>
+<OPTION value="928">1</OPTION><br/>
+<OPTION value="1067">66</OPTION><br/>
+<OPTION value="1069">16</OPTION><br/>
+<OPTION value="1070">16</OPTION><br/>
+<OPTION value="1071">16</OPTION><br/>
+<OPTION value="1072">16</OPTION><br/>
+<OPTION value="1073">66</OPTION><br/>
+<OPTION value="1074">16</OPTION><br/>
+<OPTION value="1075">16</OPTION><br/>
+<OPTION value="1076">16</OPTION><br/>
+<OPTION value="1077">66</OPTION><br/>
+<OPTION value="1078">66</OPTION><br/>
+<OPTION value="1079">66</OPTION><br/>
+<OPTION value="1080">16</OPTION><br/>
+<OPTION value="1081">16</OPTION><br/>
+<OPTION value="602">4</OPTION><br/>
+<OPTION value="603">4</OPTION><br/>
+<OPTION value="604">4</OPTION><br/>
+<OPTION value="605">4</OPTION><br/>
+<OPTION value="607">31</OPTION><br/>
+<OPTION value="608">31</OPTION><br/>
+<OPTION value="609">31</OPTION><br/>
+<OPTION value="610">31</OPTION><br/>
+<OPTION value="611">31</OPTION><br/>
+<OPTION value="612">31</OPTION><br/>
+<OPTION value="613">31</OPTION><br/>
+<OPTION value="706">52</OPTION><br/>
+<OPTION value="621">46</OPTION><br/>
+<OPTION value="622">51</OPTION><br/>
+<OPTION value="623">51</OPTION><br/>
+<OPTION value="624">51</OPTION><br/>
+<OPTION value="625">51</OPTION><br/>
+<OPTION value="627">51</OPTION><br/>
+<OPTION value="628">51</OPTION><br/>
+<OPTION value="629">51</OPTION><br/>
+<OPTION value="699">46</OPTION><br/>
+<OPTION value="1024">43</OPTION><br/>
+<OPTION value="1025">43</OPTION><br/>
+<OPTION value="1026">43</OPTION><br/>
+<OPTION value="1027">43</OPTION><br/>
+<OPTION value="1028">43</OPTION><br/>
+<OPTION value="1029">43</OPTION><br/>
+<OPTION value="1030">43</OPTION><br/>
+<OPTION value="1032">43</OPTION><br/>
+<OPTION value="1033">43</OPTION><br/>
+<OPTION value="684">60</OPTION><br/>
+<OPTION value="668">13</OPTION><br/>
+<OPTION value="688">51</OPTION><br/>
+<OPTION value="672">13</OPTION><br/>
+<OPTION value="673">67</OPTION><br/>
+<OPTION value="674">67</OPTION><br/>
+<OPTION value="677">67</OPTION><br/>
+<OPTION value="680">13</OPTION><br/>
+<OPTION value="681">17</OPTION><br/>
+<OPTION value="682">17</OPTION><br/>
+<OPTION value="685">11</OPTION><br/>
+<OPTION value="686">67</OPTION><br/>
+<OPTION value="687">67</OPTION><br/>
+<OPTION value="709">12</OPTION><br/>
+<OPTION value="710">12</OPTION><br/>
+<OPTION value="711">12</OPTION><br/>
+<OPTION value="712">12</OPTION><br/>
+<OPTION value="713">12</OPTION><br/>
+<OPTION value="714">12</OPTION><br/>
+<OPTION value="801">34</OPTION><br/>
+<OPTION value="26">8</OPTION><br/>
+<OPTION value="27">47</OPTION><br/>
+<OPTION value="28">17</OPTION><br/>
+<OPTION value="2639">67</OPTION><br/>
+<OPTION value="30">17</OPTION><br/>
+<OPTION value="31">17</OPTION><br/>
+<OPTION value="34">17</OPTION><br/>
+<OPTION value="242">54</OPTION><br/>
+<OPTION value="241">54</OPTION><br/>
+<OPTION value="39">54</OPTION><br/>
+<OPTION value="243">54</OPTION><br/>
+<OPTION value="48">13</OPTION><br/>
+<OPTION value="244">54</OPTION><br/>
+<OPTION value="45">35</OPTION><br/>
+<OPTION value="46">10</OPTION><br/>
+<OPTION value="49">8</OPTION><br/>
+<OPTION value="52">54</OPTION><br/>
+<OPTION value="53">35</OPTION><br/>
+<OPTION value="245">54</OPTION><br/>
+<OPTION value="56">36</OPTION><br/>
+<OPTION value="58">17</OPTION><br/>
+<OPTION value="59">35</OPTION><br/>
+<OPTION value="62">6</OPTION><br/>
+<OPTION value="63">18</OPTION><br/>
+<OPTION value="65">13</OPTION><br/>
+<OPTION value="67">8</OPTION><br/>
+<OPTION value="69">17</OPTION><br/>
+<OPTION value="71">9</OPTION><br/>
+<OPTION value="73">54</OPTION><br/>
+<OPTION value="75">10</OPTION><br/>
+<OPTION value="79">9</OPTION><br/>
+<OPTION value="81">17</OPTION><br/>
+<OPTION value="82">11</OPTION><br/>
+<OPTION value="84">21</OPTION><br/>
+<OPTION value="85">21</OPTION><br/>
+<OPTION value="86">21</OPTION><br/>
+<OPTION value="89">35</OPTION><br/>
+<OPTION value="90">35</OPTION><br/>
+<OPTION value="91">10</OPTION><br/>
+<OPTION value="92">9</OPTION><br/>
+<OPTION value="103">36</OPTION><br/>
+<OPTION value="94">59</OPTION><br/>
+<OPTION value="95">6</OPTION><br/>
+<OPTION value="96">8</OPTION><br/>
+<OPTION value="350">34</OPTION><br/>
+<OPTION value="351">34</OPTION><br/>
+<OPTION value="352">34</OPTION><br/>
+<OPTION value="353">61</OPTION><br/>
+<OPTION value="354">61</OPTION><br/>
+<OPTION value="355">61</OPTION><br/>
+<OPTION value="356">61</OPTION><br/>
+<OPTION value="357">61</OPTION><br/>
+<OPTION value="358">61</OPTION><br/>
+<OPTION value="359">61</OPTION><br/>
+<OPTION value="360">61</OPTION><br/>
+<OPTION value="361">61</OPTION><br/>
+<OPTION value="371">3</OPTION><br/>
+<OPTION value="372">3</OPTION><br/>
+<OPTION value="373">3</OPTION><br/>
+<OPTION value="374">3</OPTION><br/>
+<OPTION value="375">3</OPTION><br/>
+<OPTION value="376">3</OPTION><br/>
+<OPTION value="377">3</OPTION><br/>
+<OPTION value="378">3</OPTION><br/>
+<OPTION value="379">3</OPTION><br/>
+<OPTION value="380">3</OPTION><br/>
+<OPTION value="399">5</OPTION><br/>
+<OPTION value="400">5</OPTION><br/>
+<OPTION value="401">5</OPTION><br/>
+<OPTION value="402">5</OPTION><br/>
+<OPTION value="403">27</OPTION><br/>
+<OPTION value="404">27</OPTION><br/>
+<OPTION value="405">27</OPTION><br/>
+<OPTION value="406">27</OPTION><br/>
+<OPTION value="407">27</OPTION><br/>
+<OPTION value="408">27</OPTION><br/>
+<OPTION value="409">27</OPTION><br/>
+<OPTION value="410">27</OPTION><br/>
+<OPTION value="411">27</OPTION><br/>
+<OPTION value="412">27</OPTION><br/>
+<OPTION value="413">27</OPTION><br/>
+<OPTION value="414">27</OPTION><br/>
+<OPTION value="415">24</OPTION><br/>
+<OPTION value="416">24</OPTION><br/>
+<OPTION value="417">24</OPTION><br/>
+<OPTION value="418">24</OPTION><br/>
+<OPTION value="419">24</OPTION><br/>
+<OPTION value="420">24</OPTION><br/>
+<OPTION value="421">24</OPTION><br/>
+<OPTION value="422">24</OPTION><br/>
+<OPTION value="423">24</OPTION><br/>
+<OPTION value="424">24</OPTION><br/>
+<OPTION value="425">22</OPTION><br/>
+<OPTION value="426">22</OPTION><br/>
+<OPTION value="427">22</OPTION><br/>
+<OPTION value="428">22</OPTION><br/>
+<OPTION value="429">22</OPTION><br/>
+<OPTION value="430">22</OPTION><br/>
+<OPTION value="431">22</OPTION><br/>
+<OPTION value="432">22</OPTION><br/>
+<OPTION value="433">22</OPTION><br/>
+<OPTION value="434">22</OPTION><br/>
+<OPTION value="435">22</OPTION><br/>
+<OPTION value="436">22</OPTION><br/>
+<OPTION value="437">22</OPTION><br/>
+<OPTION value="438">22</OPTION><br/>
+<OPTION value="439">25</OPTION><br/>
+<OPTION value="440">25</OPTION><br/>
+<OPTION value="441">25</OPTION><br/>
+<OPTION value="442">25</OPTION><br/>
+<OPTION value="443">25</OPTION><br/>
+<OPTION value="444">25</OPTION><br/>
+<OPTION value="907">57</OPTION><br/>
+<OPTION value="908">57</OPTION><br/>
+<OPTION value="909">57</OPTION><br/>
+<OPTION value="1111">42</OPTION><br/>
+<OPTION value="1112">42</OPTION><br/>
+<OPTION value="1113">42</OPTION><br/>
+<OPTION value="1114">42</OPTION><br/>
+<OPTION value="1115">42</OPTION><br/>
+<OPTION value="1116">42</OPTION><br/>
+<OPTION value="1117">42</OPTION><br/>
+<OPTION value="323">2</OPTION><br/>
+<OPTION value="324">2</OPTION><br/>
+<OPTION value="326">2</OPTION><br/>
+<OPTION value="327">2</OPTION><br/>
+<OPTION value="328">2</OPTION><br/>
+<OPTION value="47">2</OPTION><br/>
+<OPTION value="76">2</OPTION><br/>
+<OPTION value="83">2</OPTION><br/>
+<OPTION value="1066">66</OPTION><br/>
+<OPTION value="920">1</OPTION><br/>
+<OPTION value="921">1</OPTION><br/>
+<OPTION value="922">1</OPTION><br/>
+<OPTION value="923">1</OPTION><br/>
+<OPTION value="924">1</OPTION><br/>
+<OPTION value="925">1</OPTION><br/>
+<OPTION value="926">1</OPTION><br/>
+<OPTION value="927">1</OPTION><br/>
+<OPTION value="2629">16</OPTION><br/>
+<OPTION value="2625">8</OPTION><br/>
+<OPTION value="2626">30</OPTION><br/>
+<OPTION value="2627">5</OPTION><br/>
+<OPTION value="2631">50</OPTION><br/>
+<OPTION value="2632">17</OPTION><br/>
+<OPTION value="2634">5</OPTION><br/>
+<OPTION value="2574">29</OPTION><br/>
+<OPTION value="2636">56</OPTION><br/>
+<OPTION value="2638">43</OPTION><br/>
+<OPTION value="2642">67</OPTION><br/>
+<OPTION value="2581">29</OPTION><br/>
+<OPTION value="2583">45</OPTION><br/>
+<OPTION value="2584">45</OPTION><br/>
+<OPTION value="2585">45</OPTION><br/>
+<OPTION value="2586">45</OPTION><br/>
+<OPTION value="2587">45</OPTION><br/>
+<OPTION value="2588">45</OPTION><br/>
+<OPTION value="2589">45</OPTION><br/>
+<OPTION value="2590">45</OPTION><br/>
+<OPTION value="2591">45</OPTION><br/>
+<OPTION value="2525">21</OPTION><br/>
+<OPTION value="2527">30</OPTION><br/>
+<OPTION value="2528">30</OPTION><br/>
+<OPTION value="2529">30</OPTION><br/>
+<OPTION value="2530">30</OPTION><br/>
+<OPTION value="2592">45</OPTION><br/>
+<OPTION value="2593">45</OPTION><br/>
+<OPTION value="2594">45</OPTION><br/>
+<OPTION value="2595">45</OPTION><br/>
+<OPTION value="2605">9</OPTION><br/>
+<OPTION value="2606">9</OPTION><br/>
+<OPTION value="2613">36</OPTION><br/>
+<OPTION value="2614">41</OPTION><br/>
+<OPTION value="2596">58</OPTION><br/>
+<OPTION value="2597">58</OPTION><br/>
+<OPTION value="2598">58</OPTION><br/>
+<OPTION value="2599">58</OPTION><br/>
+<OPTION value="2600">58</OPTION><br/>
+<OPTION value="2601">58</OPTION><br/>
+<OPTION value="2602">58</OPTION><br/>
+<OPTION value="2603">58</OPTION><br/>
+<OPTION value="2604">58</OPTION><br/>
+<OPTION value="186">35</OPTION><br/>
+<OPTION value="187">35</OPTION><br/>
+<OPTION value="188">35</OPTION><br/>
+<OPTION value="189">35</OPTION><br/>
+<OPTION value="190">35</OPTION><br/>
+<OPTION value="191">35</OPTION><br/>
+<OPTION value="192">35</OPTION><br/>
+<OPTION value="194">10</OPTION><br/>
+<OPTION value="195">10</OPTION><br/>
+<OPTION value="196">10</OPTION><br/>
+<OPTION value="197">10</OPTION><br/>
+<OPTION value="198">10</OPTION><br/>
+<OPTION value="199">10</OPTION><br/>
+<OPTION value="200">6</OPTION><br/>
+<OPTION value="201">6</OPTION><br/>
+<OPTION value="202">6</OPTION><br/>
+<OPTION value="203">6</OPTION><br/>
+<OPTION value="204">6</OPTION><br/>
+<OPTION value="205">6</OPTION><br/>
+<OPTION value="206">6</OPTION><br/>
+<OPTION value="207">6</OPTION><br/>
+<OPTION value="208">6</OPTION><br/>
+<OPTION value="209">19</OPTION><br/>
+<OPTION value="210">19</OPTION><br/>
+<OPTION value="211">19</OPTION><br/>
+<OPTION value="212">19</OPTION><br/>
+<OPTION value="213">19</OPTION><br/>
+<OPTION value="214">19</OPTION><br/>
+<OPTION value="215">19</OPTION><br/>
+<OPTION value="216">19</OPTION><br/>
+<OPTION value="217">19</OPTION><br/>
+<OPTION value="218">19</OPTION><br/>
+<OPTION value="219">19</OPTION><br/>
+<OPTION value="220">19</OPTION><br/>
+<OPTION value="221">19</OPTION><br/>
+<OPTION value="222">19</OPTION><br/>
+<OPTION value="964">53</OPTION><br/>
+<OPTION value="965">53</OPTION><br/>
+<OPTION value="966">53</OPTION><br/>
+<OPTION value="967">53</OPTION><br/>
+<OPTION value="968">53</OPTION><br/>
+<OPTION value="969">53</OPTION><br/>
+<OPTION value="970">53</OPTION><br/>
+<OPTION value="971">53</OPTION><br/>
+<OPTION value="246">54</OPTION><br/>
+<OPTION value="247">7</OPTION><br/>
+<OPTION value="248">7</OPTION><br/>
+<OPTION value="249">7</OPTION><br/>
+<OPTION value="250">7</OPTION><br/>
+<OPTION value="251">7</OPTION><br/>
+<OPTION value="252">7</OPTION><br/>
+<OPTION value="253">7</OPTION><br/>
+<OPTION value="260">8</OPTION><br/>
+<OPTION value="261">50</OPTION><br/>
+<OPTION value="262">50</OPTION><br/>
+<OPTION value="263">50</OPTION><br/>
+<OPTION value="264">50</OPTION><br/>
+<OPTION value="265">50</OPTION><br/>
+<OPTION value="266">50</OPTION><br/>
+<OPTION value="876">23</OPTION><br/>
+<OPTION value="884">31</OPTION><br/>
+<OPTION value="874">23</OPTION><br/>
+<OPTION value="875">23</OPTION><br/>
+<OPTION value="878">23</OPTION><br/>
+<OPTION value="879">23</OPTION><br/>
+<OPTION value="880">23</OPTION><br/>
+<OPTION value="881">23</OPTION><br/>
+<OPTION value="267">50</OPTION><br/>
+<OPTION value="268">36</OPTION><br/>
+<OPTION value="269">36</OPTION><br/>
+<OPTION value="270">36</OPTION><br/>
+<OPTION value="271">36</OPTION><br/>
+<OPTION value="272">36</OPTION><br/>
+<OPTION value="273">36</OPTION><br/>
+<OPTION value="274">36</OPTION><br/>
+<OPTION value="275">36</OPTION><br/>
+<OPTION value="276">36</OPTION><br/>
+<OPTION value="277">36</OPTION><br/>
+<OPTION value="278">13</OPTION><br/>
+<OPTION value="280">13</OPTION><br/>
+<OPTION value="281">9</OPTION><br/>
+<OPTION value="282">9</OPTION><br/>
+<OPTION value="284">9</OPTION><br/>
+<OPTION value="285">47</OPTION><br/>
+<OPTION value="286">47</OPTION><br/>
+<OPTION value="287">47</OPTION><br/>
+<OPTION value="288">47</OPTION><br/>
+<OPTION value="289">47</OPTION><br/>
+<OPTION value="290">47</OPTION><br/>
+<OPTION value="291">47</OPTION><br/>
+<OPTION value="292">47</OPTION><br/>
+<OPTION value="293">55</OPTION><br/>
+<OPTION value="294">55</OPTION><br/>
+<OPTION value="295">55</OPTION><br/>
+<OPTION value="296">55</OPTION><br/>
+<OPTION value="297">55</OPTION><br/>
+<OPTION value="298">55</OPTION><br/>
+<OPTION value="299">55</OPTION><br/>
+<OPTION value="300">18</OPTION><br/>
+<OPTION value="301">18</OPTION><br/>
+<OPTION value="807">10</OPTION><br/>
+<OPTION value="804">11</OPTION><br/>
+<OPTION value="842">41</OPTION><br/>
+<OPTION value="831">59</OPTION><br/>
+<OPTION value="824">46</OPTION><br/>
+<OPTION value="841">41</OPTION><br/>
+<OPTION value="843">41</OPTION><br/>
+<OPTION value="844">41</OPTION><br/>
+<OPTION value="845">41</OPTION><br/>
+<OPTION value="846">41</OPTION><br/>
+<OPTION value="847">41</OPTION><br/>
+<OPTION value="1154">38</OPTION><br/>
+<OPTION value="871">23</OPTION><br/>
+<OPTION value="872">23</OPTION><br/>
+<OPTION value="32">36</OPTION><br/>
+<OPTION value="891">21</OPTION><br/>
+<OPTION value="910">1</OPTION><br/>
+<OPTION value="896">60</OPTION><br/>
+<OPTION value="897">9</OPTION><br/>
+<OPTION value="912">15</OPTION><br/>
+<OPTION value="911">1</OPTION><br/>
+<OPTION value="913">15</OPTION><br/>
+<OPTION value="914">15</OPTION><br/>
+<OPTION value="915">15</OPTION><br/>
+<OPTION value="916">15</OPTION><br/>
+<OPTION value="917">15</OPTION><br/>
+<OPTION value="918">15</OPTION><br/>
+<OPTION value="902">57</OPTION><br/>
+<OPTION value="903">57</OPTION><br/>
+<OPTION value="904">57</OPTION><br/>
+<OPTION value="905">57</OPTION><br/>
+<OPTION value="906">57</OPTION><br/>
+<OPTION value="2655">32</OPTION><br/>
+<OPTION value="2675">16</OPTION><br/>
+<OPTION value="2663">21</OPTION><br/>
+<OPTION value="2669">9</OPTION><br/>
+<OPTION value="2679">16</OPTION><br/>
+<OPTION value="2680">8</OPTION><br/>
+<OPTION value="2699">26</OPTION><br/>
+<OPTION value="2700">28</OPTION><br/>
+<OPTION value="2650">68</OPTION><br/>
+<OPTION value="2676">16</OPTION><br/>
+<OPTION value="2658">38</OPTION><br/>
+<OPTION value="2678">16</OPTION><br/>
+<OPTION value="2649">38</OPTION><br/>
+<OPTION value="2701">28</OPTION><br/>
+<OPTION value="2668">61</OPTION><br/>
+<OPTION value="2670">55</OPTION><br/>
+<OPTION value="2645">28</OPTION><br/>
+<OPTION value="2661">8</OPTION><br/>
+<OPTION value="2667">54</OPTION><br/>
+<OPTION value="2698">26</OPTION><br/>
+<OPTION value="2644">54</OPTION><br/>
+<OPTION value="615">40</OPTION><br/>
+<OPTION value="2648">36</OPTION><br/>
+<OPTION value="2660">8</OPTION><br/>
+<OPTION value="2666">31</OPTION><br/>
+<OPTION value="2671">67</OPTION><br/>
+<OPTION value="2672">23</OPTION><br/>
+<OPTION value="2674">26</OPTION><br/>
+<OPTION value="616">40</OPTION><br/>
+<OPTION value="617">40</OPTION><br/>
+<OPTION value="618">40</OPTION><br/>
+<OPTION value="620">40</OPTION><br/>
+<OPTION value="2647">40</OPTION><br/>
+<OPTION value="2646">40</OPTION><br/>
+<OPTION value="2687">26</OPTION><br/>
+<OPTION value="2697">26</OPTION><br/>
+<OPTION value="2673">21</OPTION><br/>
+<OPTION value="2665">8</OPTION><br/>
+<OPTION value="2677">16</OPTION><br/>
+<OPTION value="2681">31</OPTION><br/>
+<OPTION value="2659">49</OPTION><br/>
+<OPTION value="2662">21</OPTION><br/>
+</select></td><td class="labelf"><INPUT type="checkbox" id="chk_Edit" name="1inqeQNXX" size="12" onclick="ChangeEdit()" checked><font face="Arial" size="1">Cho phép s&#7917;a</font></td></tr></table></TD></TR><TR><TD width="50%" height="22" colspan="4" align=center><INPUT id="cmdOK" style="width:100" class="button" onclick="cmdOK_click()" type="button" value="Ch&#7845;p nh&#7853;n" name="Igtikr7"><INPUT id="cmdKT" style="width:100" class="button" onclick="cmdKT_click()" type="button" value="K&#7871;t thúc" name="Igtikr"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><script language =javascript >
+/*
+'*****************************************************************************
+'Thu vien : quan ly viec cac ham de cap nhat dia chi
+'*****************************************************************************
+'Phien ban : 1.0.0
+'Ngay bat dau : 2006/11/17
+'Ngay cap nhat cuoi cung: 2006/11/17
+'Nguoi phat trien : Ha Thai Bao
+'Don vi : Cong ty co phan NEO
+'*****************************************************************************
+'Chuc nang:
+-goi dien cac thu vien: error,validate,keypress,myajax,controlstatus
+-khi goi vao caller se phai truen len cac tham so sau:
+var pQuan_id =""; //gia tri quan hien tai (ko bat buoc)
+var pPhuong_id =""; //gia tri phuong hien tai (ko bat buoc)
+var pPho_id =""; //gia tri pho hoen tai (ko bat buoc)
+var pSo_nha =""; //so nha hien tai (ko bat buoc)
+var pDiachi =""; //dia chi hien tai (ko bat buoc)
+var pQuan_id_name ="quanct_id"; //ten ID cua doi tuong de nhan gia tri tra lai (bat buoc phai co)
+var pPhuong_id_name ="phuongct_id"; //ten ID cua doi tuong de nhan gia tri tra lai (bat buoc phai co)
+var pPho_id_name ="phoct_id"; //ten ID cua doi tuong de nhan gia tri tra lai (bat buoc phai co)
+var pSo_nha_name ="sonhact_id"; //ten ID cua doi tuong de nhan gia tri tra lai (bat buoc phai co)
+var pDiachi_name ="diachi_ct"; //ten ID cua doi tuong de nhan gia tri tra lai (bat buoc phai co)
+function form_load() : duoc goi tren su kien onload cua the body
+function cmdOK_click() : goi den va truyen tra lia cac gia tri cho caller
+function cmdKT_click()
+function set_phuong_selected_index(): lay gia tri hien thi cho phuong theo gia tri cu tu caller truyen len
+function set_pho_selected_index() : lay gia tri hien thi cho pho theo gia tri cu tu caller truyen len
+function focus_obj(v_obj) :
+function showWindowSize() : hien thi kich thuoc cua so
+----khoi tao ajax----
+function load_phuong(obj)
+function load_pho(obj)
+----ajax callback, cap nhat theo su kien
+function capnhat_diachi(quan_id,phuong_id,pho_id,sonha_id,diachi_id)
+-----goi den cac form khac ---
+----validate----------
+1. check_varchar_format(obj) : kiem tra gia tri nhap vao co theo kieu so may ko (hien tai goi den ham check_number_format())
+'*****************************************************************************
+'Lich su thay doi: (ngay sua doi/nguoi sua doi/noi dung sua doi)
+'-2006/11/17, baoht: phat trien phien ban dau
+'*****************************************************************************
+*/
+var val_obj= new Array(); //mang quan ly viec validate cdu lieu nhap vao
+var status_obj= new Array(); //mang quan ly status cua cac control tren form
+var key_obj = new Array(); //mang quan ly viec xu ly phim nong
+//luu cac tham so truyen len, de hien thi cho dung
+var pQuan_id ="";
+var pPhuong_id ="";
+var pPho_id ="";
+var pSo_nha ="";
+var pDiachi ="";
+var pQuan_id_name ="quanct_id";
+var pPhuong_id_name ="phuongct_id";
+var pPho_id_name ="phoct_id";
+var pSo_nha_name ="sonhact_id";
+var pDiachi_name ="diachi_ct";
+var pDiachi_tt_name ="";
+var firstLoad = true;
+function form_load(){
+check_quyen_admin();
+var i=0;
+val_obj[i++] = new validateObj('sonha','So nha','varchar','',0,0,0,200,true,'check_varchar_format','','','focus_obj','');
+val_obj[i++] = new validateObj('diachi','Dia chi','varchar','',0,0,0,300,true,'check_varchar_format','','','focus_obj','');
+//$('sonha').value=pSo_nha;
+$('sonha').value=Url.decode_1252(pSo_nha);
+set_tinh_selected_index()
+$("chk_Edit").checked =false;
+$("diachi").readOnly= true;
+}
+function check_quyen_admin()
+{
+var exeScript = "neo.common.check_quyen_admin('bhlt_bnh')";
+NEORemoting.getValue(exeScript,reply_check_quyen);
+}
+var reply_check_quyen=function(data)
+{
+if(data=="0")
+{
+$("chk_Edit").checked=false;
+//$("chk_Edit").disabled=true;
+}
+else {
+$("chk_Edit").disabled=false;
+}
+}
+function ChangeEdit(){
+chk=$("chk_Edit");
+if (chk.checked) {
+$("diachi").readOnly= false;
+}else {
+$("diachi").readOnly= true;
+}
+}
+function cmdOK_click(){
+if (!validate_before_submit()) {
+return;
+}
+var quan= window.opener.$(pQuan_id_name);
+var phuong= window.opener.$(pPhuong_id_name);
+var pho= window.opener.$(pPho_id_name);
+var sonha= window.opener.$(pSo_nha_name);
+var diachi= window.opener.$(pDiachi_name);
+var diachi_tt = window.opener.$(pDiachi_tt_name);
+if(quan!=null) quan.value =$("quan").value;
+/* Cap nhat dia chi lap hop dong ngay 24/11/2008 */
+if(phuong!=null)
+{ phuong.value =$("phuong").value;
+if(phuong.value=='')
+{ phuong.value=0;}
+}
+if(pho!=null)
+{ pho.value =$("pho").value;
+if( pho.value=='')
+{ pho.value=0}
+}
+//if(phuong!=null) phuong.value =$("phuong").value;
+//if(pho!=null) pho.value =$("pho").value;
+if(sonha!=null) sonha.value =$("sonha").value;
+if(diachi!=null) diachi.value =$("diachi").value;
+if(diachi_tt!=null) diachi_tt.value =$("diachi").value;
+if(quan==null||quan.value=='0'||phuong==null||phuong.value=='0'){
+alert('Yeu cau chon Quan/Huyen va Phuong');
+}else{
+window.self.close();
+}
+}
+function cmdKT_click(){
+//showWindowSize();
+window.self.close();
+}
+function set_tinh_selected_index(){
+if((pQuan_id.length<=0)){ //khong co gia tri tu caller truyen sang
+loadQuan($("cboTinh"));
+$("quan").focus();
+return;
+}
+var obj = $('cboTmp');
+if (obj==null) return;
+var tmp;
+for(var i=0;i<obj.length;i++) {
+if (obj.options[i].value ==pQuan_id) {
+tmp=obj.options[i].text;
+break;
+}
+}
+obj = $('cboTinh');
+for(var i=0;i<obj.length;i++) {
+if (obj.options[i].value ==tmp) {
+obj.options[i].selected =true;
+break;
+}
+}
+loadQuan($("cboTinh"));
+$("quan").focus();
+}
+function set_quan_selected_index(){
+if((pQuan_id.length<=0)){ //khong co gia tri tu caller truyen sang
+return;
+}
+var obj = $('quan');
+if (obj==null) return;
+for(var i=0;i<obj.length;i++) {
+if (obj.options[i].value ==pQuan_id) {
+obj.options[i].selected =true;
+break;
+}
+}
+}
+function set_phuong_selected_index(){
+if((pPhuong_id.length<=0)){ //khong co gia tri tu caller truyen sang
+return;
+}
+var obj = $('phuong');
+if (obj==null) return;
+for(var i=0;i<obj.length;i++) {
+if (obj.options[i].value ==pPhuong_id) {
+obj.options[i].selected =true;
+break;
+}
+}
+}
+function set_pho_selected_index(){
+if((pPho_id.length<=0)){ //khong co gia tri tu caller truyen sang
+return;
+}
+var obj = $('pho');
+if (obj==null) return;
+for(var i=0;i<obj.length;i++) {
+if (obj.options[i].value ==pPho_id) {
+obj.options[i].selected =true;
+break;
+}
+}
+}
+//Load quan theo tinh, thanh pho
+function loadQuan(obj){
+var psTinh=obj.options[obj.selectedIndex].value;
+var url = 'neo.common.getUrlQuan("'+psTinh+'")';
+DataRemoting.getDoc(url, cb_loadQuan);
+}
+var cb_loadQuan= function(data) {
+if(!isEmpty(data)) {
+$('ajaxQuan').innerHTML =
+"<SELECT id=quan onkeydown=\"ChangeFromTabToEnter()\" style='width:98%' class=textField onchange='load_phuong(this)' >"
++"<option value='0'>Không ch&#7885;n</option>"
++data
++"</SELECT>";
+} else {
+$('ajaxQuan').innerHTML =
+"<SELECT id=quan onkeydown=\"ChangeFromTabToEnter()\" style='width:98%' class=textField onchange='load_phuong(this)'>"
++"<option value='0'></option>"
++"</SELECT>";
+}
+set_quan_selected_index();
+load_phuong($('quan'));
+}
+//-----------load phuong theo quan-------------
+function load_phuong(obj){
+var qid=obj.options[obj.selectedIndex].value;
+var url = 'neo.common.getUrlPhuong("'+qid+'")';
+DataRemoting.getDoc(url, cb_load_phuong);
+}
+var cb_load_phuong= function(data) {
+if(!isEmpty(data)) {
+$('ajax_phuong').innerHTML =
+"<SELECT id=phuong onkeydown=\"ChangeFromTabToEnter()\" style='width:98%' class=textField onchange='load_pho(this)' >"
++"<option value='0'>Không ch&#7885;n</option>"
++data
++"</SELECT>";
+} else {
+$('ajax_phuong').innerHTML =
+"<SELECT id=phuong onkeydown=\"ChangeFromTabToEnter()\" style='width:98%' class=textField onchange='load_pho(this)'>"
++"<option value='0'>Không ch&#7885;n</option>"
++"</SELECT>";
+}
+set_phuong_selected_index();
+load_pho($('phuong'));
+}
+function load_pho(obj){
+var pid=obj.options[obj.selectedIndex].value;
+var url = 'neo.common.getUrlPho("'+pid+'")';
+DataRemoting.getDoc(url, cb_load_pho);
+}
+var cb_load_pho= function(data) {
+if(!isEmpty(data)) {
+$('ajax_pho').innerHTML =
+"<SELECT id=pho onkeydown=\"ChangeFromTabToEnter()\" style='width:98%' class=textField onchange=\"capnhat_diachi('quan','phuong','pho','sonha','diachi');\" >"
++data
++"</SELECT>";
+} else {
+$('ajax_pho').innerHTML =
+"<SELECT id=pho onkeydown=\"ChangeFromTabToEnter()\" style='width:98%' class=textField onchange=\"capnhat_diachi('quan','phuong','pho','sonha','diachi');\" >"
++"<option value='0'></option>"
++"</SELECT>";
+}
+set_pho_selected_index();
+capnhat_diachi('quan','phuong','pho','sonha','diachi');
+$("quan").focus();
+}
+//----------cap nhat du lieu theo cac su kien hoac callback cua ajax----
+function capnhat_diachi(quan_id,phuong_id,pho_id,sonha_id,diachi_id) {
+var sDiaChi="";
+if ((firstLoad) && (pDiachi.length>1)) {// lan dau tien==> lay theo gia tri truyen len
+sDiaChi =Url.decode_1252(pDiachi);
+firstLoad=false;
+} else {
+if (!isEmpty($(sonha_id).value)) sDiaChi+=$(sonha_id).value+" - ";
+if ((!isEmpty($(pho_id).value))&&($(pho_id).value!="0")&&(trimBoth($("pho").options[$("pho").selectedIndex].text)!="")) sDiaChi+=$(pho_id).options[$(pho_id).selectedIndex].text+" - ";
+if ((!isEmpty($(phuong_id).value))&&($(phuong_id).value!="0")) sDiaChi+=$(phuong_id).options[$(phuong_id).selectedIndex].text+" - ";
+if ((!isEmpty($(quan_id).value))&&($(quan_id).value!="0")) sDiaChi+=$(quan_id).options[$(quan_id).selectedIndex].text+" - ";
+if (!isEmpty($("cboTinh").value)) sDiaChi+=$("cboTinh").options[$("cboTinh").selectedIndex].text;
+}
+$(diachi_id).value=sDiaChi;
+}
+function focus_obj(v_obj) {
+$(v_obj.id).focus();
+}
+function isEmpty(str){
+if ((str=="") || (str.length==0)) return true;
+}
+function showWindowSize(){
+alert(document.body.clientWidth +','+document.body.clientHeight)
+}
+function ChangeFromTabToEnter()
+{
+if(event.keyCode== 13)
+event.keyCode = 9;
+}
+</script>
+
+<SCRIPT language=JavaScript src="myJS/myFunction.js" type=text/javascript> </script>
+<script type='text/javascript' src='/ccbs/dwr/interface/DataRemoting.js'></script>
+<script type='text/javascript' src='/ccbs/dwr/interface/NEORemoting.js'></script>
+<script type='text/javascript' src='/ccbs/dwr/engine.js'></script>
+<script type='text/javascript' src='/ccbs/dwr/util.js'></script>
+<SCRIPT type='text/javascript'>
+function dwrGetValue(data) {
+if (data != null && typeof data == 'object') return DWRUtil.toDescriptiveString(data, 2);
+else return DWRUtil.toDescriptiveString(data, 1);
+}
+function dwrGetRecValueByFieldName(rec, fname)
+{
+for (var item in rec) {
+if (item.toLowerCase() == fname.toLowerCase())
+{
+return Url.decode_1252(rec[item]);
+}
+}
+return "";
+}
+</SCRIPT>
+
+</BODY></HTML><HEAD><TITLE>Ch&#7885;n &#273;&#7883;a ch&#7881;</TITLE><script type="text/javascript" src="myJS/error.js"></script><script type="text/javascript" src="myJS/controlstatus.js"></script><script type="text/javascript" src="myJS/keypress.js"></script><script type="text/javascript" src="myJS/validate.js"></script><SCRIPT language=JavaScript src="myJS/myFunction.js" type=text/javascript></script><script type="text/javascript" src="zoho/javascript/general.js"></script><SCRIPT language=JavaScript src="zoho/neo-zoho.js" type=text/javascript></SCRIPT><LINK href="zoho/css/elegant.css" type=text/css rel=stylesheet><META http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<META content="MSHTML 6.00.2900.2802">
+</HEAD><BODY onload="form_load()"><TABLE cellSpacing=0 cellPadding=0 width="98%" height=100% border=0 align=center><TBODY><TR><TD align=center valign=center><TABLE cellSpacing=0 cellPadding=0 width="100%"><TBODY><TR><TD class=secHead >Thông tin &#273;&#7883;a ch&#7881;</TD></TR></TBODY></TABLE><TABLE class=secContent cellSpacing=1 cellPadding=0
+ width="100%" border=0><TBODY><TR><TD class=label width="15%">Qu&#7889;c gia :</TD><TD class=element width="35%"><select name="3ihuIu{tzx37" id="cboCountry" style="width:98%" class="textField" onkeydown="ChangeFromTabToEnter()" disabled>
+<OPTION value="null">Vi&#7879;t Nam </option></select></TD><TD class=label width="15%">T&#7881;nh/TP :</TD><TD class=element width="35%" ><select name="3ihuZotn37" id="cboTinh" style="width:98%" class="textField" onchange="loadQuan(this)" onkeydown="ChangeFromTabToEnter()" cache-mode="SYSTEM">
+<OPTION value="1">An Giang</OPTION><br/>
+<OPTION value="2">B&#224; R&#7883;a - V&#361;ng T&#224;u</OPTION><br/>
+<OPTION value="8">B&#236;nh D&#432;&#417;ng</OPTION><br/>
+<OPTION value="9">B&#236;nh Ph&#432;&#7899;c</OPTION><br/>
+<OPTION value="10">B&#236;nh Thu&#7853;n</OPTION><br/>
+<OPTION value="6">B&#236;nh &#272;&#7883;nh</OPTION><br/>
+<OPTION value="11">B&#7841;c Li&#234;u</OPTION><br/>
+<OPTION value="4">B&#7855;c C&#7841;n</OPTION><br/>
+<OPTION value="3">B&#7855;c Giang</OPTION><br/>
+<OPTION value="5" selected>B&#7855;c Ninh</OPTION><br/>
+<OPTION value="7">B&#7871;n Tre</OPTION><br/>
+<OPTION value="12">Cao B&#7857;ng</OPTION><br/>
+<OPTION value="14">C&#224; Mau</OPTION><br/>
+<OPTION value="13">C&#7847;n Th&#417;</OPTION><br/>
+<OPTION value="19">Gia Lai</OPTION><br/>
+<OPTION value="20">H&#224; Giang</OPTION><br/>
+<OPTION value="25">H&#224; Nam</OPTION><br/>
+<OPTION value="21">H&#224; N&#7897;i</OPTION><br/>
+<OPTION value="23">H&#224; T&#297;nh</OPTION><br/>
+<OPTION value="65">H&#242;a B&#236;nh</OPTION><br/>
+<OPTION value="24">H&#432;ng Y&#234;n</OPTION><br/>
+<OPTION value="27">H&#7843;i D&#432;&#417;ng</OPTION><br/>
+<OPTION value="26">H&#7843;i Ph&#242;ng</OPTION><br/>
+<OPTION value="67">H&#7853;u Giang</OPTION><br/>
+<OPTION value="69">Itelecom</OPTION><br/>
+<OPTION value="29">Kh&#225;nh Ho&#224;</OPTION><br/>
+<OPTION value="30">Ki&#234;n Giang</OPTION><br/>
+<OPTION value="31">Kon Tum</OPTION><br/>
+<OPTION value="32">Lai Ch&#226;u</OPTION><br/>
+<OPTION value="36">Long An</OPTION><br/>
+<OPTION value="34">L&#224;o Cai</OPTION><br/>
+<OPTION value="35">L&#226;m &#272;&#7891;ng</OPTION><br/>
+<OPTION value="33">L&#7841;ng S&#417;n</OPTION><br/>
+<OPTION value="37">Nam &#272;&#7883;nh</OPTION><br/>
+<OPTION value="38">Ngh&#7879; An</OPTION><br/>
+<OPTION value="39">Ninh B&#236;nh</OPTION><br/>
+<OPTION value="40">Ninh Thu&#7853;n</OPTION><br/>
+<OPTION value="59">Ph&#250; Th&#7885;</OPTION><br/>
+<OPTION value="41">Ph&#250; Y&#234;n</OPTION><br/>
+<OPTION value="42">Qu&#7843;ng B&#236;nh</OPTION><br/>
+<OPTION value="43">Qu&#7843;ng Nam</OPTION><br/>
+<OPTION value="44">Qu&#7843;ng Ng&#227;i</OPTION><br/>
+<OPTION value="45">Qu&#7843;ng Ninh</OPTION><br/>
+<OPTION value="46">Qu&#7843;ng Tr&#7883;</OPTION><br/>
+<OPTION value="47">S&#243;c Tr&#259;ng</OPTION><br/>
+<OPTION value="49">S&#417;n La</OPTION><br/>
+<OPTION value="28">TP H&#7891; Ch&#237; Minh</OPTION><br/>
+<OPTION value="52">Thanh Ho&#225;</OPTION><br/>
+<OPTION value="51">Th&#225;i B&#236;nh</OPTION><br/>
+<OPTION value="61">Th&#225;i Nguy&#234;n</OPTION><br/>
+<OPTION value="53">Th&#7915;a Thi&#234;n Hu&#7871;</OPTION><br/>
+<OPTION value="54">Ti&#7873;n Giang</OPTION><br/>
+<OPTION value="55">Tr&#224; Vinh</OPTION><br/>
+<OPTION value="56">Tuy&#234;n Quang</OPTION><br/>
+<OPTION value="50">T&#226;y Ninh</OPTION><br/>
+<OPTION value="57">V&#297;nh Long</OPTION><br/>
+<OPTION value="58">V&#297;nh Ph&#250;c</OPTION><br/>
+<OPTION value="60">Y&#234;n B&#225;i</OPTION><br/>
+<OPTION value="68">&#272;i&#7879;n Bi&#234;n</OPTION><br/>
+<OPTION value="15">&#272;&#224; N&#7861;ng</OPTION><br/>
+<OPTION value="66">&#272;&#7855;c N&#244;ng</OPTION><br/>
+<OPTION value="16">&#272;&#7855;k L&#7855;k</OPTION><br/>
+<OPTION value="17">&#272;&#7891;ng Nai</OPTION><br/>
+<OPTION value="18">&#272;&#7891;ng Th&#225;p</OPTION><br/>
+</select></TD></TR><TR><TD class=label width="15%">Qu&#7853;n/Huy&#7879;n :</TD><TD class=element width="35%" id="ajaxQuan"><select name="3W[GTeOJ37" id="quan" style="width:98%" class="textField" onchange="loadPhuong($('quan').value)" onkeydown="ChangeFromTabToEnter()" cache-mode="AGENT">
+<OPTION value="26">TP Thu&#7853;n An</OPTION><br/>
+<OPTION value="27">TP S&#243;c Tr&#259;ng</OPTION><br/>
+<OPTION value="28">Huy&#7879;n Long Th&#224;nh</OPTION><br/>
+<OPTION value="30">Th&#224;nh ph&#7889; Bi&#234;n H&#242;a</OPTION><br/>
+<OPTION value="31">Huy&#7879;n Nh&#417;n Tr&#7841;ch</OPTION><br/>
+<OPTION value="32">B&#7871;n L&#7913;c</OPTION><br/>
+<OPTION value="34">Huy&#7879;n V&#297;nh C&#7917;u</OPTION><br/>
+<OPTION value="39">Ch&#226;u Th&#224;nh</OPTION><br/>
+<OPTION value="45">Tp. &#272;&#224; L&#7841;t</OPTION><br/>
+<OPTION value="46">Th&#224;nh ph&#7889; Phan Thi&#7871;t</OPTION><br/>
+<OPTION value="47">Th&#224;nh ph&#7889; B&#224; R&#7883;a</OPTION><br/>
+<OPTION value="48">Ninh Ki&#7873;u</OPTION><br/>
+<OPTION value="49">TP Th&#7911; D&#7847;u M&#7897;t</OPTION><br/>
+<OPTION value="52">TP. M&#7929; Tho</OPTION><br/>
+<OPTION value="53">Huy&#7879;n Di Linh</OPTION><br/>
+<OPTION value="56">TP T&#226;n An</OPTION><br/>
+<OPTION value="58">Huy&#7879;n &#272;&#7883;nh Qu&#225;n</OPTION><br/>
+<OPTION value="59">TP B&#7843;o L&#7897;c</OPTION><br/>
+<OPTION value="62">Ph&#249; M&#7929;</OPTION><br/>
+<OPTION value="63">Cao L&#227;nh</OPTION><br/>
+<OPTION value="65">Qu&#7853;n Th&#7889;t N&#7889;t</OPTION><br/>
+<OPTION value="67">Th&#7883; x&#227; B&#7871;n C&#225;t</OPTION><br/>
+<OPTION value="69">Huy&#7879;n Th&#7889;ng Nh&#7845;t</OPTION><br/>
+<OPTION value="71">Tx B&#236;nh Long</OPTION><br/>
+<OPTION value="73">C&#225;i B&#232;</OPTION><br/>
+<OPTION value="75">Huy&#7879;n &#272;&#7913;c Linh</OPTION><br/>
+<OPTION value="76">Th&#7883; x&#227; Ph&#250; M&#7929;</OPTION><br/>
+<OPTION value="79">Huy&#7879;n L&#7897;c Ninh</OPTION><br/>
+<OPTION value="81">Huy&#7879;n Tr&#7843;ng Bom</OPTION><br/>
+<OPTION value="82">Th&#7883; x&#227; Gi&#225; Rai</OPTION><br/>
+<OPTION value="83">Th&#224;nh ph&#7889; V&#361;ng T&#224;u</OPTION><br/>
+<OPTION value="84">Hai B&#224; Tr&#432;ng</OPTION><br/>
+<OPTION value="85">Ho&#224;n Ki&#7871;m</OPTION><br/>
+<OPTION value="86">T&#7881;nh kh&#225;c</OPTION><br/>
+<OPTION value="89">Huy&#7879;n &#272;&#7913;c Tr&#7885;ng</OPTION><br/>
+<OPTION value="90">Huy&#7879;n B&#7843;o L&#226;m</OPTION><br/>
+<OPTION value="91">Huy&#7879;n H&#224;m Thu&#7853;n Nam</OPTION><br/>
+<OPTION value="92">Th&#224;nh ph&#7889; &#272;&#7891;ng Xo&#224;i</OPTION><br/>
+<OPTION value="94">&#272;oan H&#249;ng</OPTION><br/>
+<OPTION value="95">T.ph&#7889; Quy Nh&#417;n</OPTION><br/>
+<OPTION value="96">Huy&#7879;n Ph&#250; Gi&#225;o</OPTION><br/>
+<OPTION value="101">Th&#224;nh ph&#7889; T&#226;y Ninh</OPTION><br/>
+<OPTION value="103">C&#7847;n Giu&#7897;c</OPTION><br/>
+<OPTION value="106">Huy&#7879;n Xu&#226;n L&#7897;c</OPTION><br/>
+<OPTION value="109">TP Sa &#272;&#233;c</OPTION><br/>
+<OPTION value="110">TP H&#242;a B&#236;nh</OPTION><br/>
+<OPTION value="111">Th&#224;nh ph&#7889; Long Kh&#225;nh</OPTION><br/>
+<OPTION value="112">&#272;&#7913;c H&#242;a</OPTION><br/>
+<OPTION value="113">Th&#7883; X&#227; Tr&#7843;ng B&#224;ng</OPTION><br/>
+<OPTION value="115">C&#7847;u Ngang</OPTION><br/>
+<OPTION value="116">Th&#224;nh Ph&#7889; Pleiku</OPTION><br/>
+<OPTION value="117">Ba &#272;&#236;nh</OPTION><br/>
+<OPTION value="118">Tx Ch&#417;n Th&#224;nh</OPTION><br/>
+<OPTION value="120">&#272;&#244;ng Anh</OPTION><br/>
+<OPTION value="122">TP B&#7841;c Li&#234;u</OPTION><br/>
+<OPTION value="123">Thanh Xu&#226;n</OPTION><br/>
+<OPTION value="124">Ho&#224;ng Mai</OPTION><br/>
+<OPTION value="125">C&#7847;u Gi&#7845;y</OPTION><br/>
+<OPTION value="126">T&#226;y H&#7891;</OPTION><br/>
+<OPTION value="127">Long Bi&#234;n</OPTION><br/>
+<OPTION value="128">T&#7915; Li&#234;m</OPTION><br/>
+<OPTION value="129">Gia L&#226;m</OPTION><br/>
+<OPTION value="130">Thanh Tr&#236;</OPTION><br/>
+<OPTION value="131">S&#243;c S&#417;n</OPTION><br/>
+<OPTION value="132">H&#7841; H&#242;a</OPTION><br/>
+<OPTION value="133">L&#226;m Thao</OPTION><br/>
+<OPTION value="134">Ph&#249; Ninh</OPTION><br/>
+<OPTION value="135">C&#7849;m Kh&#234;</OPTION><br/>
+<OPTION value="136">Tam N&#244;ng</OPTION><br/>
+<OPTION value="137">Thanh Ba</OPTION><br/>
+<OPTION value="138">Thanh S&#417;n</OPTION><br/>
+<OPTION value="139">Thanh Th&#7911;y</OPTION><br/>
+<OPTION value="140">Y&#234;n L&#7853;p</OPTION><br/>
+<OPTION value="141">TP.Vi&#7879;t Tr&#236;</OPTION><br/>
+<OPTION value="142">Tx.Ph&#250; Th&#7885;</OPTION><br/>
+<OPTION value="143">L&#432;&#417;ng S&#417;n</OPTION><br/>
+<OPTION value="144">T&#226;n L&#7841;c</OPTION><br/>
+<OPTION value="145">Kim B&#244;i</OPTION><br/>
+<OPTION value="147">Mai Ch&#226;u</OPTION><br/>
+<OPTION value="148">L&#7841;c Th&#7911;y</OPTION><br/>
+<OPTION value="149">Y&#234;n Th&#7911;y</OPTION><br/>
+<OPTION value="150">L&#7841;c S&#417;n</OPTION><br/>
+<OPTION value="151">&#272;&#224; B&#7855;c</OPTION><br/>
+<OPTION value="152">Cao Phong</OPTION><br/>
+<OPTION value="153">Huy&#7879;n M&#232;o V&#7841;c</OPTION><br/>
+<OPTION value="154">Huy&#7879;n &#272;&#7891;ng V&#259;n</OPTION><br/>
+<OPTION value="155">Huy&#7879;n Y&#234;n Minh</OPTION><br/>
+<OPTION value="156">Huy&#7879;n Qu&#7843;n B&#7841;</OPTION><br/>
+<OPTION value="157">Th&#224;nh ph&#7889; H&#224; Giang</OPTION><br/>
+<OPTION value="158">Huy&#7879;n B&#7855;c M&#234;</OPTION><br/>
+<OPTION value="159">Huy&#7879;n V&#7883; Xuy&#234;n</OPTION><br/>
+<OPTION value="160">Huy&#7879;n B&#7855;c Quang</OPTION><br/>
+<OPTION value="161">Huy&#7879;n Quang B&#236;nh</OPTION><br/>
+<OPTION value="162">Huy&#7879;n Ho&#224;ng Su Ph&#236;</OPTION><br/>
+<OPTION value="163">Huy&#7879;n X&#237;n M&#7847;n</OPTION><br/>
+<OPTION value="186">Huy&#7879;n L&#7841;c D&#432;&#417;ng</OPTION><br/>
+<OPTION value="187">Huy&#7879;n &#272;&#417;n D&#432;&#417;ng</OPTION><br/>
+<OPTION value="188">Huy&#7879;n L&#226;m H&#224;</OPTION><br/>
+<OPTION value="189">Huy&#7879;n &#272;&#7841; Huoai</OPTION><br/>
+<OPTION value="190">Huy&#7879;n C&#225;t Ti&#234;n</OPTION><br/>
+<OPTION value="191">Huy&#7879;n &#272;&#7841; T&#7867;h</OPTION><br/>
+<OPTION value="192">Huy&#7879;n &#272;am R&#244;ng</OPTION><br/>
+<OPTION value="194">Huy&#7879;n Tuy Phong</OPTION><br/>
+<OPTION value="195">Huy&#7879;n B&#7855;c B&#236;nh</OPTION><br/>
+<OPTION value="196">Huy&#7879;n H&#224;m Thu&#7853;n B&#7855;c</OPTION><br/>
+<OPTION value="197">Huy&#7879;n H&#224;m T&#226;n</OPTION><br/>
+<OPTION value="198">Huy&#7879;n T&#225;nh Linh</OPTION><br/>
+<OPTION value="199">Huy&#7879;n Ph&#250; Qu&#253;</OPTION><br/>
+<OPTION value="200">Tuy Ph&#432;&#7899;c</OPTION><br/>
+<OPTION value="201">Th&#7883; x&#227; An Nh&#417;n</OPTION><br/>
+<OPTION value="202">Ph&#249; C&#225;t</OPTION><br/>
+<OPTION value="203">Th&#7883; x&#227; Ho&#224;i Nh&#417;n</OPTION><br/>
+<OPTION value="204">Ho&#224;i &#194;n</OPTION><br/>
+<OPTION value="205">An L&#227;o</OPTION><br/>
+<OPTION value="206">T&#226;y S&#417;n</OPTION><br/>
+<OPTION value="207">V&#226;n Canh</OPTION><br/>
+<OPTION value="208">V&#297;nh Th&#7841;nh</OPTION><br/>
+<OPTION value="209">Th&#7883; x&#227; An Kh&#234;</OPTION><br/>
+<OPTION value="210">Th&#7883; x&#227; Ayun Pa</OPTION><br/>
+<OPTION value="211">Huy&#7879;n Ch&#432; Pah</OPTION><br/>
+<OPTION value="212">Huy&#7879;n Ch&#432; S&#234;</OPTION><br/>
+<OPTION value="213">Huy&#7879;n Ch&#432; Pr&#244;ng</OPTION><br/>
+<OPTION value="214">Huy&#7879;n &#272;&#7913;c C&#417;</OPTION><br/>
+<OPTION value="215">Huy&#7879;n &#272;&#259;k &#272;oa</OPTION><br/>
+<OPTION value="216">Huy&#7879;n Mang Yang</OPTION><br/>
+<OPTION value="217">Huy&#7879;n Kr&#244;ng Pa</OPTION><br/>
+<OPTION value="218">Huy&#7879;n Kbang</OPTION><br/>
+<OPTION value="219">Huy&#7879;n K&#244;ng Chro</OPTION><br/>
+<OPTION value="220">Huy&#7879;n Ia Grai</OPTION><br/>
+<OPTION value="221">Huy&#7879;n Ia Pa</OPTION><br/>
+<OPTION value="222">Huy&#7879;n &#272;ak P&#417;</OPTION><br/>
+<OPTION value="241">Cai L&#7853;y</OPTION><br/>
+<OPTION value="242">Ch&#7907; G&#7841;o</OPTION><br/>
+<OPTION value="243">G&#242; C&#244;ng T&#226;y</OPTION><br/>
+<OPTION value="244">G&#242; C&#244;ng &#272;&#244;ng</OPTION><br/>
+<OPTION value="245">T&#226;n Ph&#432;&#7899;c</OPTION><br/>
+<OPTION value="246">T&#226;n Ph&#250; &#272;&#244;ng</OPTION><br/>
+<OPTION value="247">Th&#224;nh ph&#7889; B&#7871;n Tre</OPTION><br/>
+<OPTION value="248">Huy&#7879;n M&#7887; C&#224;y Nam</OPTION><br/>
+<OPTION value="249">Th&#7841;nh Ph&#250;</OPTION><br/>
+<OPTION value="250">Ch&#7907; L&#225;ch</OPTION><br/>
+<OPTION value="251">Gi&#7891;ng Tr&#244;m</OPTION><br/>
+<OPTION value="252">Ba Tri</OPTION><br/>
+<OPTION value="253">B&#236;nh &#272;&#7841;i</OPTION><br/>
+<OPTION value="260">Huy&#7879;n D&#7847;u Ti&#7871;ng</OPTION><br/>
+<OPTION value="261">Huy&#7879;n Ch&#226;u Th&#224;nh</OPTION><br/>
+<OPTION value="262">Th&#7883; X&#227; H&#242;a Th&#224;nh</OPTION><br/>
+<OPTION value="263">Huy&#7879;n D&#432;&#417;ng Minh Ch&#226;u</OPTION><br/>
+<OPTION value="264">Huy&#7879;n G&#242; D&#7847;u</OPTION><br/>
+<OPTION value="265">Huy&#7879;n B&#7871;n C&#7847;u</OPTION><br/>
+<OPTION value="266">Huy&#7879;n T&#226;n Bi&#234;n</OPTION><br/>
+<OPTION value="267">Huy&#7879;n T&#226;n Ch&#226;u</OPTION><br/>
+<OPTION value="268">C&#7847;n &#272;&#432;&#7899;c</OPTION><br/>
+<OPTION value="269">&#272;&#7913;c Hu&#7879;</OPTION><br/>
+<OPTION value="270">Th&#7911; Th&#7915;a</OPTION><br/>
+<OPTION value="271">T&#226;n Tr&#7909;</OPTION><br/>
+<OPTION value="272">Ch&#226;u Th&#224;nh</OPTION><br/>
+<OPTION value="273">T&#226;n Th&#7841;nh</OPTION><br/>
+<OPTION value="274">Th&#7841;nh Ho&#225;</OPTION><br/>
+<OPTION value="275">M&#7897;c Ho&#225;</OPTION><br/>
+<OPTION value="276">V&#297;nh H&#432;ng</OPTION><br/>
+<OPTION value="277">T&#226;n H&#432;ng</OPTION><br/>
+<OPTION value="278">C&#225;i R&#259;ng</OPTION><br/>
+<OPTION value="280">&#212; M&#244;n</OPTION><br/>
+<OPTION value="281">Huy&#7879;n &#272;&#7891;ng Ph&#250;</OPTION><br/>
+<OPTION value="282">Huy&#7879;n B&#249; &#272;&#259;ng</OPTION><br/>
+<OPTION value="284">Huy&#7879;n B&#249; &#272;&#7889;p</OPTION><br/>
+<OPTION value="285">Huy&#7879;n K&#7871; S&#225;ch</OPTION><br/>
+<OPTION value="286">Huy&#7879;n Long Ph&#250;</OPTION><br/>
+<OPTION value="287">Huy&#7879;n M&#7929; T&#250;</OPTION><br/>
+<OPTION value="288">Huy&#7879;n M&#7929; Xuy&#234;n</OPTION><br/>
+<OPTION value="289">Huy&#7879;n Th&#7841;nh Tr&#7883;</OPTION><br/>
+<OPTION value="290">Th&#7883; X&#227; V&#297;nh Ch&#226;u</OPTION><br/>
+<OPTION value="291">Huy&#7879;n C&#249; Lao Dung</OPTION><br/>
+<OPTION value="292">Th&#7883; X&#227; Ng&#227; N&#259;m</OPTION><br/>
+<OPTION value="293">Th&#224;nh Ph&#7889; Tr&#224; Vinh</OPTION><br/>
+<OPTION value="294">C&#224;ng Long</OPTION><br/>
+<OPTION value="295">Ti&#7875;u C&#7847;n</OPTION><br/>
+<OPTION value="296">Ch&#226;u Th&#224;nh</OPTION><br/>
+<OPTION value="297">Tr&#224; C&#250;</OPTION><br/>
+<OPTION value="298">Duy&#234;n H&#7843;i</OPTION><br/>
+<OPTION value="299">C&#7847;u K&#232;</OPTION><br/>
+<OPTION value="300">TP Cao L&#227;nh</OPTION><br/>
+<OPTION value="301">Th&#225;p M&#432;&#7901;i</OPTION><br/>
+<OPTION value="302">T&#226;n H&#7891;ng</OPTION><br/>
+<OPTION value="303">TP H&#7891;ng Ng&#7921;</OPTION><br/>
+<OPTION value="304">Tam N&#244;ng</OPTION><br/>
+<OPTION value="305">Thanh B&#236;nh</OPTION><br/>
+<OPTION value="306">Ch&#226;u Th&#224;nh</OPTION><br/>
+<OPTION value="307">Lai Vung</OPTION><br/>
+<OPTION value="308">L&#7845;p V&#242;</OPTION><br/>
+<OPTION value="320">Ph&#432;&#7899;c Long</OPTION><br/>
+<OPTION value="321">&#272;&#244;ng H&#7843;i</OPTION><br/>
+<OPTION value="322">V&#297;nh L&#7907;i</OPTION><br/>
+<OPTION value="323">Huy&#7879;n Ch&#226;u &#272;&#7913;c</OPTION><br/>
+<OPTION value="324">Huy&#7879;n Xuy&#234;n M&#7897;c</OPTION><br/>
+<OPTION value="326">Huy&#7879;n Long &#272;i&#7873;n</OPTION><br/>
+<OPTION value="327">Huy&#7879;n &#272;&#7845;t &#272;&#7887;</OPTION><br/>
+<OPTION value="328">Huy&#7879;n C&#244;n &#272;&#7843;o</OPTION><br/>
+<OPTION value="345">Huy&#7879;n B&#7843;o Th&#7855;ng</OPTION><br/>
+<OPTION value="346">Huy&#7879;n B&#7843;o Y&#234;n</OPTION><br/>
+<OPTION value="347">Huy&#7879;n V&#259;n B&#224;n</OPTION><br/>
+<OPTION value="348">Th&#7883; x&#227; Sa Pa</OPTION><br/>
+<OPTION value="349">Huy&#7879;n B&#225;t X&#225;t</OPTION><br/>
+<OPTION value="350">Huy&#7879;n B&#7855;c H&#224;</OPTION><br/>
+<OPTION value="351">Huy&#7879;n Si Ma Cai</OPTION><br/>
+<OPTION value="352">Huy&#7879;n M&#432;&#7901;ng Kh&#432;&#417;ng</OPTION><br/>
+<OPTION value="353">T.P S&#244;ng C&#244;ng</OPTION><br/>
+<OPTION value="354">T.P Th&#225;i Nguy&#234;n</OPTION><br/>
+<OPTION value="355">&#272;&#7841;i T&#7915;</OPTION><br/>
+<OPTION value="356">&#272;&#7883;nh Ho&#225;</OPTION><br/>
+<OPTION value="357">&#272;&#7891;ng H&#7927;</OPTION><br/>
+<OPTION value="358">Ph&#250; B&#236;nh</OPTION><br/>
+<OPTION value="359">Ph&#250; L&#432;&#417;ng</OPTION><br/>
+<OPTION value="360">T.P Ph&#7893; Y&#234;n</OPTION><br/>
+<OPTION value="361">V&#245; Nhai</OPTION><br/>
+<OPTION value="371">TP.B&#7855;c Giang</OPTION><br/>
+<OPTION value="372">Huy&#7879;n S&#417;n &#272;&#7897;ng</OPTION><br/>
+<OPTION value="373">Huy&#7879;n L&#7909;c Ng&#7841;n</OPTION><br/>
+<OPTION value="374">Huy&#7879;n L&#7909;c Nam</OPTION><br/>
+<OPTION value="375">Huy&#7879;n L&#7841;ng Giang</OPTION><br/>
+<OPTION value="376">Huy&#7879;n Y&#234;n Th&#7871;</OPTION><br/>
+<OPTION value="377">Huy&#7879;n T&#226;n Y&#234;n</OPTION><br/>
+<OPTION value="378">Huy&#7879;n Hi&#7879;p H&#242;a</OPTION><br/>
+<OPTION value="379">Th&#7883; X&#227; Vi&#7879;t Y&#234;n</OPTION><br/>
+<OPTION value="380">Huy&#7879;n Y&#234;n D&#361;ng</OPTION><br/>
+<OPTION value="399">Thu&#7853;n Th&#224;nh</OPTION><br/>
+<OPTION value="400">Gia B&#236;nh</OPTION><br/>
+<OPTION value="401">L&#432;&#417;ng T&#224;i</OPTION><br/>
+<OPTION value="402">Y&#234;n Phong</OPTION><br/>
+<OPTION value="403">Th&#224;nh Ph&#7889; H&#7843;i D&#432;&#417;ng</OPTION><br/>
+<OPTION value="404">Huy&#7879;n B&#236;nh Giang</OPTION><br/>
+<OPTION value="405">Huy&#7879;n C&#7849;m Gi&#224;ng</OPTION><br/>
+<OPTION value="406">Th&#224;nh ph&#7889; Ch&#237; Linh</OPTION><br/>
+<OPTION value="407">Th&#7883; x&#227; Kinh M&#244;n</OPTION><br/>
+<OPTION value="408">Huy&#7879;n Kim Th&#224;nh</OPTION><br/>
+<OPTION value="409">Huy&#7879;n Gia L&#7897;c</OPTION><br/>
+<OPTION value="410">Huy&#7879;n Nam S&#225;ch</OPTION><br/>
+<OPTION value="411">Huy&#7879;n Ninh Giang</OPTION><br/>
+<OPTION value="412">Huy&#7879;n Thanh Mi&#7879;n</OPTION><br/>
+<OPTION value="413">Huy&#7879;n Thanh H&#224;</OPTION><br/>
+<OPTION value="414">Huy&#7879;n T&#7913; K&#7923;</OPTION><br/>
+<OPTION value="415">TP H&#432;ng Y&#234;n</OPTION><br/>
+<OPTION value="416">Kim &#272;&#7897;ng</OPTION><br/>
+<OPTION value="417">&#194;n Thi</OPTION><br/>
+<OPTION value="418">Kho&#225;i Ch&#226;u</OPTION><br/>
+<OPTION value="419">Th&#7883; X&#227; M&#7929; H&#224;o</OPTION><br/>
+<OPTION value="420">Ti&#234;n L&#7919;</OPTION><br/>
+<OPTION value="421">Ph&#249; C&#7915;</OPTION><br/>
+<OPTION value="422">Y&#234;n M&#7929;</OPTION><br/>
+<OPTION value="423">V&#259;n L&#226;m</OPTION><br/>
+<OPTION value="424">V&#259;n Giang</OPTION><br/>
+<OPTION value="425">T.P H&#224; &#272;&#244;ng</OPTION><br/>
+<OPTION value="426">T.X S&#417;n T&#226;y</OPTION><br/>
+<OPTION value="427">Ba V&#236;</OPTION><br/>
+<OPTION value="428">Ch&#432;&#417;ng M&#7929;</OPTION><br/>
+<OPTION value="429">&#272;an Ph&#432;&#7907;ng</OPTION><br/>
+<OPTION value="430">Ho&#224;i &#272;&#7913;c</OPTION><br/>
+<OPTION value="431">M&#7929; &#272;&#7913;c</OPTION><br/>
+<OPTION value="432">Ph&#250; Xuy&#234;n</OPTION><br/>
+<OPTION value="433">Ph&#250;c Th&#7885;</OPTION><br/>
+<OPTION value="434">Qu&#7889;c Oai</OPTION><br/>
+<OPTION value="435">Thanh Oai</OPTION><br/>
+<OPTION value="436">Th&#7841;ch Th&#7845;t</OPTION><br/>
+<OPTION value="437">Th&#432;&#7901;ng T&#237;n</OPTION><br/>
+<OPTION value="438">&#7912;ng H&#242;a</OPTION><br/>
+<OPTION value="439">Th&#224;nh Ph&#7889; Ph&#7911; L&#253;</OPTION><br/>
+<OPTION value="440">Huy&#7879;n L&#253; Nh&#226;n</OPTION><br/>
+<OPTION value="441">Huy&#7879;n Thanh Li&#234;m</OPTION><br/>
+<OPTION value="442">Huy&#7879;n Kim B&#7843;ng</OPTION><br/>
+<OPTION value="443">Th&#7883; X&#227; Duy Ti&#234;n</OPTION><br/>
+<OPTION value="444">Huy&#7879;n B&#236;nh L&#7909;c</OPTION><br/>
+<OPTION value="445">T.P Nam &#272;&#7883;nh</OPTION><br/>
+<OPTION value="446">M&#7929; L&#7897;c</OPTION><br/>
+<OPTION value="447">V&#7909; B&#7843;n</OPTION><br/>
+<OPTION value="448">&#253; Y&#234;n</OPTION><br/>
+<OPTION value="449">Nam Tr&#7921;c</OPTION><br/>
+<OPTION value="450">Ngh&#297;a H&#432;ng</OPTION><br/>
+<OPTION value="451">Tr&#7921;c Ninh</OPTION><br/>
+<OPTION value="452">Xu&#226;n Tr&#432;&#7901;ng</OPTION><br/>
+<OPTION value="453">H&#7843;i H&#7853;u</OPTION><br/>
+<OPTION value="454">Giao Th&#7911;y</OPTION><br/>
+<OPTION value="463">T.X B&#7881;m S&#417;n</OPTION><br/>
+<OPTION value="464">TP. S&#7847;m S&#417;n</OPTION><br/>
+<OPTION value="465">T.X Nghi S&#417;n</OPTION><br/>
+<OPTION value="466">Th&#7885; Xu&#226;n</OPTION><br/>
+<OPTION value="467">Tri&#7879;u S&#417;n</OPTION><br/>
+<OPTION value="468">H&#224; Trung</OPTION><br/>
+<OPTION value="469">&#272;&#244;ng S&#417;n</OPTION><br/>
+<OPTION value="470">Ng&#7885;c L&#7863;c</OPTION><br/>
+<OPTION value="471">Ho&#7857;ng H&#243;a</OPTION><br/>
+<OPTION value="472">N&#244;ng C&#7889;ng</OPTION><br/>
+<OPTION value="473">Nga S&#417;n</OPTION><br/>
+<OPTION value="474">V&#297;nh L&#7897;c</OPTION><br/>
+<OPTION value="475">C&#7849;m Th&#7911;y</OPTION><br/>
+<OPTION value="476">Qu&#7843;ng X&#432;&#417;ng</OPTION><br/>
+<OPTION value="477">Lang Ch&#225;nh</OPTION><br/>
+<OPTION value="478">Quan H&#243;a</OPTION><br/>
+<OPTION value="479">B&#225; Th&#432;&#7899;c</OPTION><br/>
+<OPTION value="480">Th&#432;&#7901;ng Xu&#226;n</OPTION><br/>
+<OPTION value="481">Thi&#7879;u H&#243;a</OPTION><br/>
+<OPTION value="482">Th&#7841;ch Th&#224;nh</OPTION><br/>
+<OPTION value="483">Y&#234;n &#272;&#7883;nh</OPTION><br/>
+<OPTION value="484">Nh&#432; Xu&#226;n</OPTION><br/>
+<OPTION value="485">Nh&#432; Thanh</OPTION><br/>
+<OPTION value="486">H&#7853;u L&#7897;c</OPTION><br/>
+<OPTION value="487">Quan S&#417;n</OPTION><br/>
+<OPTION value="488">M&#432;&#7901;ng L&#225;t</OPTION><br/>
+<OPTION value="489">Th&#224;nh ph&#7889; Y&#234;n B&#225;i</OPTION><br/>
+<OPTION value="490">T.X Ngh&#297;a L&#7897;</OPTION><br/>
+<OPTION value="491">Huy&#7879;n Y&#234;n B&#236;nh</OPTION><br/>
+<OPTION value="492">Huy&#7879;n Tr&#7845;n Y&#234;n</OPTION><br/>
+<OPTION value="493">Huy&#7879;n V&#259;n Y&#234;n</OPTION><br/>
+<OPTION value="494">Huy&#7879;n V&#259;n Ch&#7845;n</OPTION><br/>
+<OPTION value="495">Huy&#7879;n L&#7909;c Y&#234;n</OPTION><br/>
+<OPTION value="496">Huy&#7879;n M&#249; Cang Ch&#7843;i</OPTION><br/>
+<OPTION value="497">Th&#224;nh Ph&#7889; Cao B&#7857;ng</OPTION><br/>
+<OPTION value="498">H&#242;a An</OPTION><br/>
+<OPTION value="499">Qu&#7843;ng H&#242;a</OPTION><br/>
+<OPTION value="500">H&#224; Qu&#7843;ng</OPTION><br/>
+<OPTION value="501">Ph&#7909;c H&#242;a(Kh&#244;ng ch&#7885;n)</OPTION><br/>
+<OPTION value="502">Tr&#224; L&#297;nh (Kh&#244;ng ch&#7885;n)</OPTION><br/>
+<OPTION value="503">Tr&#249;ng Kh&#225;nh</OPTION><br/>
+<OPTION value="514">TP. Tuy&#234;n Quang</OPTION><br/>
+<OPTION value="515">Y&#234;n S&#417;n</OPTION><br/>
+<OPTION value="516">S&#417;n D&#432;&#417;ng</OPTION><br/>
+<OPTION value="517">H&#224;m Y&#234;n</OPTION><br/>
+<OPTION value="518">Na Hang</OPTION><br/>
+<OPTION value="519">Chi&#234;m Ho&#225;</OPTION><br/>
+<OPTION value="527">Th&#224;nh Ph&#7889; Qu&#7843;ng Ng&#227;i</OPTION><br/>
+<OPTION value="528">B&#236;nh S&#417;n</OPTION><br/>
+<OPTION value="529">S&#417;n T&#7883;nh</OPTION><br/>
+<OPTION value="530">T&#432; Ngh&#297;a</OPTION><br/>
+<OPTION value="531">M&#7897; &#272;&#7913;c</OPTION><br/>
+<OPTION value="532">Th&#7883; x&#227; &#272;&#7913;c Ph&#7893;</OPTION><br/>
+<OPTION value="533">Ngh&#297;a H&#224;nh</OPTION><br/>
+<OPTION value="534">Ba T&#417;</OPTION><br/>
+<OPTION value="535">S&#417;n H&#224;</OPTION><br/>
+<OPTION value="536">Tr&#224; B&#7891;ng</OPTION><br/>
+<OPTION value="537">Minh Long</OPTION><br/>
+<OPTION value="538">L&#253; S&#417;n</OPTION><br/>
+<OPTION value="539">S&#417;n T&#226;y</OPTION><br/>
+<OPTION value="540">T&#226;y Tr&#224; (c&#361;)</OPTION><br/>
+<OPTION value="541">Th&#224;nh Ph&#7889; C&#224; Mau</OPTION><br/>
+<OPTION value="542">U Minh</OPTION><br/>
+<OPTION value="543">Th&#7899;i B&#236;nh</OPTION><br/>
+<OPTION value="544">Huy&#7879;n Tr&#7847;n V&#259;n Th&#7901;i</OPTION><br/>
+<OPTION value="545">C&#225;i N&#432;&#7899;c</OPTION><br/>
+<OPTION value="546">Ng&#7885;c Hi&#7875;n</OPTION><br/>
+<OPTION value="547">N&#259;m C&#259;n</OPTION><br/>
+<OPTION value="548">Ph&#250; T&#226;n</OPTION><br/>
+<OPTION value="549">&#272;&#7847;m D&#417;i</OPTION><br/>
+<OPTION value="566">Th&#224;nh Ph&#7889; Vinh</OPTION><br/>
+<OPTION value="567">Anh S&#417;n</OPTION><br/>
+<OPTION value="568">Con Cu&#244;ng</OPTION><br/>
+<OPTION value="569">Di&#7877;n Ch&#226;u</OPTION><br/>
+<OPTION value="570">&#272;&#244; L&#432;&#417;ng</OPTION><br/>
+<OPTION value="571">K&#7923; S&#417;n</OPTION><br/>
+<OPTION value="572">H&#432;ng Nguy&#234;n</OPTION><br/>
+<OPTION value="573">Nam &#272;&#224;n</OPTION><br/>
+<OPTION value="574">Nghi L&#7897;c</OPTION><br/>
+<OPTION value="576">Qu&#7871; Phong</OPTION><br/>
+<OPTION value="577">Qu&#7923; Ch&#226;u</OPTION><br/>
+<OPTION value="578">Qu&#7923;nh L&#432;u</OPTION><br/>
+<OPTION value="579">Q&#249;y H&#7907;p</OPTION><br/>
+<OPTION value="580">T&#226;n K&#7923;</OPTION><br/>
+<OPTION value="582">T&#432;&#417;ng D&#432;&#417;ng</OPTION><br/>
+<OPTION value="583">Y&#234;n Th&#224;nh</OPTION><br/>
+<OPTION value="591">TX Qu&#7843;ng Tr&#7883;</OPTION><br/>
+<OPTION value="592">Huy&#7879;n Tri&#7879;u Phong</OPTION><br/>
+<OPTION value="593">Huy&#7879;n Gio Linh</OPTION><br/>
+<OPTION value="594">Huy&#7879;n V&#297;nh Linh</OPTION><br/>
+<OPTION value="595">Huy&#7879;n Cam L&#7897;</OPTION><br/>
+<OPTION value="596">Huy&#7879;n H&#432;&#7899;ng Ho&#225;</OPTION><br/>
+<OPTION value="597">Huy&#7879;n &#272;akrong</OPTION><br/>
+<OPTION value="598">TP.B&#7855;c K&#7841;n</OPTION><br/>
+<OPTION value="599">Ba B&#7875;</OPTION><br/>
+<OPTION value="600">B&#7841;ch Th&#244;ng</OPTION><br/>
+<OPTION value="601">Ch&#7907; M&#7899;i</OPTION><br/>
+<OPTION value="602">Na R&#236;</OPTION><br/>
+<OPTION value="603">Ch&#7907; &#272;&#7891;n</OPTION><br/>
+<OPTION value="604">Ng&#226;n S&#417;n</OPTION><br/>
+<OPTION value="605">P&#225;c N&#7863;m</OPTION><br/>
+<OPTION value="607">&#272;&#259;k H&#224;</OPTION><br/>
+<OPTION value="608">&#272;&#7855;k T&#244;</OPTION><br/>
+<OPTION value="609">&#272;&#7855;k Glei</OPTION><br/>
+<OPTION value="610">Ng&#7885;c H&#7891;i</OPTION><br/>
+<OPTION value="611">Sa Th&#7847;y</OPTION><br/>
+<OPTION value="612">Kon R&#7851;y</OPTION><br/>
+<OPTION value="613">Kon Pl&#244;ng</OPTION><br/>
+<OPTION value="615">Tp Phan Rang-Th&#225;p Ch&#224;m</OPTION><br/>
+<OPTION value="616">Huy&#7879;n Ninh S&#417;n</OPTION><br/>
+<OPTION value="617">Huy&#7879;n Ninh Ph&#432;&#7899;c</OPTION><br/>
+<OPTION value="618">Huy&#7879;n Ninh H&#7843;i</OPTION><br/>
+<OPTION value="620">Huy&#7879;n B&#225;c &#225;i</OPTION><br/>
+<OPTION value="621">Huy&#7879;n H&#7843;i L&#259;ng</OPTION><br/>
+<OPTION value="622">Tp Th&#225;i B&#236;nh</OPTION><br/>
+<OPTION value="623">Huy&#7879;n Qu&#7923;nh Ph&#7909;</OPTION><br/>
+<OPTION value="624">Huy&#7879;n Ti&#7873;n H&#7843;i</OPTION><br/>
+<OPTION value="625">Huy&#7879;n H&#432;ng H&#224;</OPTION><br/>
+<OPTION value="627">Huy&#7879;n &#272;&#244;ng H&#432;ng</OPTION><br/>
+<OPTION value="628">Huy&#7879;n Ki&#7871;n X&#432;&#417;ng</OPTION><br/>
+<OPTION value="629">Huy&#7879;n V&#361; Th&#432;</OPTION><br/>
+<OPTION value="668">V&#297;nh Th&#7841;nh</OPTION><br/>
+<OPTION value="672">C&#7901; &#272;&#7887;</OPTION><br/>
+<OPTION value="673">Huy&#7879;n Ch&#226;u Th&#224;nh</OPTION><br/>
+<OPTION value="674">Huy&#7879;n Ch&#226;u Th&#224;nh A</OPTION><br/>
+<OPTION value="677">Huy&#7879;n Ph&#7909;ng Hi&#7879;p</OPTION><br/>
+<OPTION value="680">Huy&#7879;n Phong &#272;i&#7873;n</OPTION><br/>
+<OPTION value="681">Huy&#7879;n C&#7849;m M&#7929;</OPTION><br/>
+<OPTION value="682">Huy&#7879;n T&#226;n Ph&#250;</OPTION><br/>
+<OPTION value="684">Huy&#7879;n Tr&#7841;m T&#7845;u</OPTION><br/>
+<OPTION value="685">H&#7891;ng D&#226;n</OPTION><br/>
+<OPTION value="686">Th&#224;nh Ph&#7889; V&#7883; Thanh</OPTION><br/>
+<OPTION value="687">Huy&#7879;n Long M&#7929;</OPTION><br/>
+<OPTION value="688">Huy&#7879;n Th&#225;i Thu&#7925;</OPTION><br/>
+<OPTION value="699">Huy&#7879;n C&#7891;n C&#7887;</OPTION><br/>
+<OPTION value="706">TP. Thanh H&#243;a</OPTION><br/>
+<OPTION value="709">B&#7843;o L&#7841;c</OPTION><br/>
+<OPTION value="710">B&#7843;o L&#226;m</OPTION><br/>
+<OPTION value="711">H&#7841; Lang</OPTION><br/>
+<OPTION value="712">Nguy&#234;n B&#236;nh</OPTION><br/>
+<OPTION value="713">Th&#7841;ch An</OPTION><br/>
+<OPTION value="714">Th&#244;ng N&#244;ng (Kh&#244;ng ch&#7885;n)</OPTION><br/>
+<OPTION value="801">Th&#224;nh Ph&#7889; L&#224;o Cai</OPTION><br/>
+<OPTION value="804">H&#242;a B&#236;nh</OPTION><br/>
+<OPTION value="807">Th&#7883; x&#227; Lagi</OPTION><br/>
+<OPTION value="824">TP &#272;&#244;ng H&#224;</OPTION><br/>
+<OPTION value="826">Ch&#226;u Th&#224;nh</OPTION><br/>
+<OPTION value="831">T&#226;n S&#417;n</OPTION><br/>
+<OPTION value="841">H S&#417;n H&#242;a</OPTION><br/>
+<OPTION value="842">H Tuy An</OPTION><br/>
+<OPTION value="843">Tx S&#244;ng C&#7847;u</OPTION><br/>
+<OPTION value="844">H &#272;&#7891;ng Xu&#226;n</OPTION><br/>
+<OPTION value="845">H S&#244;ng Hinh</OPTION><br/>
+<OPTION value="846">H &#272;&#244;ng H&#242;a</OPTION><br/>
+<OPTION value="847">H T&#226;y H&#242;a</OPTION><br/>
+<OPTION value="871">Th&#7883; x&#227; K&#7923; Anh</OPTION><br/>
+<OPTION value="872">Huy&#7879;n L&#7897;c H&#224;</OPTION><br/>
+<OPTION value="874">Tp H&#224; T&#297;nh</OPTION><br/>
+<OPTION value="875">Huy&#7879;n C&#7849;m Xuy&#234;n</OPTION><br/>
+<OPTION value="876">Huy&#7879;n Can L&#7897;c</OPTION><br/>
+<OPTION value="878">Huy&#7879;n &#272;&#7913;c Th&#7885;</OPTION><br/>
+<OPTION value="879">Huy&#7879;n H&#432;&#417;ng S&#417;n</OPTION><br/>
+<OPTION value="880">Huy&#7879;n H&#432;&#417;ng Kh&#234;</OPTION><br/>
+<OPTION value="881">Huy&#7879;n V&#361; Quang</OPTION><br/>
+<OPTION value="884">Tu M&#417; R&#244;ng</OPTION><br/>
+<OPTION value="891">&#272;&#7889;ng &#272;a</OPTION><br/>
+<OPTION value="896">Kh&#225;c</OPTION><br/>
+<OPTION value="897">Tx Ph&#432;&#7899;c Long</OPTION><br/>
+<OPTION value="902">Th&#7883; x&#227; B&#236;nh Minh</OPTION><br/>
+<OPTION value="903">Huy&#7879;n Long H&#7891;</OPTION><br/>
+<OPTION value="904">Huy&#7879;n Mang Th&#237;t</OPTION><br/>
+<OPTION value="905">Huy&#7879;n Tam B&#236;nh</OPTION><br/>
+<OPTION value="906">Huy&#7879;n Tr&#224; &#212;n</OPTION><br/>
+<OPTION value="907">Th&#224;nh ph&#7889; V&#297;nh Long</OPTION><br/>
+<OPTION value="908">Huy&#7879;n V&#361;ng Li&#234;m</OPTION><br/>
+<OPTION value="909">Huy&#7879;n B&#236;nh T&#226;n</OPTION><br/>
+<OPTION value="910">Tp Long Xuy&#234;n</OPTION><br/>
+<OPTION value="911">TP Ch&#226;u &#272;&#7889;c</OPTION><br/>
+<OPTION value="912">Qu&#7853;n H&#7843;i Ch&#226;u</OPTION><br/>
+<OPTION value="913">Qu&#7853;n Thanh Kh&#234;</OPTION><br/>
+<OPTION value="914">Qu&#7853;n S&#417;n Tr&#224;</OPTION><br/>
+<OPTION value="915">Qu&#7853;n Ng&#361; H&#224;nh S&#417;n</OPTION><br/>
+<OPTION value="916">Qu&#7853;n Li&#234;n Chi&#7875;u</OPTION><br/>
+<OPTION value="917">Qu&#7853;n C&#7849;m L&#7879;</OPTION><br/>
+<OPTION value="918">Huy&#7879;n Ho&#224; Vang</OPTION><br/>
+<OPTION value="920">Huy&#7879;n An Ph&#250;</OPTION><br/>
+<OPTION value="921">Huy&#7879;n Ch&#226;u Ph&#250;</OPTION><br/>
+<OPTION value="922">Tx.T&#7883;nh Bi&#234;n</OPTION><br/>
+<OPTION value="923">Huy&#7879;n Ch&#7907; M&#7899;i</OPTION><br/>
+<OPTION value="924">Tx T&#226;n Ch&#226;u</OPTION><br/>
+<OPTION value="925">Huy&#7879;n Ph&#250; T&#226;n</OPTION><br/>
+<OPTION value="926">Huy&#7879;n Tri T&#244;n</OPTION><br/>
+<OPTION value="927">Huy&#7879;n Ch&#226;u Th&#224;nh</OPTION><br/>
+<OPTION value="928">Huy&#7879;n Tho&#7841;i S&#417;n</OPTION><br/>
+<OPTION value="951">TP L&#7841;ng S&#417;n</OPTION><br/>
+<OPTION value="952">Huy&#7879;n B&#7855;c S&#417;n</OPTION><br/>
+<OPTION value="953">Huy&#7879;n Chi L&#259;ng</OPTION><br/>
+<OPTION value="955">Huy&#7879;n &#272;&#236;nh l&#7853;p</OPTION><br/>
+<OPTION value="956">Huy&#7879;n Cao L&#7897;c</OPTION><br/>
+<OPTION value="957">Huy&#7879;n L&#7897;c B&#236;nh</OPTION><br/>
+<OPTION value="958">Huy&#7879;n H&#7919;u L&#361;ng</OPTION><br/>
+<OPTION value="959">Huy&#7879;n B&#236;nh Gia</OPTION><br/>
+<OPTION value="960">Huy&#7879;n V&#259;n L&#227;ng</OPTION><br/>
+<OPTION value="961">Huy&#7879;n V&#259;n Quan</OPTION><br/>
+<OPTION value="962">Huy&#7879;n Tr&#224;ng &#272;&#7883;nh</OPTION><br/>
+<OPTION value="963">Hu&#7871;</OPTION><br/>
+<OPTION value="964">Th&#7883; x&#227; H&#432;&#417;ng Tr&#224;</OPTION><br/>
+<OPTION value="965">Phong &#273;i&#7873;n</OPTION><br/>
+<OPTION value="966">Qu&#7843;ng &#273;i&#7873;n</OPTION><br/>
+<OPTION value="967">Th&#7883; x&#227; H&#432;&#417;ng Thu&#7927;</OPTION><br/>
+<OPTION value="968">Ph&#250; Vang</OPTION><br/>
+<OPTION value="969">Ph&#250; l&#7897;c</OPTION><br/>
+<OPTION value="970">Nam &#273;&#244;ng</OPTION><br/>
+<OPTION value="971">A l&#432;&#7899;i</OPTION><br/>
+<OPTION value="1017">Tam K&#7923;</OPTION><br/>
+<OPTION value="1018">N&#250;i Th&#224;nh</OPTION><br/>
+<OPTION value="1019">Th&#259;ng B&#236;nh</OPTION><br/>
+<OPTION value="1020">&#272;&#7841;i L&#7897;c</OPTION><br/>
+<OPTION value="1021">&#272;i&#7879;n B&#224;n</OPTION><br/>
+<OPTION value="1022">&#272;&#244;ng Giang</OPTION><br/>
+<OPTION value="1023">Hi&#7879;p &#272;&#7913;c</OPTION><br/>
+<OPTION value="1024">H&#7897;i An</OPTION><br/>
+<OPTION value="1025">Ti&#234;n Ph&#432;&#7899;c</OPTION><br/>
+<OPTION value="1026">Nam Tr&#224; My</OPTION><br/>
+<OPTION value="1027">Qu&#7871; S&#417;n</OPTION><br/>
+<OPTION value="1028">Nam Giang</OPTION><br/>
+<OPTION value="1029">&#272;&#244;ng Giang</OPTION><br/>
+<OPTION value="1030">Ph&#432;&#7899;c S&#417;n</OPTION><br/>
+<OPTION value="1032">T&#226;y Giang</OPTION><br/>
+<OPTION value="1033">Ph&#250; Ninh</OPTION><br/>
+<OPTION value="1066">&#272;&#259;k Glong</OPTION><br/>
+<OPTION value="1067">Tuy &#272;&#7913;c</OPTION><br/>
+<OPTION value="1069">Kr&#244;ng P&#259;k</OPTION><br/>
+<OPTION value="1070">Kr&#244;ng Ana</OPTION><br/>
+<OPTION value="1071">Ea Hleo</OPTION><br/>
+<OPTION value="1072">Kr&#244;ngN&#259;ng</OPTION><br/>
+<OPTION value="1073">Kr&#244;ng N&#244;</OPTION><br/>
+<OPTION value="1074">Ea Sup</OPTION><br/>
+<OPTION value="1075">Ma &#272;R&#259;k</OPTION><br/>
+<OPTION value="1076">Bu&#244;n &#272;&#244;n</OPTION><br/>
+<OPTION value="1077">&#272;&#259;k S&#244;ng</OPTION><br/>
+<OPTION value="1078">&#272;&#259;k Mil</OPTION><br/>
+<OPTION value="1079">&#272;&#259;k RL&#7845;p</OPTION><br/>
+<OPTION value="1080">Bu&#244;n Ma Thu&#7897;t</OPTION><br/>
+<OPTION value="1081">L&#259;k</OPTION><br/>
+<OPTION value="1082">Kr&#244;ng B&#244;ng</OPTION><br/>
+<OPTION value="1083">C&#432; j&#250;t</OPTION><br/>
+<OPTION value="1084">TP Gia Ngh&#297;a</OPTION><br/>
+<OPTION value="1085">Ea Kar</OPTION><br/>
+<OPTION value="1086">C&#432; Mgar</OPTION><br/>
+<OPTION value="1087">C&#432; Kuin</OPTION><br/>
+<OPTION value="1088">Th&#224;nh Ph&#7889; &#272;i&#7879;n Bi&#234;n Ph&#7911;</OPTION><br/>
+<OPTION value="1089">Tam &#272;&#432;&#7901;ng</OPTION><br/>
+<OPTION value="1090">Huy&#7879;n &#272;i&#7879;n Bi&#234;n</OPTION><br/>
+<OPTION value="1091">Huy&#7879;n &#272;i&#7879;n Bi&#234;n &#272;&#244;ng</OPTION><br/>
+<OPTION value="1092">Huy&#7879;n M&#432;&#7901;ng Ch&#224;</OPTION><br/>
+<OPTION value="1093">Th&#7883; X&#227; M&#432;&#7901;ng Lay</OPTION><br/>
+<OPTION value="1094">Th&#224;nh ph&#7889; Lai Ch&#226;u</OPTION><br/>
+<OPTION value="1095">M&#432;&#7901;ng T&#232;</OPTION><br/>
+<OPTION value="1096">S&#236;n H&#7891;</OPTION><br/>
+<OPTION value="1097">Huy&#7879;n T&#7911;a Ch&#249;a</OPTION><br/>
+<OPTION value="1098">Huy&#7879;n Tu&#7847;n Gi&#225;o</OPTION><br/>
+<OPTION value="1099">Phong Th&#7893;</OPTION><br/>
+<OPTION value="1100">Huy&#7879;n M&#432;&#7901;ng Nh&#233;</OPTION><br/>
+<OPTION value="1101">Than Uy&#234;n</OPTION><br/>
+<OPTION value="1102">Huy&#7879;n M&#432;&#7901;ng &#7842;ng</OPTION><br/>
+<OPTION value="1103">Th&#224;nh ph&#7889; Ninh B&#236;nh</OPTION><br/>
+<OPTION value="1104">Kim S&#417;n</OPTION><br/>
+<OPTION value="1105">Nho Quan</OPTION><br/>
+<OPTION value="1106">Th&#224;nh ph&#7889; Tam &#272;i&#7879;p</OPTION><br/>
+<OPTION value="1107">Hoa L&#432;</OPTION><br/>
+<OPTION value="1108">Gia Vi&#7877;n</OPTION><br/>
+<OPTION value="1109">Y&#234;n M&#244;</OPTION><br/>
+<OPTION value="1110">Y&#234;n Kh&#225;nh</OPTION><br/>
+<OPTION value="1111">L&#7879; Thu&#7927;</OPTION><br/>
+<OPTION value="1112"> Minh Ho&#225;</OPTION><br/>
+<OPTION value="1113">Qu&#7843;ng Ninh</OPTION><br/>
+<OPTION value="1114">Qu&#7843;ng Tr&#7841;ch</OPTION><br/>
+<OPTION value="1115">B&#7889; Tr&#7841;ch</OPTION><br/>
+<OPTION value="1116">Tuy&#234;n Ho&#225;</OPTION><br/>
+<OPTION value="1117">Th&#224;nh Ph&#7889; &#272;&#7891;ng H&#7899;i</OPTION><br/>
+<OPTION value="1122">Th&#224;nh Ph&#7889; S&#417;n La</OPTION><br/>
+<OPTION value="1123">Huy&#7879;n B&#7855;c Y&#234;n</OPTION><br/>
+<OPTION value="1124">Huy&#7879;n Mai S&#417;n</OPTION><br/>
+<OPTION value="1125">Huy&#7879;n M&#432;&#7901;ng La</OPTION><br/>
+<OPTION value="1126">Huy&#7879;n M&#7897;c Ch&#226;u</OPTION><br/>
+<OPTION value="1127">Huy&#7879;n Ph&#249; Y&#234;n</OPTION><br/>
+<OPTION value="1128">Huy&#7879;n Qu&#7923;nh Nhai</OPTION><br/>
+<OPTION value="1129">Huy&#7879;n S&#244;ng M&#227;</OPTION><br/>
+<OPTION value="1130">Huy&#7879;n S&#7889;p C&#7897;p</OPTION><br/>
+<OPTION value="1131">Huy&#7879;n Thu&#7853;n Ch&#226;u</OPTION><br/>
+<OPTION value="1132">Huy&#7879;n Y&#234;n Ch&#226;u</OPTION><br/>
+<OPTION value="1134">C&#7917;a L&#242;</OPTION><br/>
+<OPTION value="1135">Ngh&#297;a &#272;&#224;n</OPTION><br/>
+<OPTION value="1136">Ki&#7871;n An</OPTION><br/>
+<OPTION value="1137">L&#234; Ch&#226;n</OPTION><br/>
+<OPTION value="1138">Qu&#7853;n Ng&#244; Quy&#7873;n</OPTION><br/>
+<OPTION value="1139">Huy&#7879;n An D&#432;&#417;ng</OPTION><br/>
+<OPTION value="1140">Huy&#7879;n An L&#227;o</OPTION><br/>
+<OPTION value="1141">Huy&#7879;n C&#225;t H&#7843;i</OPTION><br/>
+<OPTION value="1142">&#272;&#7891; S&#417;n</OPTION><br/>
+<OPTION value="1143">Huy&#7879;n Ki&#7871;n Thu&#7925;</OPTION><br/>
+<OPTION value="1144">Huy&#7879;n Th&#7911;y Nguy&#234;n</OPTION><br/>
+<OPTION value="1145">Huy&#7879;n Ti&#234;n L&#227;ng</OPTION><br/>
+<OPTION value="1146">Huy&#7879;n V&#297;nh B&#7843;o</OPTION><br/>
+<OPTION value="1147">Huy&#7879;n B&#7841;ch Long V&#7929;</OPTION><br/>
+<OPTION value="1148">B&#432;u &#272;i&#7879;n</OPTION><br/>
+<OPTION value="1149">Qu&#7853;n H&#7891;ng B&#224;ng</OPTION><br/>
+<OPTION value="1150">Huy&#7879;n Ho&#224; Quang</OPTION><br/>
+<OPTION value="1151">H&#7843;i An</OPTION><br/>
+<OPTION value="1152">D&#432;&#417;ng Kinh</OPTION><br/>
+<OPTION value="1153">T&#7881;nh Kh&#225;c</OPTION><br/>
+<OPTION value="1154">Thanh Ch&#432;&#417;ng</OPTION><br/>
+<OPTION value="1162">B&#7855;c Ninh</OPTION><br/>
+<OPTION value="1163">T&#7915; S&#417;n</OPTION><br/>
+<OPTION value="2502">Qu&#7853;n 2</OPTION><br/>
+<OPTION value="2503">Qu&#7853;n 3</OPTION><br/>
+<OPTION value="2504">Qu&#7853;n 4</OPTION><br/>
+<OPTION value="2505">Qu&#7853;n 5</OPTION><br/>
+<OPTION value="2506">Qu&#7853;n 6</OPTION><br/>
+<OPTION value="2507">Qu&#7853;n 7</OPTION><br/>
+<OPTION value="2508">Qu&#7853;n 8</OPTION><br/>
+<OPTION value="2509">Qu&#7853;n 9</OPTION><br/>
+<OPTION value="2510">Qu&#7853;n 10</OPTION><br/>
+<OPTION value="2511">Qu&#7853;n 11</OPTION><br/>
+<OPTION value="2512">Qu&#7853;n 12</OPTION><br/>
+<OPTION value="2513">Qu&#7853;n G&#242; V&#7845;p</OPTION><br/>
+<OPTION value="2514">Qu&#7853;n T&#226;n B&#236;nh</OPTION><br/>
+<OPTION value="2515">Qu&#7853;n B&#236;nh Th&#7841;nh</OPTION><br/>
+<OPTION value="2516">Qu&#7853;n Ph&#250; Nhu&#7853;n</OPTION><br/>
+<OPTION value="2517">Qu&#7853;n Th&#7911; &#272;&#7913;c</OPTION><br/>
+<OPTION value="2518">Huy&#7879;n C&#7911; Chi</OPTION><br/>
+<OPTION value="2519">Huy&#7879;n H&#243;c M&#244;n</OPTION><br/>
+<OPTION value="2520">Huy&#7879;n B&#236;nh Ch&#225;nh</OPTION><br/>
+<OPTION value="2521">Huy&#7879;n Nh&#224; B&#232;</OPTION><br/>
+<OPTION value="2522">Huy&#7879;n C&#7847;n Gi&#7901;</OPTION><br/>
+<OPTION value="2523">Qu&#7853;n B&#236;nh T&#226;n</OPTION><br/>
+<OPTION value="2524">Qu&#7853;n T&#226;n Ph&#250;</OPTION><br/>
+<OPTION value="2525">M&#234; Linh</OPTION><br/>
+<OPTION value="2527">An Minh</OPTION><br/>
+<OPTION value="2528">Ch&#226;u Th&#224;nh</OPTION><br/>
+<OPTION value="2529">G&#242; Quao</OPTION><br/>
+<OPTION value="2530">Gi&#7891;ng Ri&#7873;ng</OPTION><br/>
+<OPTION value="2531">H&#242;n &#272;&#7845;t</OPTION><br/>
+<OPTION value="2532">Th&#224;nh ph&#7889; H&#224; Ti&#234;n</OPTION><br/>
+<OPTION value="2533">Ki&#234;n H&#7843;i</OPTION><br/>
+<OPTION value="2534">Ki&#234;n L&#432;&#417;ng</OPTION><br/>
+<OPTION value="2535">Th&#224;nh ph&#7889; Ph&#250; Qu&#7889;c</OPTION><br/>
+<OPTION value="2536">Th&#224;nh ph&#7889; R&#7841;ch Gi&#225;</OPTION><br/>
+<OPTION value="2537">T&#226;n Hi&#7879;p</OPTION><br/>
+<OPTION value="2538">U Minh Th&#432;&#7907;ng</OPTION><br/>
+<OPTION value="2539">V&#297;nh Thu&#7853;n</OPTION><br/>
+<OPTION value="2540">H&#224; &#272;&#244;ng</OPTION><br/>
+<OPTION value="2541">S&#417;n T&#226;y</OPTION><br/>
+<OPTION value="2542">Ba V&#236;</OPTION><br/>
+<OPTION value="2543">Ch&#432;&#417;ng M&#7929;</OPTION><br/>
+<OPTION value="2544">&#272;an Ph&#432;&#7907;ng</OPTION><br/>
+<OPTION value="2545">Ho&#224;i &#272;&#7913;c</OPTION><br/>
+<OPTION value="2546">M&#7929; &#272;&#7913;c</OPTION><br/>
+<OPTION value="2547">Ph&#250; Xuy&#234;n</OPTION><br/>
+<OPTION value="2548">Ph&#250;c Th&#7885;</OPTION><br/>
+<OPTION value="2549">Qu&#7889;c Oai</OPTION><br/>
+<OPTION value="2550">Thanh Oai</OPTION><br/>
+<OPTION value="2551">Th&#7841;ch Th&#7845;t</OPTION><br/>
+<OPTION value="2552">Th&#432;&#7901;ng T&#237;n</OPTION><br/>
+<OPTION value="2553">&#7913;ng H&#242;a</OPTION><br/>
+<OPTION value="2554">T&#226;n Uy&#234;n</OPTION><br/>
+<OPTION value="2555">Th&#7899;i Lai</OPTION><br/>
+<OPTION value="2556">N&#244;ng S&#417;n</OPTION><br/>
+<OPTION value="2557">B&#236;nh Th&#7911;y</OPTION><br/>
+<OPTION value="2558">TX. Th&#225;i H&#242;a</OPTION><br/>
+<OPTION value="2559">TX H&#7891;ng Ng&#7921;</OPTION><br/>
+<OPTION value="2560">M&#7887; C&#224;y B&#7855;c</OPTION><br/>
+<OPTION value="2561">Huy&#7879;n Ch&#226;u Th&#224;nh</OPTION><br/>
+<OPTION value="2564">Huy&#7879;n Ph&#250; Thi&#7879;n</OPTION><br/>
+<OPTION value="2565">Duy Xuy&#234;n</OPTION><br/>
+<OPTION value="2567">Huy&#7879;n Th&#7841;ch H&#224;</OPTION><br/>
+<OPTION value="2568">Huy&#7879;n Nghi Xu&#226;n</OPTION><br/>
+<OPTION value="2569">Tx H&#7891;ng L&#297;nh</OPTION><br/>
+<OPTION value="2573">B&#7855;c Tr&#224; My</OPTION><br/>
+<OPTION value="2574">TP.Nha Trang</OPTION><br/>
+<OPTION value="2575">TP.Cam Ranh</OPTION><br/>
+<OPTION value="2576">Di&#234;n Kh&#225;nh</OPTION><br/>
+<OPTION value="2577">Ninh H&#242;a</OPTION><br/>
+<OPTION value="2578">V&#7841;n Ninh</OPTION><br/>
+<OPTION value="2579">Kh&#225;nh S&#417;n</OPTION><br/>
+<OPTION value="2580">Kh&#225;nh V&#297;nh</OPTION><br/>
+<OPTION value="2581">Cam L&#226;m</OPTION><br/>
+<OPTION value="2582">H&#7841; Long</OPTION><br/>
+<OPTION value="2583">C&#7849;m Ph&#7843;</OPTION><br/>
+<OPTION value="2584">M&#243;ng C&#225;i</OPTION><br/>
+<OPTION value="2585">U&#244;ng B&#237;</OPTION><br/>
+<OPTION value="2586">Ba Ch&#7869;</OPTION><br/>
+<OPTION value="2587">B&#236;nh Li&#234;u</OPTION><br/>
+<OPTION value="2588">C&#244; T&#244;</OPTION><br/>
+<OPTION value="2589">&#272;&#244;ng Tri&#7873;u</OPTION><br/>
+<OPTION value="2590">Ho&#224;nh B&#7891;</OPTION><br/>
+<OPTION value="2591">H&#7843;i H&#224;</OPTION><br/>
+<OPTION value="2592">Ti&#234;n Y&#234;n</OPTION><br/>
+<OPTION value="2593">V&#226;n &#272;&#7891;n</OPTION><br/>
+<OPTION value="2594">Qu&#7843;ng Y&#234;n</OPTION><br/>
+<OPTION value="2595">&#272;&#7847;m H&#224;</OPTION><br/>
+<OPTION value="2596">Th&#224;nh ph&#7889; V&#297;nh Y&#234;n</OPTION><br/>
+<OPTION value="2597">Huy&#7879;n V&#297;nh T&#432;&#7901;ng</OPTION><br/>
+<OPTION value="2598">Huy&#7879;n Y&#234;n L&#7841;c</OPTION><br/>
+<OPTION value="2599">Huy&#7879;n Tam D&#432;&#417;ng</OPTION><br/>
+<OPTION value="2600">Th&#224;nh ph&#7889; Ph&#250;c Y&#234;n</OPTION><br/>
+<OPTION value="2601">Huy&#7879;n B&#236;nh Xuy&#234;n</OPTION><br/>
+<OPTION value="2602">Huy&#7879;n L&#7853;p Th&#7841;ch</OPTION><br/>
+<OPTION value="2603">Huy&#7879;n Tam &#272;&#7843;o</OPTION><br/>
+<OPTION value="2604">Huy&#7879;n S&#244;ng L&#244;</OPTION><br/>
+<OPTION value="2605">Huy&#7879;n H&#7899;n Qu&#7843;n</OPTION><br/>
+<OPTION value="2606">Huy&#7879;n B&#249; Gia M&#7853;p</OPTION><br/>
+<OPTION value="2608">Huy&#7879;n Ch&#432; P&#432;h</OPTION><br/>
+<OPTION value="2613">.</OPTION><br/>
+<OPTION value="2614">TP Tuy H&#242;a</OPTION><br/>
+<OPTION value="2615">H Ph&#250; H&#242;a</OPTION><br/>
+<OPTION value="2617">An Bi&#234;n</OPTION><br/>
+<OPTION value="2619">Huy&#7879;n Tr&#7847;n &#272;&#7873;</OPTION><br/>
+<OPTION value="2625">TP D&#297; An</OPTION><br/>
+<OPTION value="2626">Giang Th&#224;nh</OPTION><br/>
+<OPTION value="2627">Ti&#234;n Du</OPTION><br/>
+<OPTION value="2629">Th&#7883; X&#227; Bu&#244;n H&#7891;</OPTION><br/>
+<OPTION value="2631">Th&#7881; x&#227; T&#226;y Ninh</OPTION><br/>
+<OPTION value="2632">Bi&#234;n H&#242;a</OPTION><br/>
+<OPTION value="2634">Qu&#7871; V&#245;</OPTION><br/>
+<OPTION value="2636">L&#226;m B&#236;nh</OPTION><br/>
+<OPTION value="2638">Ph&#242;ng KHTCND</OPTION><br/>
+<OPTION value="2639">Th&#224;nh Ph&#7889; Ng&#227; B&#7843;y</OPTION><br/>
+<OPTION value="2642">Huy&#7879;n V&#7883; Th&#7911;y</OPTION><br/>
+<OPTION value="2644">Th&#7883; x&#227; G&#242; C&#244;ng</OPTION><br/>
+<OPTION value="2645">.</OPTION><br/>
+<OPTION value="2646">Huy&#7879;n Thu&#7853;n B&#7855;c</OPTION><br/>
+<OPTION value="2647">Huy&#7879;n Thu&#7853;n Nam</OPTION><br/>
+<OPTION value="2648">Th&#7883; x&#227; Ki&#7871;n T&#432;&#7901;ng</OPTION><br/>
+<OPTION value="2649">TX.Ho&#224;ng Mai</OPTION><br/>
+<OPTION value="2650">Huy&#7879;n N&#7853;m P&#7891;</OPTION><br/>
+<OPTION value="2655">N&#7853;m Nh&#249;n</OPTION><br/>
+<OPTION value="2658">.</OPTION><br/>
+<OPTION value="2659">Huy&#7879;n V&#226;n H&#7891;</OPTION><br/>
+<OPTION value="2660">Huy&#7879;n B&#224;u B&#224;ng</OPTION><br/>
+<OPTION value="2661">Huy&#7879;n B&#7855;c T&#226;n Uy&#234;n</OPTION><br/>
+<OPTION value="2662">B&#7855;c T&#7915; Li&#234;m</OPTION><br/>
+<OPTION value="2663">Nam T&#7915; Li&#234;m</OPTION><br/>
+<OPTION value="2665">TP T&#226;n Uy&#234;n</OPTION><br/>
+<OPTION value="2666">TP Kon Tum</OPTION><br/>
+<OPTION value="2667">Th&#7883; X&#227; Cai L&#7853;y</OPTION><br/>
+<OPTION value="2668">Th&#224;nh ph&#7889; S&#244;ng C&#244;ng (ko su dung)</OPTION><br/>
+<OPTION value="2669">Huy&#7879;n Ph&#250; Ri&#7873;ng</OPTION><br/>
+<OPTION value="2670">Th&#7883; X&#227; Duy&#234;n H&#7843;i</OPTION><br/>
+<OPTION value="2671">Th&#7883; x&#227; Long M&#7929;</OPTION><br/>
+<OPTION value="2672">Huy&#7879;n K&#7923; Anh m&#7899;i</OPTION><br/>
+<OPTION value="2673">Doanh nghi&#7879;p</OPTION><br/>
+<OPTION value="2674">Teet</OPTION><br/>
+<OPTION value="2675">T&#226;n Ti&#7871;n</OPTION><br/>
+<OPTION value="2676">T&#226;n L&#7907;i</OPTION><br/>
+<OPTION value="2677">T&#226;n Th&#224;nh</OPTION><br/>
+<OPTION value="2678">Kr&#244;ng B&#250;k</OPTION><br/>
+<OPTION value="2679">T&#226;n An</OPTION><br/>
+<OPTION value="2680">TP M&#7899;i B&#236;nh D&#432;&#417;ng</OPTION><br/>
+<OPTION value="2681">Ia Hdrai</OPTION><br/>
+<OPTION value="2687">qu&#7853;n duchtv</OPTION><br/>
+<OPTION value="2697">qu&#7853;n test 3</OPTION><br/>
+<OPTION value="2698">qu&#7853;n test </OPTION><br/>
+<OPTION value="2699">quaan tesst1</OPTION><br/>
+<OPTION value="2700">Qu&#7853;n 1</OPTION><br/>
+<OPTION value="2701">Th&#224;nh Ph&#7889; Th&#7911; &#272;&#7913;c</OPTION><br/>
+</select></TD><!-- onchange="load_phuong(this,$('cboTinh').value)" --><TD class=label width="15%">Ph&#432;&#7901;ng :</TD><TD class=element width="35%" id="ajax_phuong"> &nbsp;</TD></TR><tr><TD class=label width="15%">Ph&#7889;: </TD><TD class=element width="35%" id="ajax_pho"> &nbsp;</TD><TD class=label width="15%">S&#7889; nhà: </TD><TD class=element width="35%"><INPUT class="textField" id="sonha" onkeyup="capnhat_diachi('quan','phuong','pho','sonha','diachi');" onkeydown="ChangeFromTabToEnter()" style="WIDTH: 98%" maxLength="250" name="yuetng">
+</TD></tr><TR><TD class=label width="10%" height="22">&#272;&#7883;a ch&#7881;: </TD><TD class=element width="40%" height="22" colspan =3><table width="100%" border=0><tr><td width="82%"><INPUT class="textField" id="diachi" style="WIDTH: 99%; height:17" tabIndex="2" maxLength="300" name="jogino">
+<select name="3ihuZsv37" id="cboTmp" style="width:99%; display:none" class="textField" cache-mode="AGENT"  >
+<OPTION value="1082">16</OPTION><br/>
+<OPTION value="1083">66</OPTION><br/>
+<OPTION value="1084">66</OPTION><br/>
+<OPTION value="1085">16</OPTION><br/>
+<OPTION value="1086">16</OPTION><br/>
+<OPTION value="1087">16</OPTION><br/>
+<OPTION value="2554">32</OPTION><br/>
+<OPTION value="826">7</OPTION><br/>
+<OPTION value="302">18</OPTION><br/>
+<OPTION value="303">18</OPTION><br/>
+<OPTION value="304">18</OPTION><br/>
+<OPTION value="305">18</OPTION><br/>
+<OPTION value="306">18</OPTION><br/>
+<OPTION value="307">18</OPTION><br/>
+<OPTION value="308">18</OPTION><br/>
+<OPTION value="1163">5</OPTION><br/>
+<OPTION value="952">33</OPTION><br/>
+<OPTION value="953">33</OPTION><br/>
+<OPTION value="2555">13</OPTION><br/>
+<OPTION value="955">33</OPTION><br/>
+<OPTION value="956">33</OPTION><br/>
+<OPTION value="957">33</OPTION><br/>
+<OPTION value="958">33</OPTION><br/>
+<OPTION value="959">33</OPTION><br/>
+<OPTION value="320">11</OPTION><br/>
+<OPTION value="321">11</OPTION><br/>
+<OPTION value="322">11</OPTION><br/>
+<OPTION value="960">33</OPTION><br/>
+<OPTION value="961">33</OPTION><br/>
+<OPTION value="962">33</OPTION><br/>
+<OPTION value="2568">23</OPTION><br/>
+<OPTION value="1017">43</OPTION><br/>
+<OPTION value="1018">43</OPTION><br/>
+<OPTION value="1019">43</OPTION><br/>
+<OPTION value="1020">43</OPTION><br/>
+<OPTION value="1021">43</OPTION><br/>
+<OPTION value="1022">43</OPTION><br/>
+<OPTION value="1023">43</OPTION><br/>
+<OPTION value="2567">23</OPTION><br/>
+<OPTION value="345">34</OPTION><br/>
+<OPTION value="346">34</OPTION><br/>
+<OPTION value="347">34</OPTION><br/>
+<OPTION value="348">34</OPTION><br/>
+<OPTION value="349">34</OPTION><br/>
+<OPTION value="567">38</OPTION><br/>
+<OPTION value="568">38</OPTION><br/>
+<OPTION value="569">38</OPTION><br/>
+<OPTION value="570">38</OPTION><br/>
+<OPTION value="571">38</OPTION><br/>
+<OPTION value="572">38</OPTION><br/>
+<OPTION value="573">38</OPTION><br/>
+<OPTION value="574">38</OPTION><br/>
+<OPTION value="1134">38</OPTION><br/>
+<OPTION value="576">38</OPTION><br/>
+<OPTION value="577">38</OPTION><br/>
+<OPTION value="578">38</OPTION><br/>
+<OPTION value="579">38</OPTION><br/>
+<OPTION value="580">38</OPTION><br/>
+<OPTION value="1162">5</OPTION><br/>
+<OPTION value="582">38</OPTION><br/>
+<OPTION value="583">38</OPTION><br/>
+<OPTION value="591">46</OPTION><br/>
+<OPTION value="592">46</OPTION><br/>
+<OPTION value="593">46</OPTION><br/>
+<OPTION value="594">46</OPTION><br/>
+<OPTION value="595">46</OPTION><br/>
+<OPTION value="596">46</OPTION><br/>
+<OPTION value="597">46</OPTION><br/>
+<OPTION value="598">4</OPTION><br/>
+<OPTION value="599">4</OPTION><br/>
+<OPTION value="600">4</OPTION><br/>
+<OPTION value="601">4</OPTION><br/>
+<OPTION value="2608">19</OPTION><br/>
+<OPTION value="2615">41</OPTION><br/>
+<OPTION value="2617">30</OPTION><br/>
+<OPTION value="2558">38</OPTION><br/>
+<OPTION value="2559">18</OPTION><br/>
+<OPTION value="2565">43</OPTION><br/>
+<OPTION value="2569">23</OPTION><br/>
+<OPTION value="2619">47</OPTION><br/>
+<OPTION value="2502">28</OPTION><br/>
+<OPTION value="2503">28</OPTION><br/>
+<OPTION value="2504">28</OPTION><br/>
+<OPTION value="2505">28</OPTION><br/>
+<OPTION value="2506">28</OPTION><br/>
+<OPTION value="2507">28</OPTION><br/>
+<OPTION value="2508">28</OPTION><br/>
+<OPTION value="2509">28</OPTION><br/>
+<OPTION value="2510">28</OPTION><br/>
+<OPTION value="2511">28</OPTION><br/>
+<OPTION value="2512">28</OPTION><br/>
+<OPTION value="2513">28</OPTION><br/>
+<OPTION value="2514">28</OPTION><br/>
+<OPTION value="2515">28</OPTION><br/>
+<OPTION value="2516">28</OPTION><br/>
+<OPTION value="2517">28</OPTION><br/>
+<OPTION value="2518">28</OPTION><br/>
+<OPTION value="2519">28</OPTION><br/>
+<OPTION value="2520">28</OPTION><br/>
+<OPTION value="2521">28</OPTION><br/>
+<OPTION value="2522">28</OPTION><br/>
+<OPTION value="2523">28</OPTION><br/>
+<OPTION value="2524">28</OPTION><br/>
+<OPTION value="1122">49</OPTION><br/>
+<OPTION value="1123">49</OPTION><br/>
+<OPTION value="1124">49</OPTION><br/>
+<OPTION value="1125">49</OPTION><br/>
+<OPTION value="1126">49</OPTION><br/>
+<OPTION value="1127">49</OPTION><br/>
+<OPTION value="1128">49</OPTION><br/>
+<OPTION value="1129">49</OPTION><br/>
+<OPTION value="1130">49</OPTION><br/>
+<OPTION value="1131">49</OPTION><br/>
+<OPTION value="1132">49</OPTION><br/>
+<OPTION value="1135">38</OPTION><br/>
+<OPTION value="1136">26</OPTION><br/>
+<OPTION value="1137">26</OPTION><br/>
+<OPTION value="1138">26</OPTION><br/>
+<OPTION value="1139">26</OPTION><br/>
+<OPTION value="1140">26</OPTION><br/>
+<OPTION value="1141">26</OPTION><br/>
+<OPTION value="1142">26</OPTION><br/>
+<OPTION value="1143">26</OPTION><br/>
+<OPTION value="1144">26</OPTION><br/>
+<OPTION value="1145">26</OPTION><br/>
+<OPTION value="1146">26</OPTION><br/>
+<OPTION value="1147">26</OPTION><br/>
+<OPTION value="1148">26</OPTION><br/>
+<OPTION value="1149">26</OPTION><br/>
+<OPTION value="1150">26</OPTION><br/>
+<OPTION value="1151">26</OPTION><br/>
+<OPTION value="1152">26</OPTION><br/>
+<OPTION value="1153">26</OPTION><br/>
+<OPTION value="2556">43</OPTION><br/>
+<OPTION value="951">33</OPTION><br/>
+<OPTION value="2531">30</OPTION><br/>
+<OPTION value="2532">30</OPTION><br/>
+<OPTION value="2533">30</OPTION><br/>
+<OPTION value="2534">30</OPTION><br/>
+<OPTION value="2535">30</OPTION><br/>
+<OPTION value="2540">21</OPTION><br/>
+<OPTION value="2536">30</OPTION><br/>
+<OPTION value="2537">30</OPTION><br/>
+<OPTION value="2538">30</OPTION><br/>
+<OPTION value="2539">30</OPTION><br/>
+<OPTION value="2541">21</OPTION><br/>
+<OPTION value="2542">21</OPTION><br/>
+<OPTION value="2543">21</OPTION><br/>
+<OPTION value="2544">21</OPTION><br/>
+<OPTION value="2545">21</OPTION><br/>
+<OPTION value="2546">21</OPTION><br/>
+<OPTION value="2547">21</OPTION><br/>
+<OPTION value="2548">21</OPTION><br/>
+<OPTION value="2549">21</OPTION><br/>
+<OPTION value="2550">21</OPTION><br/>
+<OPTION value="2551">21</OPTION><br/>
+<OPTION value="2552">21</OPTION><br/>
+<OPTION value="2553">21</OPTION><br/>
+<OPTION value="2557">13</OPTION><br/>
+<OPTION value="2560">7</OPTION><br/>
+<OPTION value="2561">47</OPTION><br/>
+<OPTION value="2564">19</OPTION><br/>
+<OPTION value="2573">43</OPTION><br/>
+<OPTION value="2582">45</OPTION><br/>
+<OPTION value="2575">29</OPTION><br/>
+<OPTION value="2576">29</OPTION><br/>
+<OPTION value="2577">29</OPTION><br/>
+<OPTION value="2578">29</OPTION><br/>
+<OPTION value="2579">29</OPTION><br/>
+<OPTION value="2580">29</OPTION><br/>
+<OPTION value="445">37</OPTION><br/>
+<OPTION value="446">37</OPTION><br/>
+<OPTION value="447">37</OPTION><br/>
+<OPTION value="449">37</OPTION><br/>
+<OPTION value="448">37</OPTION><br/>
+<OPTION value="450">37</OPTION><br/>
+<OPTION value="451">37</OPTION><br/>
+<OPTION value="452">37</OPTION><br/>
+<OPTION value="453">37</OPTION><br/>
+<OPTION value="454">37</OPTION><br/>
+<OPTION value="463">52</OPTION><br/>
+<OPTION value="464">52</OPTION><br/>
+<OPTION value="465">52</OPTION><br/>
+<OPTION value="466">52</OPTION><br/>
+<OPTION value="467">52</OPTION><br/>
+<OPTION value="468">52</OPTION><br/>
+<OPTION value="469">52</OPTION><br/>
+<OPTION value="470">52</OPTION><br/>
+<OPTION value="471">52</OPTION><br/>
+<OPTION value="472">52</OPTION><br/>
+<OPTION value="473">52</OPTION><br/>
+<OPTION value="474">52</OPTION><br/>
+<OPTION value="475">52</OPTION><br/>
+<OPTION value="476">52</OPTION><br/>
+<OPTION value="477">52</OPTION><br/>
+<OPTION value="478">52</OPTION><br/>
+<OPTION value="479">52</OPTION><br/>
+<OPTION value="480">52</OPTION><br/>
+<OPTION value="481">52</OPTION><br/>
+<OPTION value="482">52</OPTION><br/>
+<OPTION value="483">52</OPTION><br/>
+<OPTION value="484">52</OPTION><br/>
+<OPTION value="485">52</OPTION><br/>
+<OPTION value="486">52</OPTION><br/>
+<OPTION value="487">52</OPTION><br/>
+<OPTION value="488">52</OPTION><br/>
+<OPTION value="489">60</OPTION><br/>
+<OPTION value="490">60</OPTION><br/>
+<OPTION value="491">60</OPTION><br/>
+<OPTION value="492">60</OPTION><br/>
+<OPTION value="493">60</OPTION><br/>
+<OPTION value="494">60</OPTION><br/>
+<OPTION value="495">60</OPTION><br/>
+<OPTION value="496">60</OPTION><br/>
+<OPTION value="497">12</OPTION><br/>
+<OPTION value="498">12</OPTION><br/>
+<OPTION value="499">12</OPTION><br/>
+<OPTION value="500">12</OPTION><br/>
+<OPTION value="501">12</OPTION><br/>
+<OPTION value="502">12</OPTION><br/>
+<OPTION value="503">12</OPTION><br/>
+<OPTION value="514">56</OPTION><br/>
+<OPTION value="515">56</OPTION><br/>
+<OPTION value="516">56</OPTION><br/>
+<OPTION value="517">56</OPTION><br/>
+<OPTION value="518">56</OPTION><br/>
+<OPTION value="519">56</OPTION><br/>
+<OPTION value="527">44</OPTION><br/>
+<OPTION value="528">44</OPTION><br/>
+<OPTION value="529">44</OPTION><br/>
+<OPTION value="530">44</OPTION><br/>
+<OPTION value="531">44</OPTION><br/>
+<OPTION value="532">44</OPTION><br/>
+<OPTION value="533">44</OPTION><br/>
+<OPTION value="534">44</OPTION><br/>
+<OPTION value="535">44</OPTION><br/>
+<OPTION value="536">44</OPTION><br/>
+<OPTION value="537">44</OPTION><br/>
+<OPTION value="538">44</OPTION><br/>
+<OPTION value="539">44</OPTION><br/>
+<OPTION value="540">44</OPTION><br/>
+<OPTION value="541">14</OPTION><br/>
+<OPTION value="542">14</OPTION><br/>
+<OPTION value="543">14</OPTION><br/>
+<OPTION value="544">14</OPTION><br/>
+<OPTION value="545">14</OPTION><br/>
+<OPTION value="546">14</OPTION><br/>
+<OPTION value="547">14</OPTION><br/>
+<OPTION value="548">14</OPTION><br/>
+<OPTION value="549">14</OPTION><br/>
+<OPTION value="1103">39</OPTION><br/>
+<OPTION value="1088">68</OPTION><br/>
+<OPTION value="1089">32</OPTION><br/>
+<OPTION value="1090">68</OPTION><br/>
+<OPTION value="1091">68</OPTION><br/>
+<OPTION value="1092">68</OPTION><br/>
+<OPTION value="1093">68</OPTION><br/>
+<OPTION value="1094">32</OPTION><br/>
+<OPTION value="1095">32</OPTION><br/>
+<OPTION value="1096">32</OPTION><br/>
+<OPTION value="1097">68</OPTION><br/>
+<OPTION value="1098">68</OPTION><br/>
+<OPTION value="566">38</OPTION><br/>
+<OPTION value="963">53</OPTION><br/>
+<OPTION value="101">50</OPTION><br/>
+<OPTION value="106">17</OPTION><br/>
+<OPTION value="109">18</OPTION><br/>
+<OPTION value="110">65</OPTION><br/>
+<OPTION value="111">17</OPTION><br/>
+<OPTION value="112">36</OPTION><br/>
+<OPTION value="113">50</OPTION><br/>
+<OPTION value="1099">32</OPTION><br/>
+<OPTION value="115">55</OPTION><br/>
+<OPTION value="116">19</OPTION><br/>
+<OPTION value="117">21</OPTION><br/>
+<OPTION value="118">9</OPTION><br/>
+<OPTION value="120">21</OPTION><br/>
+<OPTION value="122">11</OPTION><br/>
+<OPTION value="123">21</OPTION><br/>
+<OPTION value="124">21</OPTION><br/>
+<OPTION value="125">21</OPTION><br/>
+<OPTION value="126">21</OPTION><br/>
+<OPTION value="127">21</OPTION><br/>
+<OPTION value="128">21</OPTION><br/>
+<OPTION value="129">21</OPTION><br/>
+<OPTION value="130">21</OPTION><br/>
+<OPTION value="131">21</OPTION><br/>
+<OPTION value="132">59</OPTION><br/>
+<OPTION value="133">59</OPTION><br/>
+<OPTION value="134">59</OPTION><br/>
+<OPTION value="135">59</OPTION><br/>
+<OPTION value="136">59</OPTION><br/>
+<OPTION value="137">59</OPTION><br/>
+<OPTION value="138">59</OPTION><br/>
+<OPTION value="139">59</OPTION><br/>
+<OPTION value="140">59</OPTION><br/>
+<OPTION value="141">59</OPTION><br/>
+<OPTION value="142">59</OPTION><br/>
+<OPTION value="143">65</OPTION><br/>
+<OPTION value="144">65</OPTION><br/>
+<OPTION value="145">65</OPTION><br/>
+<OPTION value="147">65</OPTION><br/>
+<OPTION value="148">65</OPTION><br/>
+<OPTION value="149">65</OPTION><br/>
+<OPTION value="150">65</OPTION><br/>
+<OPTION value="151">65</OPTION><br/>
+<OPTION value="152">65</OPTION><br/>
+<OPTION value="153">20</OPTION><br/>
+<OPTION value="154">20</OPTION><br/>
+<OPTION value="155">20</OPTION><br/>
+<OPTION value="156">20</OPTION><br/>
+<OPTION value="157">20</OPTION><br/>
+<OPTION value="158">20</OPTION><br/>
+<OPTION value="159">20</OPTION><br/>
+<OPTION value="160">20</OPTION><br/>
+<OPTION value="161">20</OPTION><br/>
+<OPTION value="162">20</OPTION><br/>
+<OPTION value="163">20</OPTION><br/>
+<OPTION value="1100">68</OPTION><br/>
+<OPTION value="1101">32</OPTION><br/>
+<OPTION value="1102">68</OPTION><br/>
+<OPTION value="1104">39</OPTION><br/>
+<OPTION value="1105">39</OPTION><br/>
+<OPTION value="1106">39</OPTION><br/>
+<OPTION value="1107">39</OPTION><br/>
+<OPTION value="1108">39</OPTION><br/>
+<OPTION value="1109">39</OPTION><br/>
+<OPTION value="1110">39</OPTION><br/>
+<OPTION value="928">1</OPTION><br/>
+<OPTION value="1067">66</OPTION><br/>
+<OPTION value="1069">16</OPTION><br/>
+<OPTION value="1070">16</OPTION><br/>
+<OPTION value="1071">16</OPTION><br/>
+<OPTION value="1072">16</OPTION><br/>
+<OPTION value="1073">66</OPTION><br/>
+<OPTION value="1074">16</OPTION><br/>
+<OPTION value="1075">16</OPTION><br/>
+<OPTION value="1076">16</OPTION><br/>
+<OPTION value="1077">66</OPTION><br/>
+<OPTION value="1078">66</OPTION><br/>
+<OPTION value="1079">66</OPTION><br/>
+<OPTION value="1080">16</OPTION><br/>
+<OPTION value="1081">16</OPTION><br/>
+<OPTION value="602">4</OPTION><br/>
+<OPTION value="603">4</OPTION><br/>
+<OPTION value="604">4</OPTION><br/>
+<OPTION value="605">4</OPTION><br/>
+<OPTION value="607">31</OPTION><br/>
+<OPTION value="608">31</OPTION><br/>
+<OPTION value="609">31</OPTION><br/>
+<OPTION value="610">31</OPTION><br/>
+<OPTION value="611">31</OPTION><br/>
+<OPTION value="612">31</OPTION><br/>
+<OPTION value="613">31</OPTION><br/>
+<OPTION value="706">52</OPTION><br/>
+<OPTION value="621">46</OPTION><br/>
+<OPTION value="622">51</OPTION><br/>
+<OPTION value="623">51</OPTION><br/>
+<OPTION value="624">51</OPTION><br/>
+<OPTION value="625">51</OPTION><br/>
+<OPTION value="627">51</OPTION><br/>
+<OPTION value="628">51</OPTION><br/>
+<OPTION value="629">51</OPTION><br/>
+<OPTION value="699">46</OPTION><br/>
+<OPTION value="1024">43</OPTION><br/>
+<OPTION value="1025">43</OPTION><br/>
+<OPTION value="1026">43</OPTION><br/>
+<OPTION value="1027">43</OPTION><br/>
+<OPTION value="1028">43</OPTION><br/>
+<OPTION value="1029">43</OPTION><br/>
+<OPTION value="1030">43</OPTION><br/>
+<OPTION value="1032">43</OPTION><br/>
+<OPTION value="1033">43</OPTION><br/>
+<OPTION value="684">60</OPTION><br/>
+<OPTION value="668">13</OPTION><br/>
+<OPTION value="688">51</OPTION><br/>
+<OPTION value="672">13</OPTION><br/>
+<OPTION value="673">67</OPTION><br/>
+<OPTION value="674">67</OPTION><br/>
+<OPTION value="677">67</OPTION><br/>
+<OPTION value="680">13</OPTION><br/>
+<OPTION value="681">17</OPTION><br/>
+<OPTION value="682">17</OPTION><br/>
+<OPTION value="685">11</OPTION><br/>
+<OPTION value="686">67</OPTION><br/>
+<OPTION value="687">67</OPTION><br/>
+<OPTION value="709">12</OPTION><br/>
+<OPTION value="710">12</OPTION><br/>
+<OPTION value="711">12</OPTION><br/>
+<OPTION value="712">12</OPTION><br/>
+<OPTION value="713">12</OPTION><br/>
+<OPTION value="714">12</OPTION><br/>
+<OPTION value="801">34</OPTION><br/>
+<OPTION value="26">8</OPTION><br/>
+<OPTION value="27">47</OPTION><br/>
+<OPTION value="28">17</OPTION><br/>
+<OPTION value="2639">67</OPTION><br/>
+<OPTION value="30">17</OPTION><br/>
+<OPTION value="31">17</OPTION><br/>
+<OPTION value="34">17</OPTION><br/>
+<OPTION value="242">54</OPTION><br/>
+<OPTION value="241">54</OPTION><br/>
+<OPTION value="39">54</OPTION><br/>
+<OPTION value="243">54</OPTION><br/>
+<OPTION value="48">13</OPTION><br/>
+<OPTION value="244">54</OPTION><br/>
+<OPTION value="45">35</OPTION><br/>
+<OPTION value="46">10</OPTION><br/>
+<OPTION value="49">8</OPTION><br/>
+<OPTION value="52">54</OPTION><br/>
+<OPTION value="53">35</OPTION><br/>
+<OPTION value="245">54</OPTION><br/>
+<OPTION value="56">36</OPTION><br/>
+<OPTION value="58">17</OPTION><br/>
+<OPTION value="59">35</OPTION><br/>
+<OPTION value="62">6</OPTION><br/>
+<OPTION value="63">18</OPTION><br/>
+<OPTION value="65">13</OPTION><br/>
+<OPTION value="67">8</OPTION><br/>
+<OPTION value="69">17</OPTION><br/>
+<OPTION value="71">9</OPTION><br/>
+<OPTION value="73">54</OPTION><br/>
+<OPTION value="75">10</OPTION><br/>
+<OPTION value="79">9</OPTION><br/>
+<OPTION value="81">17</OPTION><br/>
+<OPTION value="82">11</OPTION><br/>
+<OPTION value="84">21</OPTION><br/>
+<OPTION value="85">21</OPTION><br/>
+<OPTION value="86">21</OPTION><br/>
+<OPTION value="89">35</OPTION><br/>
+<OPTION value="90">35</OPTION><br/>
+<OPTION value="91">10</OPTION><br/>
+<OPTION value="92">9</OPTION><br/>
+<OPTION value="103">36</OPTION><br/>
+<OPTION value="94">59</OPTION><br/>
+<OPTION value="95">6</OPTION><br/>
+<OPTION value="96">8</OPTION><br/>
+<OPTION value="350">34</OPTION><br/>
+<OPTION value="351">34</OPTION><br/>
+<OPTION value="352">34</OPTION><br/>
+<OPTION value="353">61</OPTION><br/>
+<OPTION value="354">61</OPTION><br/>
+<OPTION value="355">61</OPTION><br/>
+<OPTION value="356">61</OPTION><br/>
+<OPTION value="357">61</OPTION><br/>
+<OPTION value="358">61</OPTION><br/>
+<OPTION value="359">61</OPTION><br/>
+<OPTION value="360">61</OPTION><br/>
+<OPTION value="361">61</OPTION><br/>
+<OPTION value="371">3</OPTION><br/>
+<OPTION value="372">3</OPTION><br/>
+<OPTION value="373">3</OPTION><br/>
+<OPTION value="374">3</OPTION><br/>
+<OPTION value="375">3</OPTION><br/>
+<OPTION value="376">3</OPTION><br/>
+<OPTION value="377">3</OPTION><br/>
+<OPTION value="378">3</OPTION><br/>
+<OPTION value="379">3</OPTION><br/>
+<OPTION value="380">3</OPTION><br/>
+<OPTION value="399">5</OPTION><br/>
+<OPTION value="400">5</OPTION><br/>
+<OPTION value="401">5</OPTION><br/>
+<OPTION value="402">5</OPTION><br/>
+<OPTION value="403">27</OPTION><br/>
+<OPTION value="404">27</OPTION><br/>
+<OPTION value="405">27</OPTION><br/>
+<OPTION value="406">27</OPTION><br/>
+<OPTION value="407">27</OPTION><br/>
+<OPTION value="408">27</OPTION><br/>
+<OPTION value="409">27</OPTION><br/>
+<OPTION value="410">27</OPTION><br/>
+<OPTION value="411">27</OPTION><br/>
+<OPTION value="412">27</OPTION><br/>
+<OPTION value="413">27</OPTION><br/>
+<OPTION value="414">27</OPTION><br/>
+<OPTION value="415">24</OPTION><br/>
+<OPTION value="416">24</OPTION><br/>
+<OPTION value="417">24</OPTION><br/>
+<OPTION value="418">24</OPTION><br/>
+<OPTION value="419">24</OPTION><br/>
+<OPTION value="420">24</OPTION><br/>
+<OPTION value="421">24</OPTION><br/>
+<OPTION value="422">24</OPTION><br/>
+<OPTION value="423">24</OPTION><br/>
+<OPTION value="424">24</OPTION><br/>
+<OPTION value="425">22</OPTION><br/>
+<OPTION value="426">22</OPTION><br/>
+<OPTION value="427">22</OPTION><br/>
+<OPTION value="428">22</OPTION><br/>
+<OPTION value="429">22</OPTION><br/>
+<OPTION value="430">22</OPTION><br/>
+<OPTION value="431">22</OPTION><br/>
+<OPTION value="432">22</OPTION><br/>
+<OPTION value="433">22</OPTION><br/>
+<OPTION value="434">22</OPTION><br/>
+<OPTION value="435">22</OPTION><br/>
+<OPTION value="436">22</OPTION><br/>
+<OPTION value="437">22</OPTION><br/>
+<OPTION value="438">22</OPTION><br/>
+<OPTION value="439">25</OPTION><br/>
+<OPTION value="440">25</OPTION><br/>
+<OPTION value="441">25</OPTION><br/>
+<OPTION value="442">25</OPTION><br/>
+<OPTION value="443">25</OPTION><br/>
+<OPTION value="444">25</OPTION><br/>
+<OPTION value="907">57</OPTION><br/>
+<OPTION value="908">57</OPTION><br/>
+<OPTION value="909">57</OPTION><br/>
+<OPTION value="1111">42</OPTION><br/>
+<OPTION value="1112">42</OPTION><br/>
+<OPTION value="1113">42</OPTION><br/>
+<OPTION value="1114">42</OPTION><br/>
+<OPTION value="1115">42</OPTION><br/>
+<OPTION value="1116">42</OPTION><br/>
+<OPTION value="1117">42</OPTION><br/>
+<OPTION value="323">2</OPTION><br/>
+<OPTION value="324">2</OPTION><br/>
+<OPTION value="326">2</OPTION><br/>
+<OPTION value="327">2</OPTION><br/>
+<OPTION value="328">2</OPTION><br/>
+<OPTION value="47">2</OPTION><br/>
+<OPTION value="76">2</OPTION><br/>
+<OPTION value="83">2</OPTION><br/>
+<OPTION value="1066">66</OPTION><br/>
+<OPTION value="920">1</OPTION><br/>
+<OPTION value="921">1</OPTION><br/>
+<OPTION value="922">1</OPTION><br/>
+<OPTION value="923">1</OPTION><br/>
+<OPTION value="924">1</OPTION><br/>
+<OPTION value="925">1</OPTION><br/>
+<OPTION value="926">1</OPTION><br/>
+<OPTION value="927">1</OPTION><br/>
+<OPTION value="2629">16</OPTION><br/>
+<OPTION value="2625">8</OPTION><br/>
+<OPTION value="2626">30</OPTION><br/>
+<OPTION value="2627">5</OPTION><br/>
+<OPTION value="2631">50</OPTION><br/>
+<OPTION value="2632">17</OPTION><br/>
+<OPTION value="2634">5</OPTION><br/>
+<OPTION value="2574">29</OPTION><br/>
+<OPTION value="2636">56</OPTION><br/>
+<OPTION value="2638">43</OPTION><br/>
+<OPTION value="2642">67</OPTION><br/>
+<OPTION value="2581">29</OPTION><br/>
+<OPTION value="2583">45</OPTION><br/>
+<OPTION value="2584">45</OPTION><br/>
+<OPTION value="2585">45</OPTION><br/>
+<OPTION value="2586">45</OPTION><br/>
+<OPTION value="2587">45</OPTION><br/>
+<OPTION value="2588">45</OPTION><br/>
+<OPTION value="2589">45</OPTION><br/>
+<OPTION value="2590">45</OPTION><br/>
+<OPTION value="2591">45</OPTION><br/>
+<OPTION value="2525">21</OPTION><br/>
+<OPTION value="2527">30</OPTION><br/>
+<OPTION value="2528">30</OPTION><br/>
+<OPTION value="2529">30</OPTION><br/>
+<OPTION value="2530">30</OPTION><br/>
+<OPTION value="2592">45</OPTION><br/>
+<OPTION value="2593">45</OPTION><br/>
+<OPTION value="2594">45</OPTION><br/>
+<OPTION value="2595">45</OPTION><br/>
+<OPTION value="2605">9</OPTION><br/>
+<OPTION value="2606">9</OPTION><br/>
+<OPTION value="2613">36</OPTION><br/>
+<OPTION value="2614">41</OPTION><br/>
+<OPTION value="2596">58</OPTION><br/>
+<OPTION value="2597">58</OPTION><br/>
+<OPTION value="2598">58</OPTION><br/>
+<OPTION value="2599">58</OPTION><br/>
+<OPTION value="2600">58</OPTION><br/>
+<OPTION value="2601">58</OPTION><br/>
+<OPTION value="2602">58</OPTION><br/>
+<OPTION value="2603">58</OPTION><br/>
+<OPTION value="2604">58</OPTION><br/>
+<OPTION value="186">35</OPTION><br/>
+<OPTION value="187">35</OPTION><br/>
+<OPTION value="188">35</OPTION><br/>
+<OPTION value="189">35</OPTION><br/>
+<OPTION value="190">35</OPTION><br/>
+<OPTION value="191">35</OPTION><br/>
+<OPTION value="192">35</OPTION><br/>
+<OPTION value="194">10</OPTION><br/>
+<OPTION value="195">10</OPTION><br/>
+<OPTION value="196">10</OPTION><br/>
+<OPTION value="197">10</OPTION><br/>
+<OPTION value="198">10</OPTION><br/>
+<OPTION value="199">10</OPTION><br/>
+<OPTION value="200">6</OPTION><br/>
+<OPTION value="201">6</OPTION><br/>
+<OPTION value="202">6</OPTION><br/>
+<OPTION value="203">6</OPTION><br/>
+<OPTION value="204">6</OPTION><br/>
+<OPTION value="205">6</OPTION><br/>
+<OPTION value="206">6</OPTION><br/>
+<OPTION value="207">6</OPTION><br/>
+<OPTION value="208">6</OPTION><br/>
+<OPTION value="209">19</OPTION><br/>
+<OPTION value="210">19</OPTION><br/>
+<OPTION value="211">19</OPTION><br/>
+<OPTION value="212">19</OPTION><br/>
+<OPTION value="213">19</OPTION><br/>
+<OPTION value="214">19</OPTION><br/>
+<OPTION value="215">19</OPTION><br/>
+<OPTION value="216">19</OPTION><br/>
+<OPTION value="217">19</OPTION><br/>
+<OPTION value="218">19</OPTION><br/>
+<OPTION value="219">19</OPTION><br/>
+<OPTION value="220">19</OPTION><br/>
+<OPTION value="221">19</OPTION><br/>
+<OPTION value="222">19</OPTION><br/>
+<OPTION value="964">53</OPTION><br/>
+<OPTION value="965">53</OPTION><br/>
+<OPTION value="966">53</OPTION><br/>
+<OPTION value="967">53</OPTION><br/>
+<OPTION value="968">53</OPTION><br/>
+<OPTION value="969">53</OPTION><br/>
+<OPTION value="970">53</OPTION><br/>
+<OPTION value="971">53</OPTION><br/>
+<OPTION value="246">54</OPTION><br/>
+<OPTION value="247">7</OPTION><br/>
+<OPTION value="248">7</OPTION><br/>
+<OPTION value="249">7</OPTION><br/>
+<OPTION value="250">7</OPTION><br/>
+<OPTION value="251">7</OPTION><br/>
+<OPTION value="252">7</OPTION><br/>
+<OPTION value="253">7</OPTION><br/>
+<OPTION value="260">8</OPTION><br/>
+<OPTION value="261">50</OPTION><br/>
+<OPTION value="262">50</OPTION><br/>
+<OPTION value="263">50</OPTION><br/>
+<OPTION value="264">50</OPTION><br/>
+<OPTION value="265">50</OPTION><br/>
+<OPTION value="266">50</OPTION><br/>
+<OPTION value="876">23</OPTION><br/>
+<OPTION value="884">31</OPTION><br/>
+<OPTION value="874">23</OPTION><br/>
+<OPTION value="875">23</OPTION><br/>
+<OPTION value="878">23</OPTION><br/>
+<OPTION value="879">23</OPTION><br/>
+<OPTION value="880">23</OPTION><br/>
+<OPTION value="881">23</OPTION><br/>
+<OPTION value="267">50</OPTION><br/>
+<OPTION value="268">36</OPTION><br/>
+<OPTION value="269">36</OPTION><br/>
+<OPTION value="270">36</OPTION><br/>
+<OPTION value="271">36</OPTION><br/>
+<OPTION value="272">36</OPTION><br/>
+<OPTION value="273">36</OPTION><br/>
+<OPTION value="274">36</OPTION><br/>
+<OPTION value="275">36</OPTION><br/>
+<OPTION value="276">36</OPTION><br/>
+<OPTION value="277">36</OPTION><br/>
+<OPTION value="278">13</OPTION><br/>
+<OPTION value="280">13</OPTION><br/>
+<OPTION value="281">9</OPTION><br/>
+<OPTION value="282">9</OPTION><br/>
+<OPTION value="284">9</OPTION><br/>
+<OPTION value="285">47</OPTION><br/>
+<OPTION value="286">47</OPTION><br/>
+<OPTION value="287">47</OPTION><br/>
+<OPTION value="288">47</OPTION><br/>
+<OPTION value="289">47</OPTION><br/>
+<OPTION value="290">47</OPTION><br/>
+<OPTION value="291">47</OPTION><br/>
+<OPTION value="292">47</OPTION><br/>
+<OPTION value="293">55</OPTION><br/>
+<OPTION value="294">55</OPTION><br/>
+<OPTION value="295">55</OPTION><br/>
+<OPTION value="296">55</OPTION><br/>
+<OPTION value="297">55</OPTION><br/>
+<OPTION value="298">55</OPTION><br/>
+<OPTION value="299">55</OPTION><br/>
+<OPTION value="300">18</OPTION><br/>
+<OPTION value="301">18</OPTION><br/>
+<OPTION value="807">10</OPTION><br/>
+<OPTION value="804">11</OPTION><br/>
+<OPTION value="842">41</OPTION><br/>
+<OPTION value="831">59</OPTION><br/>
+<OPTION value="824">46</OPTION><br/>
+<OPTION value="841">41</OPTION><br/>
+<OPTION value="843">41</OPTION><br/>
+<OPTION value="844">41</OPTION><br/>
+<OPTION value="845">41</OPTION><br/>
+<OPTION value="846">41</OPTION><br/>
+<OPTION value="847">41</OPTION><br/>
+<OPTION value="1154">38</OPTION><br/>
+<OPTION value="871">23</OPTION><br/>
+<OPTION value="872">23</OPTION><br/>
+<OPTION value="32">36</OPTION><br/>
+<OPTION value="891">21</OPTION><br/>
+<OPTION value="910">1</OPTION><br/>
+<OPTION value="896">60</OPTION><br/>
+<OPTION value="897">9</OPTION><br/>
+<OPTION value="912">15</OPTION><br/>
+<OPTION value="911">1</OPTION><br/>
+<OPTION value="913">15</OPTION><br/>
+<OPTION value="914">15</OPTION><br/>
+<OPTION value="915">15</OPTION><br/>
+<OPTION value="916">15</OPTION><br/>
+<OPTION value="917">15</OPTION><br/>
+<OPTION value="918">15</OPTION><br/>
+<OPTION value="902">57</OPTION><br/>
+<OPTION value="903">57</OPTION><br/>
+<OPTION value="904">57</OPTION><br/>
+<OPTION value="905">57</OPTION><br/>
+<OPTION value="906">57</OPTION><br/>
+<OPTION value="2655">32</OPTION><br/>
+<OPTION value="2675">16</OPTION><br/>
+<OPTION value="2663">21</OPTION><br/>
+<OPTION value="2669">9</OPTION><br/>
+<OPTION value="2679">16</OPTION><br/>
+<OPTION value="2680">8</OPTION><br/>
+<OPTION value="2699">26</OPTION><br/>
+<OPTION value="2700">28</OPTION><br/>
+<OPTION value="2650">68</OPTION><br/>
+<OPTION value="2676">16</OPTION><br/>
+<OPTION value="2658">38</OPTION><br/>
+<OPTION value="2678">16</OPTION><br/>
+<OPTION value="2649">38</OPTION><br/>
+<OPTION value="2701">28</OPTION><br/>
+<OPTION value="2668">61</OPTION><br/>
+<OPTION value="2670">55</OPTION><br/>
+<OPTION value="2645">28</OPTION><br/>
+<OPTION value="2661">8</OPTION><br/>
+<OPTION value="2667">54</OPTION><br/>
+<OPTION value="2698">26</OPTION><br/>
+<OPTION value="2644">54</OPTION><br/>
+<OPTION value="615">40</OPTION><br/>
+<OPTION value="2648">36</OPTION><br/>
+<OPTION value="2660">8</OPTION><br/>
+<OPTION value="2666">31</OPTION><br/>
+<OPTION value="2671">67</OPTION><br/>
+<OPTION value="2672">23</OPTION><br/>
+<OPTION value="2674">26</OPTION><br/>
+<OPTION value="616">40</OPTION><br/>
+<OPTION value="617">40</OPTION><br/>
+<OPTION value="618">40</OPTION><br/>
+<OPTION value="620">40</OPTION><br/>
+<OPTION value="2647">40</OPTION><br/>
+<OPTION value="2646">40</OPTION><br/>
+<OPTION value="2687">26</OPTION><br/>
+<OPTION value="2697">26</OPTION><br/>
+<OPTION value="2673">21</OPTION><br/>
+<OPTION value="2665">8</OPTION><br/>
+<OPTION value="2677">16</OPTION><br/>
+<OPTION value="2681">31</OPTION><br/>
+<OPTION value="2659">49</OPTION><br/>
+<OPTION value="2662">21</OPTION><br/>
+</select></td><td class="labelf"><INPUT type="checkbox" id="chk_Edit" name="1inqeQNXX" size="12" onclick="ChangeEdit()" checked><font face="Arial" size="1">Cho phép s&#7917;a</font></td></tr></table></TD></TR><TR><TD width="50%" height="22" colspan="4" align=center><INPUT id="cmdOK" style="width:100" class="button" onclick="cmdOK_click()" type="button" value="Ch&#7845;p nh&#7853;n" name="Igtikr7"><INPUT id="cmdKT" style="width:100" class="button" onclick="cmdKT_click()" type="button" value="K&#7871;t thúc" name="Igtikr"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><script language =javascript >
+/*
+'*****************************************************************************
+'Thu vien : quan ly viec cac ham de cap nhat dia chi
+'*****************************************************************************
+'Phien ban : 1.0.0
+'Ngay bat dau : 2006/11/17
+'Ngay cap nhat cuoi cung: 2006/11/17
+'Nguoi phat trien : Ha Thai Bao
+'Don vi : Cong ty co phan NEO
+'*****************************************************************************
+'Chuc nang:
+-goi dien cac thu vien: error,validate,keypress,myajax,controlstatus
+-khi goi vao caller se phai truen len cac tham so sau:
+var pQuan_id =""; //gia tri quan hien tai (ko bat buoc)
+var pPhuong_id =""; //gia tri phuong hien tai (ko bat buoc)
+var pPho_id =""; //gia tri pho hoen tai (ko bat buoc)
+var pSo_nha =""; //so nha hien tai (ko bat buoc)
+var pDiachi =""; //dia chi hien tai (ko bat buoc)
+var pQuan_id_name ="quanct_id"; //ten ID cua doi tuong de nhan gia tri tra lai (bat buoc phai co)
+var pPhuong_id_name ="phuongct_id"; //ten ID cua doi tuong de nhan gia tri tra lai (bat buoc phai co)
+var pPho_id_name ="phoct_id"; //ten ID cua doi tuong de nhan gia tri tra lai (bat buoc phai co)
+var pSo_nha_name ="sonhact_id"; //ten ID cua doi tuong de nhan gia tri tra lai (bat buoc phai co)
+var pDiachi_name ="diachi_ct"; //ten ID cua doi tuong de nhan gia tri tra lai (bat buoc phai co)
+function form_load() : duoc goi tren su kien onload cua the body
+function cmdOK_click() : goi den va truyen tra lia cac gia tri cho caller
+function cmdKT_click()
+function set_phuong_selected_index(): lay gia tri hien thi cho phuong theo gia tri cu tu caller truyen len
+function set_pho_selected_index() : lay gia tri hien thi cho pho theo gia tri cu tu caller truyen len
+function focus_obj(v_obj) :
+function showWindowSize() : hien thi kich thuoc cua so
+----khoi tao ajax----
+function load_phuong(obj)
+function load_pho(obj)
+----ajax callback, cap nhat theo su kien
+function capnhat_diachi(quan_id,phuong_id,pho_id,sonha_id,diachi_id)
+-----goi den cac form khac ---
+----validate----------
+1. check_varchar_format(obj) : kiem tra gia tri nhap vao co theo kieu so may ko (hien tai goi den ham check_number_format())
+'*****************************************************************************
+'Lich su thay doi: (ngay sua doi/nguoi sua doi/noi dung sua doi)
+'-2006/11/17, baoht: phat trien phien ban dau
+'*****************************************************************************
+*/
+var val_obj= new Array(); //mang quan ly viec validate cdu lieu nhap vao
+var status_obj= new Array(); //mang quan ly status cua cac control tren form
+var key_obj = new Array(); //mang quan ly viec xu ly phim nong
+//luu cac tham so truyen len, de hien thi cho dung
+var pQuan_id ="";
+var pPhuong_id ="";
+var pPho_id ="";
+var pSo_nha ="";
+var pDiachi ="";
+var pQuan_id_name ="quanct_id";
+var pPhuong_id_name ="phuongct_id";
+var pPho_id_name ="phoct_id";
+var pSo_nha_name ="sonhact_id";
+var pDiachi_name ="diachi_ct";
+var pDiachi_tt_name ="";
+var firstLoad = true;
+function form_load(){
+check_quyen_admin();
+var i=0;
+val_obj[i++] = new validateObj('sonha','So nha','varchar','',0,0,0,200,true,'check_varchar_format','','','focus_obj','');
+val_obj[i++] = new validateObj('diachi','Dia chi','varchar','',0,0,0,300,true,'check_varchar_format','','','focus_obj','');
+//$('sonha').value=pSo_nha;
+$('sonha').value=Url.decode_1252(pSo_nha);
+set_tinh_selected_index()
+$("chk_Edit").checked =false;
+$("diachi").readOnly= true;
+}
+function check_quyen_admin()
+{
+var exeScript = "neo.common.check_quyen_admin('bhlt_bnh')";
+NEORemoting.getValue(exeScript,reply_check_quyen);
+}
+var reply_check_quyen=function(data)
+{
+if(data=="0")
+{
+$("chk_Edit").checked=false;
+//$("chk_Edit").disabled=true;
+}
+else {
+$("chk_Edit").disabled=false;
+}
+}
+function ChangeEdit(){
+chk=$("chk_Edit");
+if (chk.checked) {
+$("diachi").readOnly= false;
+}else {
+$("diachi").readOnly= true;
+}
+}
+function cmdOK_click(){
+if (!validate_before_submit()) {
+return;
+}
+var quan= window.opener.$(pQuan_id_name);
+var phuong= window.opener.$(pPhuong_id_name);
+var pho= window.opener.$(pPho_id_name);
+var sonha= window.opener.$(pSo_nha_name);
+var diachi= window.opener.$(pDiachi_name);
+var diachi_tt = window.opener.$(pDiachi_tt_name);
+if(quan!=null) quan.value =$("quan").value;
+/* Cap nhat dia chi lap hop dong ngay 24/11/2008 */
+if(phuong!=null)
+{ phuong.value =$("phuong").value;
+if(phuong.value=='')
+{ phuong.value=0;}
+}
+if(pho!=null)
+{ pho.value =$("pho").value;
+if( pho.value=='')
+{ pho.value=0}
+}
+//if(phuong!=null) phuong.value =$("phuong").value;
+//if(pho!=null) pho.value =$("pho").value;
+if(sonha!=null) sonha.value =$("sonha").value;
+if(diachi!=null) diachi.value =$("diachi").value;
+if(diachi_tt!=null) diachi_tt.value =$("diachi").value;
+if(quan==null||quan.value=='0'||phuong==null||phuong.value=='0'){
+alert('Yeu cau chon Quan/Huyen va Phuong');
+}else{
+window.self.close();
+}
+}
+function cmdKT_click(){
+//showWindowSize();
+window.self.close();
+}
+function set_tinh_selected_index(){
+if((pQuan_id.length<=0)){ //khong co gia tri tu caller truyen sang
+loadQuan($("cboTinh"));
+$("quan").focus();
+return;
+}
+var obj = $('cboTmp');
+if (obj==null) return;
+var tmp;
+for(var i=0;i<obj.length;i++) {
+if (obj.options[i].value ==pQuan_id) {
+tmp=obj.options[i].text;
+break;
+}
+}
+obj = $('cboTinh');
+for(var i=0;i<obj.length;i++) {
+if (obj.options[i].value ==tmp) {
+obj.options[i].selected =true;
+break;
+}
+}
+loadQuan($("cboTinh"));
+$("quan").focus();
+}
+function set_quan_selected_index(){
+if((pQuan_id.length<=0)){ //khong co gia tri tu caller truyen sang
+return;
+}
+var obj = $('quan');
+if (obj==null) return;
+for(var i=0;i<obj.length;i++) {
+if (obj.options[i].value ==pQuan_id) {
+obj.options[i].selected =true;
+break;
+}
+}
+}
+function set_phuong_selected_index(){
+if((pPhuong_id.length<=0)){ //khong co gia tri tu caller truyen sang
+return;
+}
+var obj = $('phuong');
+if (obj==null) return;
+for(var i=0;i<obj.length;i++) {
+if (obj.options[i].value ==pPhuong_id) {
+obj.options[i].selected =true;
+break;
+}
+}
+}
+function set_pho_selected_index(){
+if((pPho_id.length<=0)){ //khong co gia tri tu caller truyen sang
+return;
+}
+var obj = $('pho');
+if (obj==null) return;
+for(var i=0;i<obj.length;i++) {
+if (obj.options[i].value ==pPho_id) {
+obj.options[i].selected =true;
+break;
+}
+}
+}
+//Load quan theo tinh, thanh pho
+function loadQuan(obj){
+var psTinh=obj.options[obj.selectedIndex].value;
+var url = 'neo.common.getUrlQuan("'+psTinh+'")';
+DataRemoting.getDoc(url, cb_loadQuan);
+}
+var cb_loadQuan= function(data) {
+if(!isEmpty(data)) {
+$('ajaxQuan').innerHTML =
+"<SELECT id=quan onkeydown=\"ChangeFromTabToEnter()\" style='width:98%' class=textField onchange='load_phuong(this)' >"
++"<option value='0'>Không ch&#7885;n</option>"
++data
++"</SELECT>";
+} else {
+$('ajaxQuan').innerHTML =
+"<SELECT id=quan onkeydown=\"ChangeFromTabToEnter()\" style='width:98%' class=textField onchange='load_phuong(this)'>"
++"<option value='0'></option>"
++"</SELECT>";
+}
+set_quan_selected_index();
+load_phuong($('quan'));
+}
+//-----------load phuong theo quan-------------
+function load_phuong(obj){
+var qid=obj.options[obj.selectedIndex].value;
+var url = 'neo.common.getUrlPhuong("'+qid+'")';
+DataRemoting.getDoc(url, cb_load_phuong);
+}
+var cb_load_phuong= function(data) {
+if(!isEmpty(data)) {
+$('ajax_phuong').innerHTML =
+"<SELECT id=phuong onkeydown=\"ChangeFromTabToEnter()\" style='width:98%' class=textField onchange='load_pho(this)' >"
++"<option value='0'>Không ch&#7885;n</option>"
++data
++"</SELECT>";
+} else {
+$('ajax_phuong').innerHTML =
+"<SELECT id=phuong onkeydown=\"ChangeFromTabToEnter()\" style='width:98%' class=textField onchange='load_pho(this)'>"
++"<option value='0'>Không ch&#7885;n</option>"
++"</SELECT>";
+}
+set_phuong_selected_index();
+load_pho($('phuong'));
+}
+function load_pho(obj){
+var pid=obj.options[obj.selectedIndex].value;
+var url = 'neo.common.getUrlPho("'+pid+'")';
+DataRemoting.getDoc(url, cb_load_pho);
+}
+var cb_load_pho= function(data) {
+if(!isEmpty(data)) {
+$('ajax_pho').innerHTML =
+"<SELECT id=pho onkeydown=\"ChangeFromTabToEnter()\" style='width:98%' class=textField onchange=\"capnhat_diachi('quan','phuong','pho','sonha','diachi');\" >"
++data
++"</SELECT>";
+} else {
+$('ajax_pho').innerHTML =
+"<SELECT id=pho onkeydown=\"ChangeFromTabToEnter()\" style='width:98%' class=textField onchange=\"capnhat_diachi('quan','phuong','pho','sonha','diachi');\" >"
++"<option value='0'></option>"
++"</SELECT>";
+}
+set_pho_selected_index();
+capnhat_diachi('quan','phuong','pho','sonha','diachi');
+$("quan").focus();
+}
+//----------cap nhat du lieu theo cac su kien hoac callback cua ajax----
+function capnhat_diachi(quan_id,phuong_id,pho_id,sonha_id,diachi_id) {
+var sDiaChi="";
+if ((firstLoad) && (pDiachi.length>1)) {// lan dau tien==> lay theo gia tri truyen len
+sDiaChi =Url.decode_1252(pDiachi);
+firstLoad=false;
+} else {
+if (!isEmpty($(sonha_id).value)) sDiaChi+=$(sonha_id).value+" - ";
+if ((!isEmpty($(pho_id).value))&&($(pho_id).value!="0")&&(trimBoth($("pho").options[$("pho").selectedIndex].text)!="")) sDiaChi+=$(pho_id).options[$(pho_id).selectedIndex].text+" - ";
+if ((!isEmpty($(phuong_id).value))&&($(phuong_id).value!="0")) sDiaChi+=$(phuong_id).options[$(phuong_id).selectedIndex].text+" - ";
+if ((!isEmpty($(quan_id).value))&&($(quan_id).value!="0")) sDiaChi+=$(quan_id).options[$(quan_id).selectedIndex].text+" - ";
+if (!isEmpty($("cboTinh").value)) sDiaChi+=$("cboTinh").options[$("cboTinh").selectedIndex].text;
+}
+$(diachi_id).value=sDiaChi;
+}
+function focus_obj(v_obj) {
+$(v_obj.id).focus();
+}
+function isEmpty(str){
+if ((str=="") || (str.length==0)) return true;
+}
+function showWindowSize(){
+alert(document.body.clientWidth +','+document.body.clientHeight)
+}
+function ChangeFromTabToEnter()
+{
+if(event.keyCode== 13)
+event.keyCode = 9;
+}
+</script>
+
+<SCRIPT language=JavaScript src="myJS/myFunction.js" type=text/javascript> </script>
+<script type='text/javascript' src='/ccbs/dwr/interface/DataRemoting.js'></script>
+<script type='text/javascript' src='/ccbs/dwr/interface/NEORemoting.js'></script>
+<script type='text/javascript' src='/ccbs/dwr/engine.js'></script>
+<script type='text/javascript' src='/ccbs/dwr/util.js'></script>
+<SCRIPT type='text/javascript'>
+function dwrGetValue(data) {
+if (data != null && typeof data == 'object') return DWRUtil.toDescriptiveString(data, 2);
+else return DWRUtil.toDescriptiveString(data, 1);
+}
+function dwrGetRecValueByFieldName(rec, fname)
+{
+for (var item in rec) {
+if (item.toLowerCase() == fname.toLowerCase())
+{
+return Url.decode_1252(rec[item]);
+}
+}
+return "";
+}
+</SCRIPT>
+
+</BODY></HTML>

@@ -1,0 +1,124 @@
+>--API CCBS DOCS--<
+
+Nội dung:
+
+1.Login:
+--URL:{ngrok_link}/api/get-login-ccbs
+ --Request:
+  
+     {
+  "user_name":"value",
+  "password":"value"+"otp"
+     }
+
+ --Response:
+-case success:
+{
+status:true,
+message:"Dang nhap thanh cong.",
+}
+
+-case fail:
+{
+status:false,
+message:"Dang nhap that bai.",
+data:{
+     "error":error.response.data,
+     "data":data
+     }
+}
+
+
+2.Create-Contract:
+ --URL:{ngrok_link}/api/add_new_contract
+ --Request:
+  {
+  "user_name":"value",
+  "create_contract_str":"value"
+   }
+
+ --Response:
+-case success:
+{
+status:true,
+message:"Lap hop dong thanh cong.",
+data:response.data
+}
+
+-case fail:
+
+{
+status:false,
+message:"Add contract that bai.",
+data:error.response.data 
+}
+
+3.Get-Contract:
+--URL:{ngrok_link}/api/get_contract_info
+ --Request:
+  {
+  "user_name":"value",
+  "get_contract_str":"value"
+   }
+
+ --Response:
+-case success:
+{
+status:true,
+message:"Lay hop dong thanh cong.",
+data:response.data
+}
+
+-case fail:
+
+{
+status:false,
+message:"Lay hop dong that bai.",
+data:error.response.data 
+}
+
+4.Get Province Info:
+--URL:{ngrok_link}/api/get_province_list
+ --Request:
+  {
+  "user_name":"value"
+  }
+
+ --Response:
+-case success:
+{
+status:true,
+message:"Lap danh sach thanh cong.",
+data:response.data
+}
+
+-case fail:
+
+{
+status:false,
+message:"Lay danh sach that bai.",
+data:error.response.data 
+}
+
+5.Upload-Image:
+--URL:{ngrok_link}/api/upload_image
+--Request:
+{
+"file":image_file
+}
+
+--Response:
+-case success:
+{
+ status:true,
+message:"Da upload anh thanh cong",
+data:response.data
+}
+
+-case fail:
+{
+status:false,
+message:"Co loi xay ra khi upload anh",
+data:error.response.data
+}
+

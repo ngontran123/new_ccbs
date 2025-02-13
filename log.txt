@@ -1,0 +1,299 @@
+12/2/2023:connect ECONNREFUSED 127.0.0.1:8833
+12/2/2023:connect ECONNREFUSED 127.0.0.1:8833
+12/2/2023:connect ECONNREFUSED 127.0.0.1:8833
+12/2/2023:connect ECONNREFUSED 127.0.0.1:8833
+12/2/2023:err is not defined
+12/2/2023:ngrok link is:https://9231-115-73-216-121.ngrok-free.app
+12/2/2023:ngrok link is:https://61a9-115-73-216-121.ngrok-free.app
+12/2/2023:ngrok link is:https://e0c3-115-73-216-121.ngrok-free.app
+12/27/2023:ngrok link is:https://2a89-115-73-216-121.ngrok-free.app
+12/27/2023:ngrok link is:https://9d8f-115-73-216-121.ngrok-free.app
+12/27/2023:ngrok link is:https://4cfe-115-73-216-121.ngrok-free.app
+12/27/2023:ngrok link is:https://526b-115-73-216-121.ngrok-free.app
+12/27/2023:connect ETIMEDOUT 10.159.22.104:80
+12/27/2023:ngrok link is:https://5e7b-115-73-216-121.ngrok-free.app
+12/27/2023:connect ETIMEDOUT 10.159.22.104:80
+12/27/2023:ngrok link is:https://222c-115-73-216-121.ngrok-free.app
+12/27/2023:connect ETIMEDOUT 10.159.22.104:80
+12/27/2023:ngrok link is:https://7091375b4a75.ngrok.app
+12/27/2023:connect ETIMEDOUT 10.159.22.104:80
+12/27/2023:ngrok link is:https://8760-115-73-216-121.ngrok-free.app
+12/27/2023:connect ETIMEDOUT 10.159.22.104:80
+12/27/2023:ngrok link is:https://d455-115-73-216-121.ngrok-free.app
+12/27/2023:ngrok link is:https://15ca-115-73-216-121.ngrok-free.app
+12/27/2023:connect ETIMEDOUT 10.159.22.104:80
+12/27/2023:ngrok link is:https://e374-115-73-216-121.ngrok-free.app
+12/27/2023:ngrok link is:https://c0cf10a6ef02.ngrok.app
+12/27/2023:connect ETIMEDOUT 10.159.22.104:80
+12/27/2023:ngrok link is:https://c054-115-73-216-121.ngrok-free.app
+12/27/2023:connect ETIMEDOUT 10.159.22.104:80
+12/27/2023:ngrok link is:https://e42c-115-73-216-121.ngrok-free.app
+12/27/2023:connect ETIMEDOUT 10.159.22.104:80
+12/27/2023:ngrok link is:https://576a4575442a.ngrok.app
+12/27/2023:ngrok link is:https://54b5-115-73-216-121.ngrok-free.app
+12/27/2023:connect ETIMEDOUT 10.159.22.104:80
+12/27/2023:ngrok link is:https://9e9f-115-73-216-121.ngrok-free.app
+12/27/2023:ngrok link is:https://2b7c-115-73-216-121.ngrok-free.app
+12/27/2023:connect ECONNREFUSED 127.0.0.1:8833
+12/27/2023:ngrok link is:https://7737-115-73-216-121.ngrok-free.app
+12/27/2023:ngrok link is:https://1bff-115-73-216-121.ngrok-free.app
+12/27/2023:ngrok link is:https://3254-115-73-216-121.ngrok-free.app
+12/27/2023:ngrok link is:https://60dc-115-73-216-121.ngrok-free.app
+12/27/2023:ngrok link is:https://1e8f-115-73-216-121.ngrok-free.app
+12/27/2023:ngrok link is:https://1962-115-73-216-121.ngrok-free.app
+12/27/2023:ngrok link is:https://97cc-115-73-216-121.ngrok-free.app
+12/27/2023:ngrok link is:https://1295-115-73-216-121.ngrok-free.app
+12/27/2023:ngrok link is:https://e316-115-73-216-121.ngrok-free.app
+12/27/2023:ngrok link is:https://2d463bd53421.ngrok.app
+12/27/2023:connect ETIMEDOUT 10.159.22.104:80
+12/27/2023:ngrok link is:https://a058c7ab178d.ngrok.app
+12/27/2023:connect ETIMEDOUT 10.159.22.104:80
+12/27/2023:ngrok link is:https://5f12b0a7916f.ngrok.app
+12/27/2023:connect ETIMEDOUT 10.159.22.104:80
+12/27/2023:connect ETIMEDOUT 10.159.22.104:80
+12/27/2023:ngrok link is:https://6575028f1471.ngrok.app
+12/27/2023:connect ETIMEDOUT 10.159.22.104:80
+2/19/2024:ngrok link is:https://1624-115-73-216-121.ngrok-free.app
+2/21/2024:ngrok link is:https://bbaa-115-73-216-121.ngrok-free.app
+2/21/2024:connect ECONNREFUSED 127.0.0.1:4040
+2/21/2024:connect ECONNREFUSED 127.0.0.1:4040
+2/21/2024:ngrok link is:https://b210-115-73-216-121.ngrok-free.app
+2/21/2024:file is not defined
+2/21/2024:ngrok link is:https://9bd2-115-73-216-121.ngrok-free.app
+2/21/2024:Cannot read properties of undefined (reading 'data')
+2/21/2024:ngrok link is:https://e947-115-73-216-121.ngrok-free.app
+2/21/2024:Cannot read properties of undefined (reading 'data')
+2/21/2024:ngrok link is:https://fd93-115-73-216-121.ngrok-free.app
+2/22/2024:ngrok link is:https://1a36-115-73-216-121.ngrok-free.app
+2/22/2024:ngrok link is:https://3d28-115-73-216-121.ngrok-free.app
+2/22/2024:connect ECONNREFUSED 127.0.0.1:4040
+2/22/2024:connect ECONNREFUSED 127.0.0.1:4040
+2/22/2024:ngrok link is:https://f292-115-73-216-121.ngrok-free.app
+2/22/2024:ngrok link is:https://b85a-115-73-216-121.ngrok-free.app
+2/22/2024:ngrok link is:https://b522-115-73-216-121.ngrok-free.app
+2/22/2024:connect ECONNREFUSED 127.0.0.1:4040
+2/22/2024:connect ECONNREFUSED 127.0.0.1:4040
+2/22/2024:ngrok link is:https://541b-115-73-216-121.ngrok-free.app
+2/22/2024:ngrok link is:https://1784-115-73-216-121.ngrok-free.app
+2/22/2024:ngrok link is:https://dbcf-115-73-216-121.ngrok-free.app
+2/22/2024:ngrok link is:https://cd5e-115-73-216-121.ngrok-free.app
+2/22/2024:ngrok link is:https://6b6e-115-73-216-121.ngrok-free.app
+2/22/2024:connect ECONNREFUSED 127.0.0.1:4040
+2/22/2024:ngrok link is:https://375e-115-73-216-121.ngrok-free.app
+2/22/2024:connect ECONNREFUSED 127.0.0.1:4040
+2/22/2024:ngrok link is:https://9360-115-73-216-121.ngrok-free.app
+2/22/2024:connect ECONNREFUSED 127.0.0.1:4040
+2/22/2024:ngrok link is:https://d908-115-73-216-121.ngrok-free.app
+2/22/2024:connect ECONNREFUSED 127.0.0.1:4040
+2/22/2024:ngrok link is:https://e3f4-115-73-216-121.ngrok-free.app
+2/22/2024:ENOENT: no such file or directory, open 'C:\Users\QuanDEV\Downloads\ccbs_new_ver\province_file.html'
+2/22/2024:ngrok link is:https://af46-115-73-216-121.ngrok-free.app
+2/22/2024:ngrok link is:https://abfb-115-73-216-121.ngrok-free.app
+2/22/2024:connect ECONNREFUSED 127.0.0.1:4040
+2/22/2024:ngrok link is:https://ebf2-115-73-216-121.ngrok-free.app
+2/22/2024:$(...).text.trim is not a function
+2/22/2024:ngrok link is:https://0feb-115-73-216-121.ngrok-free.app
+2/22/2024:$(...).text.trim is not a function
+2/22/2024:ngrok link is:https://7be5-115-73-216-121.ngrok-free.app
+2/22/2024:connect ECONNREFUSED 127.0.0.1:4040
+2/22/2024:ngrok link is:https://f563-115-73-216-121.ngrok-free.app
+2/22/2024:connect ECONNREFUSED 127.0.0.1:4040
+2/22/2024:connect ECONNREFUSED 127.0.0.1:4040
+2/22/2024:ngrok link is:https://c958-115-73-216-121.ngrok-free.app
+2/22/2024:connect ECONNREFUSED 127.0.0.1:4040
+2/22/2024:ngrok link is:https://39f7-115-73-216-121.ngrok-free.app
+2/22/2024:ngrok link is:https://5dc0-115-73-216-121.ngrok-free.app
+2/22/2024:ngrok link is:https://9d98-115-73-216-121.ngrok-free.app
+2/22/2024:ngrok link is:https://a80c-115-73-216-121.ngrok-free.app
+2/22/2024:ngrok link is:https://2f98-115-73-216-121.ngrok-free.app
+2/24/2024:ngrok link is:https://4996-115-73-216-121.ngrok-free.app
+2/26/2024:ngrok link is:https://9610-115-73-216-121.ngrok-free.app
+2/26/2024:ngrok link is:https://38c1-115-73-216-121.ngrok-free.app
+Add new Contract here2/26/2024:ngrok link is:https://fe3a-115-73-216-121.ngrok-free.app
+2/26/2024:ngrok link is:https://fd59-115-73-216-121.ngrok-free.app
+2/27/2024:ngrok link is:https://1a6c-115-73-216-121.ngrok-free.app
+2/27/2024:ngrok link is:https://3892-115-73-216-121.ngrok-free.app
+2/29/2024:ngrok link is:https://4aaf-115-73-216-121.ngrok-free.app
+2/29/2024:ngrok link is:https://0f83-115-73-216-121.ngrok-free.app
+file_path here is:upload\006dda9f9874080d51261270e64dd9a1
+2/29/2024:ngrok link is:https://f82c-115-73-216-121.ngrok-free.app
+file_path here is:upload\8196d6062db76c553f8f81d27d7e52e8
+2/29/2024:ngrok link is:https://9e5e-115-73-216-121.ngrok-free.app
+file_path here is:upload\87507181c6697c7d5a08390f5ae6d58a
+2/29/2024:ngrok link is:https://cad0-115-73-216-121.ngrok-free.app
+file_path here is:upload\be63467ab68841be3e74c5f3e67af235
+file_path here is:upload\1f24e78905b46d16d144379d83e7be6d
+2/29/2024:ngrok link is:https://f9d8-115-73-216-121.ngrok-free.app
+file_path here is:upload\901e17670258b13bc7dac5bffd1f0bb7
+your cookies here is:undefined
+your cookies here is:undefined
+2/29/2024:connect ETIMEDOUT 10.159.22.104:80
+2/29/2024:connect ETIMEDOUT 10.159.22.104:80
+2/29/2024:connect ECONNREFUSED 127.0.0.1:4040
+2/29/2024:ngrok link is:https://9bf1-115-73-216-121.ngrok-free.app
+3/19/2024:ngrok link is:https://bb95-115-73-216-121.ngrok-free.app
+3/19/2024:ngrok link is:https://6421-115-73-216-121.ngrok-free.app
+3/19/2024:ngrok link is:https://b0aa-115-73-216-121.ngrok-free.app
+3/19/2024:ngrok link is:https://8598-115-73-216-121.ngrok-free.app
+3/19/2024:ngrok link is:https://9ee7-115-73-216-121.ngrok-free.app
+3/19/2024:ngrok link is:https://0f89-115-73-216-121.ngrok-free.app
+3/19/2024:ngrok link is:https://5995-115-73-216-121.ngrok-free.app
+3/19/2024:ngrok link is:https://4fa4-115-73-216-121.ngrok-free.app
+3/19/2024:ngrok link is:https://f487-115-73-216-121.ngrok-free.app
+3/19/2024:ngrok link is:https://971a-115-73-216-121.ngrok-free.app
+3/19/2024:ngrok link is:https://2481-115-73-216-121.ngrok-free.app
+3/19/2024:ngrok link is:https://4a9b-115-73-216-121.ngrok-free.app
+4/3/2024:ngrok link is:https://573d-2a09-bac1-7a80-10-00-245-66.ngrok-free.app
+4/3/2024:connect ECONNREFUSED 127.0.0.1:4040
+4/3/2024:ngrok link is:https://c6e5-2a09-bac1-7a80-10-00-245-66.ngrok-free.app
+2/11/2025:ngrok link is:https://a265-115-73-216-121.ngrok-free.app
+2/11/2025:ngrok link is:https://c108-115-73-216-121.ngrok-free.app
+2/11/2025:ngrok link is:https://4e9f-115-73-216-121.ngrok-free.app
+2/11/2025:ngrok link is:https://dc15-115-73-216-121.ngrok-free.app
+2/11/2025:ngrok link is:https://ed60-115-73-216-121.ngrok-free.app
+2/11/2025:ngrok link is:https://b29a-115-73-216-121.ngrok-free.app
+your cookies here is:undefined
+2/11/2025:ngrok link is:https://b72a-115-73-216-121.ngrok-free.app
+your cookies here is:undefined
+2/11/2025:ngrok link is:https://0260-115-73-216-121.ngrok-free.app
+2/11/2025:Cannot convert object to primitive value
+2/11/2025:ngrok link is:https://3c1e-115-73-216-121.ngrok-free.app
+your cookies here is:undefined
+2/11/2025:ngrok link is:https://fbea-115-73-216-121.ngrok-free.app
+2/11/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/11/2025:connect ECONNREFUSED 127.0.0.1:40402/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:invalid tunnel configuration
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:invalid tunnel configuration
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:ngrok link is:
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:invalid tunnel configuration
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:invalid tunnel configuration
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:invalid tunnel configuration
+2/12/2025:invalid tunnel configuration
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:invalid tunnel configuration
+2/12/2025:invalid tunnel configuration
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:connect ECONNREFUSED 127.0.0.1:4040
+2/12/2025:ngrok link is:[object Object]
+2/12/2025:ngrok link is:[object Object]
+2/12/2025:ngrok link is:[object Object]
+2/12/2025:ngrok link is:[object Object]
+2/12/2025:ngrok link is:[object Object]
+2/12/2025:ngrok.forward(...).url is not a function
+2/12/2025:ngrok link is:[object Object]
+2/12/2025:ngrok link is:[object Object]
+2/12/2025:get_encrypted_pass:connect ETIMEDOUT 10.159.22.104:80
+2/12/2025:post image:connect ETIMEDOUT 10.159.22.104:80
+2/12/2025:ngrok link is:[object Object]
+2/12/2025:get_encrypted_pass:connect ETIMEDOUT 10.159.22.104:80
+2/12/2025:post image:connect ETIMEDOUT 10.159.22.104:80
+2/12/2025:ngrok link is:[object Object]
+2/12/2025:get_encrypted_pass:connect ETIMEDOUT 10.159.22.104:80
+2/12/2025:post image:connect ETIMEDOUT 10.159.22.104:80
+2/12/2025:ngrok link is:[object Object]
+2/12/2025:ngrok link is:[object Object]
+2/12/2025:ngrok link is:[object Object]
+2/12/2025:ngrok link is:[object Object]
+2/12/2025:ngrok link is:[object Object]
+2/12/2025:ngrok link is:[object Object]
+2/13/2025:failed to connect session: Your account is limited to 1 simultaneous ngrok agent sessions.
+You can run multiple simultaneous tunnels from a single agent session by defining the tunnels in your agent configuration file and starting them with the command `ngrok start --all`.
+Read more about the agent configuration file: https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config
+You can view your current agent sessions in the dashboard:
+https://dashboard.ngrok.com/agents error_code: ERR_NGROK_108
+2/13/2025:ngrok link is:[object Object]
+your cookies here is:undefined
+2/13/2025:Cannot read properties of undefined (reading 'name')
+your cookies here is:undefined
+2/13/2025:connect ETIMEDOUT 10.159.22.104:80
