@@ -1086,12 +1086,13 @@ router.post('/api/update',async function(req,res,next)
     fs.mkdirSync(strPathFullName, { recursive: true });
   }
   
- const url=`${url_ccbs}main`;
+ const url=`${url_ccbs}dwr/exec/NEORemoting.getValue.dwr`;
  
  const formData = new FormData();
 
  const obj_data=req.body;
 
+ fs.appendFileSync(ab_path,"your data here is:"+JSON.stringify(req.body)+"\n");   
 
  console.log("Data  2 here is:"+JSON.stringify(req.body));
 
@@ -1106,12 +1107,17 @@ router.post('/api/update',async function(req,res,next)
  formData.append("c0-methodName",obj_data['c0-methodName']);
  formData.append('c0-id',obj_data['c0-id']);
  formData.append('c0-param0',obj_data['c0-param0']);
+ 
  formData.append('c0-param1',obj_data['c0-param1']);
+ 
  formData.append('xml','true');
  
+
  var headers=
  {
      'Content-Type':'text/plain',
+     'User-Agent':'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; InfoPath.2; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0; Zoom 3.6.0)',
+     'Referer':'http://10.159.22.104/ccbs/main',
      'Cookie':cookie_storage['cookie']
  };
 

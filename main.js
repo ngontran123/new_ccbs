@@ -42,7 +42,8 @@ require('./server/server.js')
   var is_valid_token=checkTokenIsAvailable();
   event.reply("reply",is_valid_token);
  })
-function createWindow () {
+function createWindow () 
+{
   
   // Create the browser window.
   const mainWindow = new BrowserWindow({
@@ -54,10 +55,8 @@ function createWindow () {
       contextIsolation: false,
     }
   })
-
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
-
 }
 
 //Open the DevTools.

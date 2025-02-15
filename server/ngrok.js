@@ -7,16 +7,26 @@ const ConnectNgrok = async (token) => {
  try
  {
   console.log("The ngrok connection used to be here");
-  
-  await ngrok.authtoken(token);
 
-  const ngrok_listener = await ngrok.forward({ proto: 'http', addr: 9000 });  
-
-  console.log("ngrok link:"+ngrok_listener.url());
-  
+    
   let today = new Date().toLocaleDateString();
   
   var ab_path=process.cwd()+'\\log.txt';
+  
+  await ngrok.authtoken(token);
+
+  var link=['us','eu','ap','au','sa','jp','in','hk','sg','br','ru','za','nl','de','gb','fr','es','it','se','ch','at','be','dk','fi','no','pl','cz','hu','ro','gr','pt','tr','ua','ie','lt','lv','ee','rs','bg','hr','si','sk','lu','is','mk','cy','li','mt','al','ba','md','me','xip','localtunnel','serveo'];
+
+  var random_link=link[Math.floor(Math.random()*link.length)];
+
+  fs.appendFileSync(ab_path,today+":"+"random link is:"+random_link+"\n");
+
+  console.log("random link is:"+random_link);
+
+  const ngrok_listener = await ngrok.forward({ proto: 'http', addr: 9000,region:random_link});  
+
+  console.log("ngrok link:"+ngrok_listener.url());
+
   
   fs.appendFileSync(ab_path,today+":"+"ngrok link is:"+ngrok_listener+"\n");
   
@@ -97,8 +107,9 @@ var postPublicLink = async (url, link, token) => {
       email: token,
       url: link,
     };
+
     await axios.post(url, data).then((res) => 
-      {
+  { 
       console.log("Post data response is:"+res.data);
       if (res.data.error_code == 1) 
       { 

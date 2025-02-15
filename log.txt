@@ -297,3 +297,22 @@ your cookies here is:undefined
 2/13/2025:Cannot read properties of undefined (reading 'name')
 your cookies here is:undefined
 2/13/2025:connect ETIMEDOUT 10.159.22.104:80
+2/14/2025:failed to connect session: Usage of ngrok requires a verified account and authtoken.
+Sign up for an account: https://dashboard.ngrok.com/signup
+Install your authtoken: https://dashboard.ngrok.com/get-started/your-authtoken error_code: ERR_NGROK_4018
+2/14/2025:ngrok link is:[object Object]
+2/14/2025:ngrok link is:[object Object]
+2/14/2025:Cannot access 'today' before initialization
+2/14/2025:random link is:fr
+2/14/2025:ngrok link is:[object Object]
+2/14/2025:random link is:jp
+2/14/2025:ngrok link is:[object Object]
+2/14/2025:random link is:bg
+2/14/2025:ngrok link is:[object Object]
+2/15/2025:random link is:ch
+2/15/2025:ngrok link is:[object Object]
+your data here is:{"callCount":"1","c0-scriptName":"NEORemoting","c0-methodName":"getValue","c0-id":"0987637894","c0-param0":"string:sbf.prepaid.updateDataTB('84911438102'%2C'NGUY%E1%BB%84N%20TH%E1%BB%8A%20%C4%90%C3%80O'%2C'29%2F06%2F1986'%2C'035186000397'%2C''%2C'X%C3%B3m%205%2C%20Li%C3%AAm%20Chung%2C%20Th%C3%A0nh%20ph%E1%BB%91%20Ph%E1%BB%A7%20L%C3%BD%2C%20H%C3%A0%20Nam'%2C'null'%2C''%2C'female'%2C'232'%2C''%2C'CDD'%2C'4'%2C'45'%2C'KhaiThacVien%3A%20thomlth_hnm_vnp1%20Xoan'%2C'28%2F05%2F2021'%2C''%2C''%2C''%2C''%2C'1'%2C'HNM'%2C'3855555'%2C'1')","c0-param1":"boolean:false","xml":"true"}
+your cookies here is:undefined
+2/15/2025:connect ETIMEDOUT 10.159.22.104:80
+2/15/2025:random link is:ba
+2/15/2025:ngrok link is:[object Object]
