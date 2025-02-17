@@ -6,8 +6,21 @@
   "scripts": {
     "start": "electron .",
     "build-all": "npx electron-packager . ccbs-agent --all --asar",
-    "build-win": "npx electron-packager . ccbs-agent --platform=win32 --arch=x64 --overwrite",
+    "build-win": "npx electron-packager . ccbs-agent --platform=win32 --arch=x64 --out=release-build --overwrite",
     "obfuscate": "javascript-obfuscator server --exclude node_modules --output dist"
+  },
+  "build": {
+    "appId": "com.ccbs.agent",
+    "productName": "electron",
+    "files": [
+      "dist/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": "portable",
+      "icon": "assets/icon.ico"
+    }
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -22,6 +35,8 @@
   "devDependencies": {
     "@electron/packager": "^18.0.0",
     "electron": "^22.3.27",
+    "electron-builder": "^25.1.8",
+    "electron-winstaller": "^5.4.0",
     "javascript-obfuscator": "^4.1.0"
   },
   "dependencies": {

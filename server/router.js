@@ -17,6 +17,8 @@ const url_ccbs= "http://10.159.22.104/ccbs/";
 
 var cookie_storage = [];
 
+var cookie_value='';
+
 const cookie_parse = (cookie) => {
   var t_cookie = cookie.split(',');
   var cookie_path = '';
@@ -81,8 +83,9 @@ router.post('/api/login', async function (req, res, next) {
     var response = await axios.post(url, new URLSearchParams(data), config);
     var cookie = response.headers['set-cookie'];
     var cookie_parser = cookie_parse(cookie.toString());
-    cookie_storage['cookie'] = cookie_parser;
-    console.log("The cookie from server is:" + cookie_storage['cookie']);
+    cookie_value=`cookie-${username}`;
+    cookie_storage[cookie_value] = cookie_parser;
+    console.log("The cookie from server is:" + cookie_value);
     if (response.data === 0){
       var ab_path=process.cwd()+'\\log.txt';
       fs.appendFileSync(ab_path,"Login thành công"+"\n");      
@@ -152,7 +155,7 @@ router.post('/api/logout-ccbs',async function(req,res,next)
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
     'Referer': 'http://10.159.22.104/ccbs/main?1y%7Fyezksvrgzkelork=rg%7Fu{z5iihy5zvreiihy&1iutlomLork=gjsot5otjk~',
     'Accept': '*/*',
-    'Cookie':  cookie_storage['cookie'] 
+    'Cookie':  cookie_value 
   };
   const config = { headers: headers };
   try {
@@ -206,7 +209,7 @@ router.post('/api/send-otp-ccbs', async function (req, res, next) {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
     'Referer': 'http://10.159.22.104/ccbs/login.htm',
     'Accept': '*/*',
-    'Cookie':cookie_storage['cookie']
+    'Cookie':cookie_value
   };
 
   try {
@@ -243,7 +246,7 @@ router.post('/api/check-cookie-ccbs', async function (req, res, next) {
   {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
     'Accept': '*/*',
-    'Cookie':cookie_storage['cookie']
+    'Cookie':cookie_value
   };
   try {
     const config = { headers: headers };
@@ -375,7 +378,7 @@ try
   {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
     'Accept': '*/*',
-    'Cookie':cookie_storage['cookie']
+    'Cookie':cookie_value
   };
 
   const config={headers:headers};
@@ -448,7 +451,7 @@ const getImageUpload = async (user_name, phone, otp) => {
   const url = `${url_ccbs}main?iutlomLork=pttb/prepaid/frmUploadPPS_Personal&yuzh=${strPhone}&s~z=${strOtp}`;
   const headers = {
     "User-Agent": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)",
-    'Cookie': cookie_storage['cookie'],
+    'Cookie': cookie_value,
     "Accept": "*/*",
   };
   const config = { headers: headers };
@@ -523,7 +526,7 @@ try{
     'Referer': `${url_ccbs}main?iutlomLork=pttb/prepaid/frmUploadPPS_Personal&yuzh=${strPhone}&s~z=${otp}`,
     'Accept': "image/gif, image/jpeg, image/pjpeg, application/x-ms-application, application/xaml+xml, application/x-ms-xbap, */*",
     "Content-Type": "multipart/form-data",
-    'Cookie': cookie_storage['cookie']
+    'Cookie': cookie_value
   };
   
   const config = { headers: headers };
@@ -622,7 +625,7 @@ try{
     'Referer': `${url_ccbs}main?iutlomLork=pttb/prepaid/frmUploadPPS_Personal&yuzh=${strPhone}&s~z=`,
     'Accept': "image/gif, image/jpeg, image/pjpeg, application/x-ms-application, application/xaml+xml, application/x-ms-xbap, */*",
     "Content-Type": "multipart/form-data",
-    'Cookie': cookie_storage['cookie']
+    'Cookie': cookie_value
   };
   
   const config = { headers: headers };
@@ -710,7 +713,7 @@ router.post('/api/add_new_contract',async function(req,res,next)
    'Accept':'*/*',
    'Referer':'http://ccbs.vnpt.vn/ccbs/main?1iutlomLork=vzzh5rgvnj5njrje|ysy5njrj',
    'User-Agent':'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; InfoPath.2; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)',
-   'Cookie':cookie_storage['cookie']
+   'Cookie':cookie_value
   };
 
   const config ={headers:headers};
@@ -815,7 +818,7 @@ router.post('/api/get_contract_info',async function(req,res,next)
     'Accept':'*/*',
     'Referer':'http://ccbs.vnpt.vn/ccbs/main?1iutlomLork=vzzh5rgvnj5njrje|ysy5njrj0',
     'User-Agent':'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; InfoPath.2; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)',
-    'Cookie':cookie_storage['cookie']
+    'Cookie':cookie_value
   };
   
   const config ={headers:headers};
@@ -920,7 +923,7 @@ router.post('/api/upload_image',type,async function(req,res,next)
     'Referer':'http://ccbs.vnpt.vn/ccbs/main?iutlomLork=pttb/laphd/hdld_vsms/thuebao/frmUploadPPS_subscriber&sgezh=84846030814&sgeqn=BNHDD00126317&rugoqnginngtm=1',
     'Content-Type':'multipart/form-data; boundary=---------------------------7e8185840a4e',
     'User-Agent':'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; InfoPath.2; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)',
-    'Cookie':cookie_storage['cookie']
+    'Cookie':cookie_value
   };
   const config={headers:headers};
   var response = await axios.post(url,formData,config);
@@ -974,7 +977,7 @@ try
       'Accept':'image/gif, image/jpeg, image/pjpeg, application/x-ms-application, application/xaml+xml, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*',
       'Referer':'http://ccbs.vnpt.vn/ccbs/main?iutlomLork=pttb/laphd/hdld_vsms/thuebao/frmUploadPPS_subscriber&sgezh=84846030814&sgeqn=BNHDD00126317&rugoqnginngtm=1',
       'User-Agent':'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; InfoPath.2; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)',
-      'Cookie':cookie_storage['cookie']
+      'Cookie':cookie_value
   };
 
   const config={headers:headers};
@@ -1006,7 +1009,7 @@ catch(err)
   });
   let today= new Date().toLocaleDateString();
   var ab_path=process.cwd()+'\\log.txt';
-  fs.appendFileSync(ab_path,today+":Common-Client:"+err.response.data+"\n");
+  fs.appendFileSync(ab_path,today+":Common-Client:"+err.response.data+"\n");  
 }
 });
 
@@ -1045,7 +1048,7 @@ router.post('/api/get-phone-hash',async function(req,res,next){
      'Accept':'image/gif, image/jpeg, image/pjpeg, application/x-ms-application, application/xaml+xml, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*',
      'Referer':'http://ccbs.vnpt.vn/ccbs/main?iutlomLork=pttb/laphd/hdld_vsms/thuebao/frmUploadPPS_subscriber&sgezh=84846030814&sgeqn=BNHDD00126317&rugoqnginngtm=1',
      'User-Agent':'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; InfoPath.2; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)',
-     'Cookie':cookie_storage['cookie']
+     'Cookie':cookie_value
  };
 
   const config ={headers:headers};
@@ -1079,6 +1082,7 @@ router.post('/api/update',async function(req,res,next)
  try
  {
   var ab_path=process.cwd()+'\\log.txt';
+  
   const strPathFullName = p.join(__dirname, 'files', 'ccbs');
 
   if (!fs.existsSync(strPathFullName)) 
@@ -1099,13 +1103,18 @@ router.post('/api/update',async function(req,res,next)
  console.log("Scrip name:"+obj_data['c0-scriptName']);
 
 
- fs.appendFileSync(ab_path,"your cookies here is:"+cookie_storage['cookie']+"\n");   
+ fs.appendFileSync(ab_path,"your cookies here is:"+cookie_value+"\n");   
  
  //const id_datetime=getRandomId()+'_'+Date.now()+'263';
  formData.append('callCount',obj_data['callCount']);
+ 
  formData.append('c0-scriptName',obj_data['c0-scriptName']);
+ 
+
  formData.append("c0-methodName",obj_data['c0-methodName']);
+ 
  formData.append('c0-id',obj_data['c0-id']);
+ 
  formData.append('c0-param0',obj_data['c0-param0']);
  
  formData.append('c0-param1',obj_data['c0-param1']);
@@ -1118,7 +1127,7 @@ router.post('/api/update',async function(req,res,next)
      'Content-Type':'text/plain',
      'User-Agent':'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; InfoPath.2; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0; Zoom 3.6.0)',
      'Referer':'http://10.159.22.104/ccbs/main',
-     'Cookie':cookie_storage['cookie']
+     'Cookie':cookie_value
  };
 
   const config ={headers:headers};
@@ -1162,7 +1171,7 @@ router.post('/api/get_province_list',async function(req,res,next)
   
   const formData = new FormData();  
   
-  fs.appendFileSync(ab_path,"your cookies here is:"+cookie_storage['cookie']+"\n");   
+  fs.appendFileSync(ab_path,"your cookies here is:"+cookie_value+"\n");   
 
   formData.append('1iutlomLork','iussut5lxsjoginoey');
   formData.append('w{gteoj','');
@@ -1179,10 +1188,10 @@ router.post('/api/get_province_list',async function(req,res,next)
    {
      'User-Agent':'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)',
      'Accept':'image/gif, image/jpeg, image/pjpeg, application/x-ms-application, application/xaml+xml, application/x-ms-xbap, */*',
-     'Cookie':cookie_storage['cookie']
+     'Cookie':cookie_value
    };
    
-   const config ={headers:headers};
+   const config ={headers:headers};   
    
    var response = await axios.post(url,formData,config);
   
@@ -1205,9 +1214,12 @@ router.post('/api/get_province_list',async function(req,res,next)
    }
    else
    {
-    fs.appendFileSync(ab_path,"response data fail:"+response+"\n");   
-    res.status(401).send({status:false,message:'Lay danh sach that bai',data:response.data}); 
-   }
+    
+    fs.appendFileSync(ab_path,"response data fail:"+response+"\n");
+
+    res.status(401).send({status:false,message:'Lay danh sach that bai',data:response.data});     
+   
+  }
     // var file_path=process.cwd()+"\\province_file.txt";
     // const html_file=fs.readFileSync(file_path);
     // var province_list=getProvinceList(html_file);
